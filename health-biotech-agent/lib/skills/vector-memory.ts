@@ -130,7 +130,7 @@ export class VectorMemorySkill {
       return { similarQueries: [], avgOutcome: 0 };
     }
     
-    const outcomes = interactions.map(m => {
+    const outcomes: number[] = interactions.map(m => {
       if (m.metadata.outcome === 'helpful') return 1;
       if (m.metadata.outcome === 'unhelpful') return -1;
       return 0;

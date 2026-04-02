@@ -30,7 +30,7 @@ export default function ProtocolPage() {
     
     setLoading(true);
     setMessages(prev => [...prev, { role: 'user', content: value }]);
-    inputRef.current.value = '';
+    if (inputRef.current) inputRef.current.value = '';
     
     try {
       const res = await fetch('/api/protocol', {
