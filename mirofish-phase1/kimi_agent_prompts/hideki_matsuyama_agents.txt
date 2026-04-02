@@ -1,0 +1,178 @@
+
+I need you to act as 5 different golf betting analysts. For each persona below, analyze Hideki Matsuyama and give me a win probability for The Masters 2026.
+
+
+=== ANALYST 1 ===
+
+You are a Strokes Gained Total Specialist.
+
+Focus ONLY on overall SG: Total and what it predicts for Augusta.
+
+
+PLAYER: Hideki Matsuyama
+DataGolf Rank: Top 10
+Strokes Gained Total: +1.4
+SG Off Tee: +0.3
+SG Approach: +0.7
+SG Around Green: +0.25
+SG Putting: +0.15
+
+MASTERS HISTORY:
+- Starts: 13
+- Wins: 1
+- Top-10s: 6
+- Course Fit Score: 86/100
+
+RECENT FORM: T8 PLAYERS, T6 Bay Hill, flying under radar
+
+QUESTION: What is your estimated win probability for Hideki Matsuyama at the 2026 Masters?
+
+Respond with:
+1. Win probability (0-25%)
+2. Confidence (1-10)
+3. One-sentence reasoning
+
+
+
+
+=== ANALYST 2 ===
+
+You are a Augusta Course Fit Expert.
+
+Focus ONLY on course fit - does this player's game suit Augusta specifically?
+
+
+PLAYER: Hideki Matsuyama
+DataGolf Rank: Top 10
+Strokes Gained Total: +1.4
+SG Off Tee: +0.3
+SG Approach: +0.7
+SG Around Green: +0.25
+SG Putting: +0.15
+
+MASTERS HISTORY:
+- Starts: 13
+- Wins: 1
+- Top-10s: 6
+- Course Fit Score: 86/100
+
+RECENT FORM: T8 PLAYERS, T6 Bay Hill, flying under radar
+
+QUESTION: What is your estimated win probability for Hideki Matsuyama at the 2026 Masters?
+
+Respond with:
+1. Win probability (0-25%)
+2. Confidence (1-10)
+3. One-sentence reasoning
+
+
+
+
+=== ANALYST 3 ===
+
+You are a Masters History Analyst.
+
+Focus ONLY on Masters history - experience matters at Augusta.
+
+
+PLAYER: Hideki Matsuyama
+DataGolf Rank: Top 10
+Strokes Gained Total: +1.4
+SG Off Tee: +0.3
+SG Approach: +0.7
+SG Around Green: +0.25
+SG Putting: +0.15
+
+MASTERS HISTORY:
+- Starts: 13
+- Wins: 1
+- Top-10s: 6
+- Course Fit Score: 86/100
+
+RECENT FORM: T8 PLAYERS, T6 Bay Hill, flying under radar
+
+QUESTION: What is your estimated win probability for Hideki Matsuyama at the 2026 Masters?
+
+Respond with:
+1. Win probability (0-25%)
+2. Confidence (1-10)
+3. One-sentence reasoning
+
+
+
+
+=== ANALYST 4 ===
+
+You are a Contrarian Market Analyst.
+
+Focus on market inefficiencies - is this player overpriced or underpriced?
+
+
+PLAYER: Hideki Matsuyama
+DataGolf Rank: Top 10
+Strokes Gained Total: +1.4
+SG Off Tee: +0.3
+SG Approach: +0.7
+SG Around Green: +0.25
+SG Putting: +0.15
+
+MASTERS HISTORY:
+- Starts: 13
+- Wins: 1
+- Top-10s: 6
+- Course Fit Score: 86/100
+
+RECENT FORM: T8 PLAYERS, T6 Bay Hill, flying under radar
+
+QUESTION: What is your estimated win probability for Hideki Matsuyama at the 2026 Masters?
+
+Respond with:
+1. Win probability (0-25%)
+2. Confidence (1-10)
+3. One-sentence reasoning
+
+
+
+
+=== ANALYST 5 ===
+
+You are a Recent Form Specialist.
+
+Focus ONLY on recent form - are they peaking at the right time?
+
+
+PLAYER: Hideki Matsuyama
+DataGolf Rank: Top 10
+Strokes Gained Total: +1.4
+SG Off Tee: +0.3
+SG Approach: +0.7
+SG Around Green: +0.25
+SG Putting: +0.15
+
+MASTERS HISTORY:
+- Starts: 13
+- Wins: 1
+- Top-10s: 6
+- Course Fit Score: 86/100
+
+RECENT FORM: T8 PLAYERS, T6 Bay Hill, flying under radar
+
+QUESTION: What is your estimated win probability for Hideki Matsuyama at the 2026 Masters?
+
+Respond with:
+1. Win probability (0-25%)
+2. Confidence (1-10)
+3. One-sentence reasoning
+
+
+
+
+FORMAT YOUR RESPONSE AS:
+ANALYST 1: [probability]% | Confidence: [1-10] | Reasoning: [one sentence]
+ANALYST 2: [probability]% | Confidence: [1-10] | Reasoning: [one sentence]
+...
+
+Then provide:
+CONSENSUS: [average of all 5]%
+CONFIDENCE: [average confidence]
+RECOMMENDATION: BUY if consensus > market | FADE if consensus < market

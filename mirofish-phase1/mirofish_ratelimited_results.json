@@ -1,0 +1,220 @@
+[
+  {
+    "player": "Jordan Spieth",
+    "opinions": [
+      {
+        "agentId": "sg1",
+        "agentName": "SG Total Specialist",
+        "winProbability": 12,
+        "confidence": 7,
+        "reasoning": "Jordan Spieth's strong course history and decent recent form are tempered by his mediocre SG:Total ranking and ongoing driver issues, making a win unlikely but still possible given his exceptional short game and course fit.",
+        "rawResponse": "PROBABILITY: 12%\nCONFIDENCE: 7\nREASONING: Jordan Spieth's strong course history and decent recent form are tempered by his mediocre SG:Total ranking and ongoing driver issues, making a win unlikely but still possible given his exceptional short game and course fit."
+      },
+      {
+        "agentId": "sg4",
+        "agentName": "SG Short Game Specialist",
+        "winProbability": 12,
+        "confidence": 7,
+        "reasoning": "Jordan Spieth's strong course history and around-green play at Augusta are offset by his recent driver issues and inconsistent form, making him a contender but not a favorite to win The Masters 2026.",
+        "rawResponse": "PROBABILITY: 12%\nCONFIDENCE: 7\nREASONING: Jordan Spieth's strong course history and around-green play at Augusta are offset by his recent driver issues and inconsistent form, making him a contender but not a favorite to win The Masters 2026."
+      },
+      {
+        "agentId": "course1",
+        "agentName": "Augusta Course Fit Expert",
+        "winProbability": 8,
+        "confidence": 7,
+        "reasoning": "Jordan Spieth's strong course history and knowledge of Augusta National are tempered by his recent driver issues and inconsistent form, making him a contender but not a favorite to win The Masters 2026.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 7\nREASONING: Jordan Spieth's strong course history and knowledge of Augusta National are tempered by his recent driver issues and inconsistent form, making him a contender but not a favorite to win The Masters 2026."
+      },
+      {
+        "agentId": "course4",
+        "agentName": "Green Reading Expert",
+        "winProbability": 12,
+        "confidence": 7,
+        "reasoning": "Jordan Spieth's strong course history and statistical profile, particularly his ability to read Augusta's greens, make him a contender, but his recent driver issues and inconsistent form temper his win probability.",
+        "rawResponse": "PROBABILITY: 12%\nCONFIDENCE: 7\nREASONING: Jordan Spieth's strong course history and statistical profile, particularly his ability to read Augusta's greens, make him a contender, but his recent driver issues and inconsistent form temper his win probability."
+      },
+      {
+        "agentId": "course5",
+        "agentName": "Amen Corner Specialist",
+        "winProbability": 12,
+        "confidence": 7,
+        "reasoning": "Jordan Spieth's strong course fit and past Masters success are tempered by his recent driver issues and inconsistent form, making him a contender but not a favorite to win The Masters 2026.",
+        "rawResponse": "PROBABILITY: 12%\nCONFIDENCE: 7\nREASONING: Jordan Spieth's strong course fit and past Masters success are tempered by his recent driver issues and inconsistent form, making him a contender but not a favorite to win The Masters 2026."
+      },
+      {
+        "agentId": "hist1",
+        "agentName": "Masters Historian",
+        "winProbability": 8,
+        "confidence": 7,
+        "reasoning": "Jordan Spieth's strong Masters history, including a win and six top-10s, combined with his solid statistical profile and decent recent form, despite driver issues, make him a contender, but his inconsistency and current form limitations temper his overall win probability.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 7\nREASONING: Jordan Spieth's strong Masters history, including a win and six top-10s, combined with his solid statistical profile and decent recent form, despite driver issues, make him a contender, but his inconsistency and current form limitations temper his overall win probability."
+      },
+      {
+        "agentId": "hist2",
+        "agentName": "Previous Winner Analyst",
+        "winProbability": 8,
+        "confidence": 7,
+        "reasoning": "Jordan Spieth's strong course history, including a previous win and six top-10 finishes, gives him an edge, but his recent form and driver issues temper his overall win probability.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 7\nREASONING: Jordan Spieth's strong course history, including a previous win and six top-10 finishes, gives him an edge, but his recent form and driver issues temper his overall win probability."
+      },
+      {
+        "agentId": "form4",
+        "agentName": "Texas Swing Specialist",
+        "winProbability": 12,
+        "confidence": 7,
+        "reasoning": "Jordan Spieth's strong course fit and past Masters success are tempered by his recent inconsistent form and driver issues, making his win probability moderate but not overly high.",
+        "rawResponse": "PROBABILITY: 12%\nCONFIDENCE: 7\nREASONING: Jordan Spieth's strong course fit and past Masters success are tempered by his recent inconsistent form and driver issues, making his win probability moderate but not overly high."
+      },
+      {
+        "agentId": "sg2",
+        "agentName": "SG Approach Expert",
+        "winProbability": 8,
+        "confidence": 6,
+        "reasoning": "Jordan Spieth's strong course history and decent approach play are offset by his recent driver issues and inconsistent form, making him a contender but not a favorite at Augusta.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 6\nREASONING: Jordan Spieth's strong course history and decent approach play are offset by his recent driver issues and inconsistent form, making him a contender but not a favorite at Augusta."
+      },
+      {
+        "agentId": "sg3",
+        "agentName": "SG Off Tee Analyst",
+        "winProbability": 8,
+        "confidence": 6,
+        "reasoning": "Jordan Spieth's strong course history and decent recent form are offset by his driver issues, resulting in a moderate win probability.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 6\nREASONING: Jordan Spieth's strong course history and decent recent form are offset by his driver issues, resulting in a moderate win probability."
+      },
+      {
+        "agentId": "sg5",
+        "agentName": "Putting Analyst",
+        "winProbability": 8,
+        "confidence": 6,
+        "reasoning": "Jordan Spieth's strong course history and decent recent form, despite driver issues, suggest he has a reasonable chance of competing at The Masters, but his relatively modest statistical profile, particularly in terms of recent form, tempers expectations.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 6\nREASONING: Jordan Spieth's strong course history and decent recent form, despite driver issues, suggest he has a reasonable chance of competing at The Masters, but his relatively modest statistical profile, particularly in terms of recent form, tempers expectations."
+      },
+      {
+        "agentId": "course2",
+        "agentName": "Distance Advantage Analyst",
+        "winProbability": 8,
+        "confidence": 6,
+        "reasoning": "Jordan Spieth's strong course history and decent recent form are tempered by his driver issues, which could hinder his ability to attack Augusta's par-5s and compete with the field.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 6\nREASONING: Jordan Spieth's strong course history and decent recent form are tempered by his driver issues, which could hinder his ability to attack Augusta's par-5s and compete with the field."
+      },
+      {
+        "agentId": "course3",
+        "agentName": "Accuracy Premium Specialist",
+        "winProbability": 8,
+        "confidence": 6,
+        "reasoning": "Jordan Spieth's strong course history and high course fit are tempered by his recent driver issues and inconsistent form, making him a contender but not a favorite to win The Masters 2026.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 6\nREASONING: Jordan Spieth's strong course history and high course fit are tempered by his recent driver issues and inconsistent form, making him a contender but not a favorite to win The Masters 2026."
+      },
+      {
+        "agentId": "hist3",
+        "agentName": "Top-10 Specialist",
+        "winProbability": 8,
+        "confidence": 6,
+        "reasoning": "Jordan Spieth's strong course history and decent recent form, despite driver issues, suggest he can contend, but his inconsistent play and specific struggles off the tee temper expectations for an outright win.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 6\nREASONING: Jordan Spieth's strong course history and decent recent form, despite driver issues, suggest he can contend, but his inconsistent play and specific struggles off the tee temper expectations for an outright win."
+      },
+      {
+        "agentId": "hist4",
+        "agentName": "Cut Maker Expert",
+        "winProbability": 8,
+        "confidence": 6,
+        "reasoning": "Jordan Spieth's strong course history and decent recent form are offset by his driver issues, resulting in a moderate win probability at the Masters.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 6\nREASONING: Jordan Spieth's strong course history and decent recent form are offset by his driver issues, resulting in a moderate win probability at the Masters."
+      },
+      {
+        "agentId": "hist5",
+        "agentName": "Sunday Pressure Analyst",
+        "winProbability": 8,
+        "confidence": 6,
+        "reasoning": "Jordan Spieth's strong course history and fit at Augusta are tempered by his recent driver issues and inconsistent form, making him a contender but not a favorite to win The Masters 2026.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 6\nREASONING: Jordan Spieth's strong course history and fit at Augusta are tempered by his recent driver issues and inconsistent form, making him a contender but not a favorite to win The Masters 2026."
+      },
+      {
+        "agentId": "form1",
+        "agentName": "Recent Form Specialist",
+        "winProbability": 8,
+        "confidence": 6,
+        "reasoning": "Jordan Spieth's recent form, including a missed cut at the Players and driver issues, tempers his strong course history and overall statistics, leading to a moderate win probability.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 6\nREASONING: Jordan Spieth's recent form, including a missed cut at the Players and driver issues, tempers his strong course history and overall statistics, leading to a moderate win probability."
+      },
+      {
+        "agentId": "form2",
+        "agentName": "Momentum Hunter",
+        "winProbability": 8,
+        "confidence": 6,
+        "reasoning": "Jordan Spieth's strong course history and decent recent form, despite driver issues, suggest he has a reasonable chance of competing at The Masters, but his inconsistent play and specific struggles off the tee temper expectations.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 6\nREASONING: Jordan Spieth's strong course history and decent recent form, despite driver issues, suggest he has a reasonable chance of competing at The Masters, but his inconsistent play and specific struggles off the tee temper expectations."
+      },
+      {
+        "agentId": "form3",
+        "agentName": "Florida Swing Analyst",
+        "winProbability": 8,
+        "confidence": 6,
+        "reasoning": "Jordan Spieth's inconsistent recent form, particularly with driver issues, tempers his strong course fit and past Masters success, making him a contender but not a favorite to win.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 6\nREASONING: Jordan Spieth's inconsistent recent form, particularly with driver issues, tempers his strong course fit and past Masters success, making him a contender but not a favorite to win."
+      },
+      {
+        "agentId": "form5",
+        "agentName": "Early Season Expert",
+        "winProbability": 8,
+        "confidence": 6,
+        "reasoning": "Jordan Spieth's strong course fit and past Masters performance are offset by his recent driver issues and inconsistent form, making him a contender but not a favorite to win.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 6\nREASONING: Jordan Spieth's strong course fit and past Masters performance are offset by his recent driver issues and inconsistent form, making him a contender but not a favorite to win."
+      },
+      {
+        "agentId": "contrarian5",
+        "agentName": "Market Inefficiency Hunter",
+        "winProbability": 8,
+        "confidence": 6,
+        "reasoning": "Jordan Spieth's strong course history and decent recent form, despite driver issues, suggest he has a reasonable chance of competing at The Masters, but his overall statistics and current form do not indicate a high likelihood of winning.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 6\nREASONING: Jordan Spieth's strong course history and decent recent form, despite driver issues, suggest he has a reasonable chance of competing at The Masters, but his overall statistics and current form do not indicate a high likelihood of winning."
+      }
+    ],
+    "consensus": 9,
+    "avgConfidence": 6.4,
+    "stdDev": 1.7,
+    "successRate": "42%"
+  },
+  {
+    "player": "Brooks Koepka",
+    "opinions": [],
+    "consensus": 0,
+    "avgConfidence": 0,
+    "stdDev": 0,
+    "successRate": "0%"
+  },
+  {
+    "player": "Will Zalatoris",
+    "opinions": [],
+    "consensus": 0,
+    "avgConfidence": 0,
+    "stdDev": 0,
+    "successRate": "0%"
+  },
+  {
+    "player": "Ludvig Åberg",
+    "opinions": [],
+    "consensus": 0,
+    "avgConfidence": 0,
+    "stdDev": 0,
+    "successRate": "0%"
+  },
+  {
+    "player": "Cameron Young",
+    "opinions": [
+      {
+        "agentId": "hist1",
+        "agentName": "Masters Historian",
+        "winProbability": 8,
+        "confidence": 6,
+        "reasoning": "Cameron Young's strong recent form and decent course fit are offset by his limited Masters experience and lack of wins at the tournament, leading to a moderate win probability.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 6\nREASONING: Cameron Young's strong recent form and decent course fit are offset by his limited Masters experience and lack of wins at the tournament, leading to a moderate win probability."
+      }
+    ],
+    "consensus": 8,
+    "avgConfidence": 6,
+    "stdDev": 0,
+    "successRate": "2%"
+  }
+]

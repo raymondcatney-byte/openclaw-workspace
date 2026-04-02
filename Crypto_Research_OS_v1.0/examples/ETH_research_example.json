@@ -1,0 +1,58 @@
+{
+  "asset": "ETH",
+  "protocol_name": "Ethereum",
+  "timestamp": "2026-03-13T23:45:00Z",
+  "data_quality": "complete",
+  "fundamentals": {
+    "category": "L1",
+    "tvl": 28500000000,
+    "tvl_change": {"7d": 2.3, "30d": 8.7, "90d": -12.4},
+    "fees_24h": 4500000,
+    "fees_7d": 31500000,
+    "revenue_annualized": 1640000000,
+    "market_cap": 385000000000,
+    "fdv": 385000000000,
+    "pf_ratio": 234,
+    "unique_users_30d": 8500000,
+    "category_rank": 2,
+    "market_share": "58% of L1 TVL"
+  },
+  "tokenomics": {
+    "circulating_supply": 120450000,
+    "total_supply": 120450000,
+    "emissions": "deflationary",
+    "next_unlock": {"date": null, "amount": null, "percent_of_float": null},
+    "staking_yield": 3.2,
+    "staking_ratio": 28.5
+  },
+  "sentiment": {
+    "prediction_markets": [
+      {"question": "ETH ETF approved by June 2026?", "probability": 0.72, "volume": 4500000, "liquidity": 890000},
+      {"question": "ETH > $5,000 by end of 2026?", "probability": 0.58, "volume": 2100000, "liquidity": 450000}
+    ],
+    "funding_rate": {"current": 0.008, "trend": "rising"},
+    "social_narrative": "ETF speculation heating up post-Dencun. Layer 2 competition concerns muted by L2 fees accruing to ETH.",
+    "developer_activity": "high"
+  },
+  "risk_indicators": {
+    "audit_status": {"last_audit": "N/A", "firm": "N/A", "critical_findings": 0},
+    "liquidation_clusters": [2850, 2720, 2600, 2450],
+    "concentration_risk": {"top_10_holders": 42.3, "whale_activity": "neutral"},
+    "governance_risk": "stable",
+    "technical_risk": "low - battle tested"
+  },
+  "capital_flows": {
+    "exchange_netflow_24h": -45000000,
+    "smart_money_signal": "outflows",
+    "bridge_flows_7d": 120000000,
+    "notable_transactions": [
+      {"type": "transfer", "amount": 15000, "from": "Binance", "to": "0x7a2... (cold storage)", "value_usd": 52500000}
+    ]
+  },
+  "recent_events": [
+    {"date": "2026-03-10T00:00:00Z", "type": "upgrade", "description": "Dencun upgrade activation — proto-danksharding live", "impact": "positive - L2 fees reduced 90%"},
+    {"date": "2026-03-05T00:00:00Z", "type": "partnership", "description": "BlackRock expands tokenized fund to Ethereum", "impact": "positive - institutional adoption"}
+  ],
+  "data_gaps": [],
+  "research_notes": "Post-Dencun fundamentals strong. TVL recovering, fees stable despite L2 migration. ETF odds favorable. Funding rising but not overheated. Smart money moving to cold storage (bullish signal). No unlock risks (post-merge deflationary). Key risk: L2s cannibalizing L1 fees long-term."
+}

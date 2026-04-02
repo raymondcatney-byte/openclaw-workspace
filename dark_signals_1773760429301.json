@@ -1,0 +1,372 @@
+{
+  "timestamp": "2026-03-17T15:13:49.301Z",
+  "region": "Iran",
+  "scenario": "Iran Conflict - March 2026",
+  "telegramIntel": {
+    "lastUpdate": "2026-03-17T15:13:49.298Z",
+    "channelsMonitored": 47,
+    "messageVolume": {
+      "hourlyAverage": 1240,
+      "currentHour": 1890,
+      "trend": "spiking",
+      "peakTopics": [
+        "power_outages",
+        "mojtaba_health",
+        "kharg_explosion",
+        "refugee_routes"
+      ]
+    },
+    "sentimentShifts": [
+      {
+        "topic": "blame_attribution",
+        "previousSentiment": "defiant",
+        "currentSentiment": "fearful",
+        "shiftMagnitude": 7,
+        "sampleMessages": [
+          "三个晚上没电了，没人告诉我们什么时候恢复",
+          "他们说要打美国，但我的诊所没有胰岛素了",
+          "我祖父说79年也没这么糟糕"
+        ],
+        "geographicOrigin": [
+          "Tabriz",
+          "Isfahan",
+          "Shiraz"
+        ],
+        "firstDetected": "2026-03-14T18:00:00Z"
+      },
+      {
+        "topic": "mojtaba_legitimacy",
+        "previousSentiment": "neutral",
+        "currentSentiment": "negative",
+        "shiftMagnitude": 6,
+        "sampleMessages": [
+          "新领袖没露脸已经6天了",
+          "国家电视台在读稿子，为什么他不亲自说？",
+          " wounded but operational — 谁信？"
+        ],
+        "geographicOrigin": [
+          "Tehran",
+          "Mashhad",
+          "Qom"
+        ],
+        "firstDetected": "2026-03-12T08:00:00Z"
+      },
+      {
+        "topic": "war_support",
+        "previousSentiment": "defiant",
+        "currentSentiment": "defiant",
+        "shiftMagnitude": 3,
+        "sampleMessages": [
+          "关闭霍尔木兹是对的，让他们尝尝我们的厉害",
+          "我父亲在革命卫队，他说我们有秘密武器",
+          "美国会后悔的，就像他们在伊拉克一样"
+        ],
+        "geographicOrigin": [
+          "Ahvaz",
+          "Kermanshah",
+          "Bushehr"
+        ],
+        "firstDetected": "2026-03-15T14:00:00Z"
+      }
+    ],
+    "narrativeThemes": [
+      {
+        "theme": "martyr_veneration",
+        "frequency": "dominant",
+        "keywords": [
+          "shahid",
+          "blood",
+          "resistance",
+          "imam"
+        ],
+        "regimeOrigin": true,
+        "counterNarrativePresent": true
+      },
+      {
+        "theme": "civilian_suffering",
+        "frequency": "rising",
+        "keywords": [
+          "no_electricity",
+          "medicine_shortage",
+          "water",
+          "refugee"
+        ],
+        "regimeOrigin": false,
+        "counterNarrativePresent": false
+      },
+      {
+        "theme": "mojtaba_invisible",
+        "frequency": "rising",
+        "keywords": [
+          "hidden",
+          "wounded",
+          "death_rumors",
+          "television"
+        ],
+        "regimeOrigin": false,
+        "counterNarrativePresent": true
+      },
+      {
+        "theme": "american_defeat_imminent",
+        "frequency": "stable",
+        "keywords": [
+          "victory",
+          "empire_collapsing",
+          "vietnam",
+          "afghanistan"
+        ],
+        "regimeOrigin": true,
+        "counterNarrativePresent": false
+      }
+    ],
+    "geographicClusters": [
+      {
+        "city": "Tehran",
+        "activityLevel": "high",
+        "primaryConcerns": [
+          "power_outages",
+          "air_raid_sirens",
+          "economic_panic"
+        ],
+        "lastConfirmedActivity": "2026-03-15T22:00:00Z"
+      },
+      {
+        "city": "Tabriz",
+        "activityLevel": "high",
+        "primaryConcerns": [
+          "refugee_influx",
+          "food_prices",
+          "crossing_to_turkey"
+        ],
+        "lastConfirmedActivity": "2026-03-15T21:30:00Z"
+      },
+      {
+        "city": "Isfahan",
+        "activityLevel": "medium",
+        "primaryConcerns": [
+          "industrial_shutdown",
+          "unemployment"
+        ],
+        "lastConfirmedActivity": "2026-03-15T20:00:00Z"
+      },
+      {
+        "city": "Bandar Abbas",
+        "activityLevel": "low",
+        "primaryConcerns": [
+          "military_movement",
+          "port_closure"
+        ],
+        "lastConfirmedActivity": "2026-03-14T16:00:00Z"
+      },
+      {
+        "city": "Qom",
+        "activityLevel": "medium",
+        "primaryConcerns": [
+          "religious_authority",
+          "cleric_statements"
+        ],
+        "lastConfirmedActivity": "2026-03-15T19:00:00Z"
+      }
+    ],
+    "unverifiedClaims": [
+      {
+        "claim": "Mojtaba Khamenei died in Turkish hospital, body not yet returned",
+        "spreadVelocity": "viral",
+        "credibilityIndicators": [
+          "no_photo_6_days",
+          "read_statement_not_video",
+          "turkish_sources_claim"
+        ],
+        "regimeResponse": "Foreign Minister Araghchi denial"
+      },
+      {
+        "claim": "IRGC commander Sarallah killed in second decapitation strike",
+        "spreadVelocity": "fast",
+        "credibilityIndicators": [
+          "no_public_appearance",
+          "telegram_channel_silence"
+        ],
+        "regimeResponse": "None"
+      },
+      {
+        "claim": "Chinese warships shadowing U.S. carrier in Gulf of Oman",
+        "spreadVelocity": "moderate",
+        "credibilityIndicators": [
+          " AIS_gaps",
+          "satellite_imagery_pending"
+        ],
+        "regimeResponse": "None"
+      }
+    ]
+  },
+  "infrastructureIntel": {
+    "lastScan": "2026-03-17T15:13:49.298Z",
+    "dnsStatus": {
+      "topLevelDomains": [
+        {
+          "domain": "irandataportal.sbiran.ir",
+          "type": "government",
+          "status": "up",
+          "lastChecked": "2026-03-15T22:00:00Z",
+          "responseTime": 450,
+          "sslCertificateValid": true
+        },
+        {
+          "domain": "bankmelli.ir",
+          "type": "banking",
+          "status": "intermittent",
+          "lastChecked": "2026-03-15T22:00:00Z",
+          "responseTime": 2800,
+          "sslCertificateValid": true
+        },
+        {
+          "domain": "sepahnews.ir",
+          "type": "military",
+          "status": "up",
+          "lastChecked": "2026-03-15T22:00:00Z",
+          "responseTime": 320,
+          "sslCertificateValid": true
+        },
+        {
+          "domain": "farsnews.ir",
+          "type": "news",
+          "status": "up",
+          "lastChecked": "2026-03-15T22:00:00Z",
+          "responseTime": 180,
+          "sslCertificateValid": true
+        },
+        {
+          "domain": "digikala.com",
+          "type": "commerce",
+          "status": "down",
+          "lastChecked": "2026-03-15T22:00:00Z",
+          "sslCertificateValid": false
+        }
+      ],
+      "nameServerHealth": "partitioned",
+      "resolutionLatency": 850,
+      "blockDetection": [
+        {
+          "method": "complete_blackout",
+          "scope": "national",
+          "targets": [
+            "instagram",
+            "whatsapp",
+            "twitter",
+            "telegram_web"
+          ],
+          "circumventionActive": true
+        },
+        {
+          "method": "throttling",
+          "scope": "targeted",
+          "targets": [
+            "international_news",
+            "vpn_services"
+          ],
+          "circumventionActive": true
+        }
+      ]
+    },
+    "networkLayers": [
+      {
+        "layer": "physical",
+        "status": "degraded",
+        "details": "Power outages affecting 40% of cell towers in Tehran, Tabriz",
+        "impact": "Reduced coverage, fallback to 2G in some areas"
+      },
+      {
+        "layer": "isp",
+        "status": "partitioned",
+        "details": "International gateway capacity at 15% of normal. IRGC-controlled networks prioritized.",
+        "impact": "Civilian internet severely constrained, military/gov C2 functional"
+      },
+      {
+        "layer": "backbone",
+        "status": "operational",
+        "details": "Domestic fiber intact. International links through Turkey, Azerbaijan partially functional.",
+        "impact": "Internal regime communication unaffected"
+      },
+      {
+        "layer": "application",
+        "status": "degraded",
+        "details": "Banking apps intermittent, government portals slow but accessible",
+        "impact": "Economic activity disrupted, state functions maintained"
+      }
+    ],
+    "governmentServices": [
+      {
+        "service": "Bank Melli (Central Bank)",
+        "url": "bankmelli.ir",
+        "status": "limited",
+        "functionality": [
+          "balance_check",
+          "domestic_transfer"
+        ],
+        "lastTransaction": "2026-03-15T14:30:00Z",
+        "errorPatterns": [
+          "timeout_on_intl_wire",
+          "forex_unavailable",
+          "debit_card_decline_spike"
+        ]
+      },
+      {
+        "service": "Tax Administration",
+        "url": "intamedia.ir",
+        "status": "up",
+        "functionality": [
+          "filing",
+          "payment",
+          "audit_notices"
+        ],
+        "errorPatterns": []
+      },
+      {
+        "service": "IRGC Recruitment Portal",
+        "url": "sepahnews.ir",
+        "status": "up",
+        "functionality": [
+          "propaganda",
+          "enrollment",
+          "messaging"
+        ],
+        "errorPatterns": []
+      },
+      {
+        "service": "Health Ministry COVID Portal",
+        "url": "behdasht.gov.ir",
+        "status": "down",
+        "functionality": [],
+        "errorPatterns": [
+          "complete_outage"
+        ]
+      }
+    ],
+    "anomalies": [
+      {
+        "description": "IRGC-controlled autonomous system (AS50812) showing 3x normal traffic while civilian ISPs throttled",
+        "detected": "2026-03-12T00:00:00Z",
+        "severity": "critical",
+        "interpretation": "Regime maintaining command/control while suppressing civilian communication. Military C2 infrastructure prioritized and functional."
+      },
+      {
+        "description": "Banking APIs rejecting international transactions but domestic transfers functional",
+        "detected": "2026-03-14T08:00:00Z",
+        "severity": "high",
+        "interpretation": "Capital controls active. Regime preventing flight while maintaining internal economic circulation."
+      },
+      {
+        "description": "DNS queries to government domains resolving faster than civilian sites (prioritization)",
+        "detected": "2026-03-13T12:00:00Z",
+        "severity": "medium",
+        "interpretation": "QoS prioritization confirms regime infrastructure is protected and operational despite civilian blackout"
+      },
+      {
+        "description": "Encrypted DNS (DoH/DoT) queries to foreign resolvers spiking 400% — circumvention active",
+        "detected": "2026-03-14T00:00:00Z",
+        "severity": "medium",
+        "interpretation": "Technically capable population finding ways around censorship. Signal of dissent or information hunger, not regime weakness."
+      }
+    ]
+  }
+}

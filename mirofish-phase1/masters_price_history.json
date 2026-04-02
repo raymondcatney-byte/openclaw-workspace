@@ -1,0 +1,170 @@
+[
+  {
+    "timestamp": "2026-03-16T22:12:09.958Z",
+    "date": "2026-03-16",
+    "players": {
+      "Scottie Scheffler": {
+        "price": 0.18141118208350743,
+        "impliedProbability": 18.141118208350743,
+        "edge": -3.6411182083507434,
+        "edgeChange": 0,
+        "priceChange24h": -0.0035888179164925704
+      },
+      "Rory McIlroy": {
+        "price": 0.15797798095245696,
+        "impliedProbability": 15.797798095245696,
+        "edge": -2.1977980952456964,
+        "edgeChange": 0,
+        "priceChange24h": -0.000022019047543037074
+      },
+      "Hideki Matsuyama": {
+        "price": 0.04844830911686522,
+        "impliedProbability": 4.844830911686522,
+        "edge": 7.655169088313478,
+        "edgeChange": 0,
+        "priceChange24h": -0.002551690883134776
+      },
+      "Jon Rahm": {
+        "price": 0.0851423281693281,
+        "impliedProbability": 8.51423281693281,
+        "edge": 2.885767183067191,
+        "edgeChange": 0,
+        "priceChange24h": 0.009142328169328098
+      },
+      "Xander Schauffele": {
+        "price": 0.10791493898729959,
+        "impliedProbability": 10.791493898729959,
+        "edge": 0.6085061012700415,
+        "edgeChange": 0,
+        "priceChange24h": 0.009914938987299587
+      },
+      "Jordan Spieth": {
+        "price": 0.028515710720511758,
+        "impliedProbability": 2.8515710720511755,
+        "edge": 5.748428927948824,
+        "edgeChange": 0,
+        "priceChange24h": 0.0005157107205117605
+      },
+      "Brooks Koepka": {
+        "price": 0.046098206821878415,
+        "impliedProbability": 4.609820682187841,
+        "edge": 2.4901793178121583,
+        "edgeChange": 0,
+        "priceChange24h": 0.007098206821878415
+      },
+      "Will Zalatoris": {
+        "price": 0.01732782755948848,
+        "impliedProbability": 1.732782755948848,
+        "edge": 5.067217244051152,
+        "edgeChange": 0,
+        "priceChange24h": -0.007672172440511521
+      },
+      "Ludvig Åberg": {
+        "price": 0.08383793029603684,
+        "impliedProbability": 8.383793029603684,
+        "edge": -1.1837930296036836,
+        "edgeChange": 0,
+        "priceChange24h": -0.003162069703963155
+      },
+      "Cameron Young": {
+        "price": 0.05839277338655849,
+        "impliedProbability": 5.839277338655849,
+        "edge": -0.7392773386558495,
+        "edgeChange": 0,
+        "priceChange24h": 0.0033927733865584883
+      }
+    },
+    "alerts": [],
+    "summary": {
+      "totalVolume": 45816706,
+      "totalLiquidity": 2130064,
+      "avgEdge": 1.6693281190606872,
+      "bestValue": "Hideki Matsuyama (+7.7%)",
+      "biggestDrift": "Xander Schauffele (+1.0¢)"
+    }
+  },
+  {
+    "timestamp": "2026-03-19T11:01:51.841Z",
+    "date": "2026-03-19",
+    "players": {
+      "Scottie Scheffler": {
+        "price": 0.1921904166762775,
+        "impliedProbability": 19.21904166762775,
+        "edge": -4.719041667627749,
+        "edgeChange": -1.077923459277006,
+        "priceChange24h": 0.007190416676277511
+      },
+      "Rory McIlroy": {
+        "price": 0.1491381437385569,
+        "impliedProbability": 14.913814373855692,
+        "edge": -1.313814373855692,
+        "edgeChange": 0.8839837213900044,
+        "priceChange24h": -0.00886185626144309
+      },
+      "Hideki Matsuyama": {
+        "price": 0.06010239002813443,
+        "impliedProbability": 6.010239002813443,
+        "edge": 6.489760997186557,
+        "edgeChange": -1.1654080911269213,
+        "priceChange24h": 0.009102390028134434
+      },
+      "Jon Rahm": {
+        "price": 0.07934654934602774,
+        "impliedProbability": 7.934654934602774,
+        "edge": 3.4653450653972264,
+        "edgeChange": 0.5795778823300353,
+        "priceChange24h": 0.0033465493460277385
+      },
+      "Xander Schauffele": {
+        "price": 0.10572752806955618,
+        "impliedProbability": 10.572752806955618,
+        "edge": 0.8272471930443821,
+        "edgeChange": 0.21874109177434065,
+        "priceChange24h": 0.007727528069556178
+      },
+      "Jordan Spieth": {
+        "price": 0.03712649514188207,
+        "impliedProbability": 3.712649514188207,
+        "edge": 4.887350485811792,
+        "edgeChange": -0.8610784421370319,
+        "priceChange24h": 0.009126495141882074
+      },
+      "Brooks Koepka": {
+        "price": 0.03137844038196383,
+        "impliedProbability": 3.137844038196383,
+        "edge": 3.962155961803617,
+        "edgeChange": 1.4719766439914586,
+        "priceChange24h": -0.007621559618036171
+      },
+      "Will Zalatoris": {
+        "price": 0.024021664022355296,
+        "impliedProbability": 2.4021664022355296,
+        "edge": 4.39783359776447,
+        "edgeChange": -0.6693836462866818,
+        "priceChange24h": -0.000978335977644705
+      },
+      "Ludvig Åberg": {
+        "price": 0.09323791727822976,
+        "impliedProbability": 9.323791727822977,
+        "edge": -2.1237917278229768,
+        "edgeChange": -0.9399986982192932,
+        "priceChange24h": 0.006237917278229768
+      },
+      "Cameron Young": {
+        "price": 0.05963078727453472,
+        "impliedProbability": 5.963078727453472,
+        "edge": -0.8630787274534724,
+        "edgeChange": -0.12380138879762281,
+        "priceChange24h": 0.004630787274534719
+      }
+    },
+    "alerts": [],
+    "summary": {
+      "totalVolume": 45816706,
+      "totalLiquidity": 2130064,
+      "avgEdge": 1.5009966804248154,
+      "bestValue": "Hideki Matsuyama (+6.5%)",
+      "biggestDrift": "Jordan Spieth (+0.9¢)"
+    }
+  }
+]

@@ -1,0 +1,104 @@
+┌─────────────────────────────────────────────────────────────────────────┐
+│                         YOUR MAKAVELI APP                                │
+│                                                                          │
+│  ┌─────────────────┐        ┌──────────────────┐        ┌─────────────┐ │
+│  │  GROQ API       │   +    │  FREE DARK       │   →    │  MAKAVELI   │ │
+│  │  (Web Search)   │        │  SIGNALS         │        │  SYNTHESIS  │ │
+│  └────────┬────────┘        └────────┬─────────┘        └─────────────┘ │
+│           │                          │                                  │
+│           │ Headlines                │ Ground Truth                     │
+│           │ Official statements      │ Telegram sentiment               │
+│           │ News reports             │ Infrastructure status            │
+│           │                          │ Sanctions data                   │
+│           ▼                          ▼                                  │
+│  ┌─────────────────────────────────────────────────────────────┐        │
+│  │              ENHANCED PROMPT (Both Layers)                   │        │
+│  │                                                              │        │
+│  │  Web Intel: "Iran says Hormuz closed..."                     │        │
+│  │                                                              │        │
+│  │  Dark Signals: "Telegram shows 60% fearful sentiment...      │        │
+│  │               DNS tests show military sites up...            │        │
+│  │               847 OFAC sanctions active..."                  │        │
+│  │                                                              │        │
+│  │  Note contradictions. Provide Makaveli analysis.             │        │
+│  └─────────────────────────────────────────────────────────────┘        │
+└─────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                      FREE DATA SOURCES                                   │
+│                                                                          │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐ │
+│  │  TELEGRAM    │  │  RIPE ATLAS  │  │  AIS/MARINE  │  │  SANCTIONS   │ │
+│  │  MTProto API │  │  DNS/Infrastructure│  VesselTrack │  │  OFAC/FATF   │ │
+│  └──────────────┘  └──────────────┘  └──────────────┘  └──────────────┘ │
+│                                                                          │
+│  • Persian channels    • DNS resolution    • Ship positions   • SDN list │
+│  • Sentiment analysis  • Ping tests       • Iranian flagged  • Grey list│
+│  • Viral messages      • Route analysis    • Port activity    • UN data  │
+│  • Topic extraction    • Outage detection  • Hormuz traffic              │
+│                                                                          │
+│  Cost: $0            Cost: $0            Cost: $0         Cost: $0      │
+└─────────────────────────────────────────────────────────────────────────┘
+
+WORKFLOW:
+═════════
+
+1. SCHEDULER (Cron or Node.js)
+   │
+   ├─ Every 30 minutes ──────────────────────────────┐
+   │                                                  │
+   ▼                                                  ▼
+┌─────────────────┐                        ┌─────────────────┐
+│  COLLECT DATA   │                        │  SAVE OUTPUT    │
+│                 │                        │                 │
+│ • Telegram API  │                        │ • JSON files    │
+│ • DNS tests     │───────────────────────▶│ • latest.json   │
+│ • RIPE queries  │                        │ • Timestamped   │
+│ • Sanctions     │                        │                 │
+└─────────────────┘                        └────────┬────────┘
+                                                    │
+                                                    ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│                         MAKAVELI ANALYSIS                                │
+│                                                                          │
+│  Input: makaveli_intel/latest.json + Groq web search                    │
+│                                                                          │
+│  Prompt: "Given web headlines [X] and ground truth [Y],                 │
+│          provide strategic analysis..."                                  │
+│                                                                          │
+│  Output: Enhanced Makaveli synthesis with both layers                   │
+└─────────────────────────────────────────────────────────────────────────┘
+
+EXAMPLE ENHANCEMENT:
+═══════════════════
+
+WITHOUT DARK SIGNALS:
+─────────────────────
+"Iran claims Hormuz closure successful."
+
+WITH DARK SIGNALS:
+──────────────────
+"Official narrative: Hormuz closed successfully.
+ 
+ Ground truth:
+ • Telegram: 60% fearful sentiment, power outages widespread
+ • DNS: Military sites operational (320ms), banking degraded (2800ms)
+ • AIS: 89 Iranian-flagged vessels active, shadow fleet operating
+ • OFAC: 847 active sanctions, yuan settlements increasing
+ 
+ Interpretation: Closure announcement for domestic consumption while
+ military maintains optionality. Economic pain threshold approaching."
+
+COST: $0 FOREVER
+════════════════
+
+┌────────────────────────────────────────────────────────────────┐
+│  COMPONENT              │  SOURCE          │  COST   │  VALUE  │
+├────────────────────────────────────────────────────────────────┤
+│  Telegram monitoring    │  MTProto API     │  Free   │  HIGH   │
+│  Infrastructure status  │  RIPE Atlas      │  Free   │  MED    │
+│  Vessel tracking        │  OpenAIS/Marine  │  Free   │  MED    │
+│  Sanctions data         │  OFAC/FATF       │  Free   │  MED    │
+├────────────────────────────────────────────────────────────────┤
+│  TOTAL                  │                  │  $0     │  HIGH   │
+└────────────────────────────────────────────────────────────────┘

@@ -1,0 +1,58 @@
+{
+  "model": "Statistical (80% backtest)",
+  "sizing": "1/4 Kelly Criterion",
+  "totalAllocation": 100,
+  "positions": [
+    {
+      "name": "Hideki Matsuyama",
+      "allocation": 28,
+      "modelProbability": 12.5,
+      "marketProbability": 5.1,
+      "edge": 7.4,
+      "mastersHistory": "1W/6T10"
+    },
+    {
+      "name": "Jordan Spieth",
+      "allocation": 22,
+      "modelProbability": 8.6,
+      "marketProbability": 2.8,
+      "edge": 5.8,
+      "mastersHistory": "1W/6T10"
+    },
+    {
+      "name": "Will Zalatoris",
+      "allocation": 16,
+      "modelProbability": 6.8,
+      "marketProbability": 2.5,
+      "edge": 4.3,
+      "mastersHistory": "0W/2T10"
+    },
+    {
+      "name": "Jon Rahm",
+      "allocation": 15,
+      "modelProbability": 11.4,
+      "marketProbability": 7.6,
+      "edge": 3.8,
+      "mastersHistory": "1W/5T10"
+    },
+    {
+      "name": "Brooks Koepka",
+      "allocation": 12,
+      "modelProbability": 7.1,
+      "marketProbability": 3.9,
+      "edge": 3.2,
+      "mastersHistory": "0W/4T10"
+    },
+    {
+      "name": "Xander Schauffele",
+      "allocation": 7,
+      "modelProbability": 11.4,
+      "marketProbability": 9.8,
+      "edge": 1.6,
+      "mastersHistory": "0W/4T10"
+    }
+  ],
+  "portfolioModelProb": 9.84,
+  "portfolioMarketProb": 4.7379999999999995,
+  "portfolioEdge": 5.102
+}

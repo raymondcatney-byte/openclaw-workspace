@@ -1,0 +1,159 @@
+{
+  "scenario": "Taiwan Strait crisis with naval blockade and U.S. intervention threats",
+  "timestamp": "2026-03-17T14:54:35.080Z",
+  "parallels": [
+    {
+      "historicalCase": {
+        "id": "tanker_war_1984_88",
+        "name": "Tanker War (Iran-Iraq)",
+        "date": "1984-1988",
+        "region": "Persian Gulf",
+        "scenarioType": [
+          "strait_closure",
+          "resource_denial",
+          "attrition_warfare",
+          "naval_blockade"
+        ],
+        "summary": "Iran and Iraq attacked shipping to deprive each other of oil revenue. U.S. escort operations eventually broke Iranian blockade strategy.",
+        "keyActors": [
+          {
+            "name": "Iran",
+            "type": "regional_power",
+            "objectives": [
+              "Punish Gulf Arab backers of Iraq",
+              "Maintain Hormuz leverage",
+              "Outlast Saddam"
+            ],
+            "constraints": [
+              "Outgunned conventionally",
+              "International isolation",
+              "War exhaustion"
+            ],
+            "resources": [
+              "Asymmetric naval capabilities",
+              "Mine warfare",
+              "Silkworm missiles",
+              "Revolutionary zeal"
+            ]
+          },
+          {
+            "name": "Iraq",
+            "type": "regional_power",
+            "objectives": [
+              "Secure oil exports",
+              "Force Iranian acceptance of ceasefire",
+              "Maintain Gulf support"
+            ],
+            "constraints": [
+              "Landlocked effectively",
+              "Dependence on Gulf ports"
+            ],
+            "resources": [
+              "Air superiority",
+              "Superpower backing",
+              "Chemical weapons"
+            ]
+          },
+          {
+            "name": "United States",
+            "type": "great_power",
+            "objectives": [
+              "Protect oil flows",
+              "Contain Iran",
+              "Prevent Soviet entry"
+            ],
+            "constraints": [
+              "Vietnam syndrome",
+              "Congressional wariness",
+              "Escalation risks"
+            ],
+            "resources": [
+              "Naval supremacy",
+              "Regional basing",
+              "Coalition building"
+            ]
+          }
+        ],
+        "strategicDynamics": [
+          {
+            "factor": "Hormuz closure unsustainable against great power",
+            "description": "Iran could harass but not close strait against U.S. naval power",
+            "weight": "critical"
+          },
+          {
+            "factor": "Attrition favored the economically stronger",
+            "description": "Iraq with Gulf backing outlasted isolated Iran",
+            "weight": "critical"
+          },
+          {
+            "factor": "Asymmetric warfare prolonged but did not win",
+            "description": "Iranian innovations delayed defeat but not prevented",
+            "weight": "high"
+          },
+          {
+            "factor": "International coalition broke blockade",
+            "description": "Reflagging operation made attacks politically costly",
+            "weight": "high"
+          }
+        ],
+        "outcome": {
+          "result": "stalemate",
+          "duration": "4 years (tanker phase)",
+          "casualties": "500+ sailors, 546 merchant ships damaged",
+          "economicImpact": "Insurance rates soared, oil prices volatile but supplies maintained",
+          "geopoliticalShift": "U.S. establishes permanent Gulf naval presence; Iran isolated"
+        },
+        "lessons": [
+          {
+            "insight": "Hormuz can be harassed but not closed against determined great power",
+            "applicability": [
+              "strait_closure_scenarios",
+              "naval_blockade"
+            ],
+            "caveats": [
+              "Requires sustained U.S. commitment",
+              "Coalition support essential"
+            ]
+          },
+          {
+            "insight": "Mine warfare effective for denial, not control",
+            "applicability": [
+              "asymmetric_naval",
+              "area_denial"
+            ],
+            "caveats": [
+              "Can be cleared eventually",
+              "International condemnation follows"
+            ]
+          },
+          {
+            "insight": "Attrition warfare favors the economically integrated",
+            "applicability": [
+              "protracted_conflict",
+              "sanctions_regimes"
+            ],
+            "caveats": [
+              "Requires time and domestic patience",
+              "Revolutionary regimes may endure more pain"
+            ]
+          }
+        ]
+      },
+      "relevanceScore": 0.30000000000000004,
+      "matchingFactors": [
+        "Scenario type overlap: 3 factors"
+      ],
+      "divergingFactors": [
+        "Different geopolitical context"
+      ],
+      "makaveliNote": "Weak but instructive parallel. Consider Hormuz closure unsustainable against great power with caution."
+    }
+  ],
+  "formattedParallels": "📜 HISTORICAL PARALLELS\n======================================================================\n\n1. Tanker War (Iran-Iraq) (1984-1988) ★★\n   Relevance: 30% | Outcome: stalemate\n   Iran and Iraq attacked shipping to deprive each other of oil revenue. U.S. escort operations eventually broke Iranian bl...\n\n   Matching Factors:\n      • Scenario type overlap: 3 factors\n   Key Differences:\n      ⚠ Different geopolitical context\n\n   Applicable Lessons:\n      💡 Hormuz can be harassed but not closed against determined great power\n      💡 Mine warfare effective for denial, not control\n\n   🎭 Makaveli Note: \"Weak but instructive parallel. Consider Hormuz closure unsustainable against great power with caution.\"\n\n----------------------------------------------------------------------\n\n",
+  "applicableLessons": [
+    "Tanker War (Iran-Iraq): Hormuz can be harassed but not closed against determined great power",
+    "Tanker War (Iran-Iraq): Mine warfare effective for denial, not control",
+    "Tanker War (Iran-Iraq): Attrition warfare favors the economically integrated"
+  ],
+  "probabilityAdjustment": "Based on Tanker War (Iran-Iraq): Protracted conflict likely; attrition favors defender"
+}

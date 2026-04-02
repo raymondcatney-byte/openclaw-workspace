@@ -1,0 +1,107 @@
+# CIPHER — Crypto Research OS
+
+**The AI persona that turns BrowserOS into a professional crypto intelligence terminal.**
+
+---
+
+## What You're Buying
+
+A complete research system that transforms Kimi K2.5 into an institutional-grade crypto analyst.
+
+### Included:
+- ✅ CIPHER Master Persona (copy/paste into BrowserOS)
+- ✅ 7 Research Commands (Scan, Research, Deep Dive, Compare, etc.)
+- ✅ Structured JSON Output Format
+- ✅ Quick Reference Card
+- ✅ Research Report Template
+- ✅ 4 Real Example Reports
+- ✅ Setup Guide (2 minutes)
+
+### What It Does:
+- Analyzes TVL, revenue, market share
+- Checks unlock schedules, audit history
+- Tracks smart money, exchange flows
+- Monitors sentiment, prediction markets
+- Identifies liquidation clusters
+- Delivers structured intelligence in 5 minutes
+
+### What It Doesn't Do:
+- Give trading signals
+- Tell you to buy or sell
+- Shill bags
+
+**Pure research. You decide.**
+
+---
+
+## How to Use
+
+1. **Install BrowserOS** (free) + add Kimi K2.5 API key
+2. **Copy** the CIPHER persona (included)
+3. **Paste** into Settings → AI → System Prompt
+4. **Type:** `Research ETH`
+5. **Get:** Full structured analysis in 5 minutes
+
+---
+
+## Example Output
+
+```json
+{
+  "asset": "AAVE",
+  "fundamentals": {
+    "tvl": 14200000000,
+    "revenue_annualized": 138000000,
+    "category_rank": 1,
+    "market_share": "32% of lending"
+  },
+  "sentiment": {
+    "prediction_markets": [{"question": "v4 by Q3?", "probability": 0.68}],
+    "funding_rate": {"current": 0.012, "trend": "stable"}
+  },
+  "risk_indicators": {
+    "audit_status": {"last_audit": "2025-08", "critical_findings": 0},
+    "next_unlock": {"date": null, "risk": "none"}
+  },
+  "research_notes": "Market leader, growing faster than competitors, no unlock risks."
+}
+```
+
+---
+
+## Perfect For
+
+- Traders who want real due diligence
+- DeFi investors researching protocols
+- DAOs doing partnership due diligence
+- Content creators writing research threads
+- Analysts scaling their coverage
+
+---
+
+## Price
+
+**$49** (one-time)
+
+- No subscription
+- Free updates
+- Lifetime access
+- 100+ research runs worth of value
+
+---
+
+## Guarantee
+
+5-Hour Research Guarantee: Use it for 7 days. If it doesn't save you 5 hours of manual research, full refund.
+
+---
+
+## Delivery
+
+Instant download. PDF + text files. Copy, paste, research.
+
+---
+
+**Stop guessing. Start knowing.**
+
+[Buy Now]

@@ -1,0 +1,686 @@
+{
+  "tournament": "The Masters 2026",
+  "course": "Augusta National Golf Club",
+  "analysis_date": "2026-03-17",
+  "methodology": "Course fit scores based on strokes gained profile vs Augusta demands",
+  "players": [
+    {
+      "rank": 1,
+      "name": "Scottie Scheffler",
+      "dg_id": "18417",
+      "overall_fit": 95,
+      "breakdown": {
+        "driving": 92,
+        "irons": 98,
+        "short_game": 88,
+        "putting": 90,
+        "experience": 98,
+        "mental": 95
+      },
+      "augusta_essentials": {
+        "par5_scoring": 98,
+        "approach_150_175": 99,
+        "scrambling": 92,
+        "bogey_avoidance": 94
+      },
+      "why_he_fits": [
+        "Elite iron play is #1 predictor at Augusta",
+        "Distance to reach par 5s in two",
+        "Two-time winner knows every nuance",
+        "Improved putting under pressure",
+        "Best player in world at peak age"
+      ],
+      "potential_concerns": [
+        "Price too short - no value",
+        "Occasional cold putting stretches"
+      ],
+      "fit_grade": "A+"
+    },
+    {
+      "rank": 2,
+      "name": "Rory McIlroy",
+      "dg_id": "10091",
+      "overall_fit": 92,
+      "breakdown": {
+        "driving": 90,
+        "irons": 94,
+        "short_game": 88,
+        "putting": 85,
+        "experience": 95,
+        "mental": 88
+      },
+      "augusta_essentials": {
+        "par5_scoring": 96,
+        "approach_150_175": 92,
+        "scrambling": 90,
+        "bogey_avoidance": 90
+      },
+      "why_he_fits": [
+        "Career Grand Slam completed - knows how to win here",
+        "Bomber who can overpower course",
+        "16 starts - knows every hole",
+        "Elite ball-striking when on"
+      ],
+      "potential_concerns": [
+        "Sunday putting pressure - history of misses",
+        "Overpriced due to narrative",
+        "Can be wild off tee at wrong times"
+      ],
+      "fit_grade": "A"
+    },
+    {
+      "rank": 3,
+      "name": "Xander Schauffele",
+      "dg_id": "19895",
+      "overall_fit": 90,
+      "breakdown": {
+        "driving": 82,
+        "irons": 96,
+        "short_game": 90,
+        "putting": 88,
+        "experience": 88,
+        "mental": 92
+      },
+      "augusta_essentials": {
+        "par5_scoring": 88,
+        "approach_150_175": 97,
+        "scrambling": 92,
+        "bogey_avoidance": 93
+      },
+      "why_he_fits": [
+        "Best iron player not named Scheffler",
+        "Consistent - 7 Masters, 7 made cuts",
+        "T2 in 2019 - proven he can contend",
+        "Mentally tough in big moments"
+      ],
+      "potential_concerns": [
+        "Not quite long enough for par 5s",
+        "Converts fewer chances than elite"
+      ],
+      "fit_grade": "A"
+    },
+    {
+      "rank": 4,
+      "name": "Hideki Matsuyama",
+      "dg_id": "13209",
+      "overall_fit": 86,
+      "breakdown": {
+        "driving": 78,
+        "irons": 94,
+        "short_game": 92,
+        "putting": 82,
+        "experience": 92,
+        "mental": 90
+      },
+      "augusta_essentials": {
+        "par5_scoring": 85,
+        "approach_150_175": 93,
+        "scrambling": 94,
+        "bogey_avoidance": 88
+      },
+      "why_he_fits": [
+        "2021 champion - knows how to win",
+        "Game perfectly suited for Augusta",
+        "13 starts - massive experience",
+        "Elite from 150-175 yards"
+      ],
+      "potential_concerns": [
+        "Short off tee - can't reach some par 5s",
+        "Putting streaky",
+        "Inconsistent tee to green recently"
+      ],
+      "fit_grade": "A-"
+    },
+    {
+      "rank": 5,
+      "name": "Jon Rahm",
+      "dg_id": "19195",
+      "overall_fit": 90,
+      "breakdown": {
+        "driving": 88,
+        "irons": 88,
+        "short_game": 95,
+        "putting": 85,
+        "experience": 90,
+        "mental": 88
+      },
+      "augusta_essentials": {
+        "par5_scoring": 90,
+        "approach_150_175": 86,
+        "scrambling": 96,
+        "bogey_avoidance": 89
+      },
+      "why_he_fits": [
+        "2023 champion - defending title",
+        "Elite short game saves strokes at Augusta",
+        "8 starts, 7 cuts made",
+        "Knows course intimately"
+      ],
+      "potential_concerns": [
+        "LIV schedule - fewer competitive reps",
+        "Iron play declined slightly",
+        "Can get hot-headed"
+      ],
+      "fit_grade": "A-"
+    },
+    {
+      "rank": 6,
+      "name": "Will Zalatoris",
+      "dg_id": "19553",
+      "overall_fit": 87,
+      "breakdown": {
+        "driving": 88,
+        "irons": 96,
+        "short_game": 72,
+        "putting": 68,
+        "experience": 75,
+        "mental": 88
+      },
+      "augusta_essentials": {
+        "par5_scoring": 85,
+        "approach_150_175": 98,
+        "scrambling": 78,
+        "bogey_avoidance": 85
+      },
+      "why_he_fits": [
+        "Augusta specialist - 2nd in 2021, T6 in 2022",
+        "Elite ball-striker - irons perfect for course",
+        "Game built for demanding second shots"
+      ],
+      "potential_concerns": [
+        "Short game is major weakness",
+        "3-putt prone",
+        "Chipping from tight lies poor",
+        "Back injuries in past"
+      ],
+      "fit_grade": "B+"
+    },
+    {
+      "rank": 7,
+      "name": "Jordan Spieth",
+      "dg_id": "14636",
+      "overall_fit": 88,
+      "breakdown": {
+        "driving": 68,
+        "irons": 82,
+        "short_game": 96,
+        "putting": 90,
+        "experience": 96,
+        "mental": 85
+      },
+      "augusta_essentials": {
+        "par5_scoring": 82,
+        "approach_150_175": 84,
+        "scrambling": 96,
+        "bogey_avoidance": 82
+      },
+      "why_he_fits": [
+        "2015 champion - knows every break",
+        "Best scrambler in field",
+        "6 top-10s in 11 starts",
+        "Short game can save bad ball-striking days"
+      ],
+      "potential_concerns": [
+        "Driver is broken - accuracy terrible",
+        "Iron play inconsistent",
+        "Can make big numbers from trouble",
+        "Recent form shaky"
+      ],
+      "fit_grade": "B+"
+    },
+    {
+      "rank": 8,
+      "name": "Collin Morikawa",
+      "dg_id": "22085",
+      "overall_fit": 85,
+      "breakdown": {
+        "driving": 72,
+        "irons": 96,
+        "short_game": 82,
+        "putting": 80,
+        "experience": 78,
+        "mental": 88
+      },
+      "augusta_essentials": {
+        "par5_scoring": 78,
+        "approach_150_175": 97,
+        "scrambling": 85,
+        "bogey_avoidance": 90
+      },
+      "why_he_fits": [
+        "Elite iron player - world class",
+        "T5 in 2021 debut",
+        "Never misses cut here",
+        "Course management excellent"
+      ],
+      "potential_concerns": [
+        "Can't reach par 5s in two",
+        "Driver wild for Augusta",
+        "Trees on left (holes 7, 10, 13) = danger",
+        "Not long enough for modern Augusta"
+      ],
+      "fit_grade": "B+"
+    },
+    {
+      "rank": 9,
+      "name": "Ludvig Åberg",
+      "dg_id": "23950",
+      "overall_fit": 88,
+      "breakdown": {
+        "driving": 96,
+        "irons": 82,
+        "short_game": 75,
+        "putting": 78,
+        "experience": 45,
+        "mental": 82
+      },
+      "augusta_essentials": {
+        "par5_scoring": 96,
+        "approach_150_175": 80,
+        "scrambling": 78,
+        "bogey_avoidance": 82
+      },
+      "why_he_fits": [
+        "Distance is massive advantage",
+        "Can reach all par 5s easily",
+        "Rising fast - generational talent",
+        "Age 25 entering prime"
+      ],
+      "potential_concerns": [
+        "Only 1 Masters start (T25)",
+        "Short game needs improvement",
+        "Inexperienced on Augusta's greens",
+        "Major pressure untested"
+      ],
+      "fit_grade": "B+"
+    },
+    {
+      "rank": 10,
+      "name": "Brooks Koepka",
+      "dg_id": "16243",
+      "overall_fit": 78,
+      "breakdown": {
+        "driving": 82,
+        "irons": 78,
+        "short_game": 75,
+        "putting": 78,
+        "experience": 88,
+        "mental": 92
+      },
+      "augusta_essentials": {
+        "par5_scoring": 85,
+        "approach_150_175": 76,
+        "scrambling": 82,
+        "bogey_avoidance": 80
+      },
+      "why_he_fits": [
+        "Major championship DNA",
+        "T2 in 2023 - can contend",
+        "LIV form excellent (won Singapore)",
+        "Mentally toughest in field"
+      ],
+      "potential_concerns": [
+        "Augusta his worst major statistically",
+        "Iron play not elite",
+        "LIV competition level lower",
+        "Knee issues persist"
+      ],
+      "fit_grade": "B"
+    },
+    {
+      "rank": 11,
+      "name": "Viktor Hovland",
+      "dg_id": "18841",
+      "overall_fit": 82,
+      "breakdown": {
+        "driving": 90,
+        "irons": 88,
+        "short_game": 72,
+        "putting": 80,
+        "experience": 75,
+        "mental": 85
+      },
+      "augusta_essentials": {
+        "par5_scoring": 92,
+        "approach_150_175": 86,
+        "scrambling": 74,
+        "bogey_avoidance": 82
+      },
+      "why_he_fits": [
+        "Bomber with improving short game",
+        "Distance huge advantage",
+        "T7 in 2023 - proved he can play here",
+        "Age 27 entering prime"
+      ],
+      "potential_concerns": [
+        "Chipping is still suspect",
+        "Bunker play weak",
+        "Needs perfect week around greens",
+        "Can make big numbers"
+      ],
+      "fit_grade": "B"
+    },
+    {
+      "rank": 12,
+      "name": "Justin Thomas",
+      "dg_id": "14139",
+      "overall_fit": 84,
+      "breakdown": {
+        "driving": 78,
+        "irons": 88,
+        "short_game": 86,
+        "putting": 80,
+        "experience": 85,
+        "mental": 78
+      },
+      "augusta_essentials": {
+        "par5_scoring": 84,
+        "approach_150_175": 88,
+        "scrambling": 88,
+        "bogey_avoidance": 85
+      },
+      "why_he_fits": [
+        "Father is club pro at Augusta",
+        "Grew up playing course",
+        "Game built for Augusta",
+        "8 starts, 7 cuts made"
+      ],
+      "potential_concerns": [
+        "Mental game fragile lately",
+        "Recent struggles in majors",
+        "Not quite elite anywhere anymore",
+        "Short off tee"
+      ],
+      "fit_grade": "B"
+    },
+    {
+      "rank": 13,
+      "name": "Patrick Cantlay",
+      "dg_id": "16143",
+      "overall_fit": 83,
+      "breakdown": {
+        "driving": 72,
+        "irons": 90,
+        "short_game": 88,
+        "putting": 88,
+        "experience": 82,
+        "mental": 88
+      },
+      "augusta_essentials": {
+        "par5_scoring": 76,
+        "approach_150_175": 90,
+        "scrambling": 90,
+        "bogey_avoidance": 92
+      },
+      "why_he_fits": [
+        "T3 in 2023 - came close",
+        "Elite putter can get hot",
+        "Consistent - made every cut",
+        "Patience fits Augusta"
+      ],
+      "potential_concerns": [
+        "Not long enough for course",
+        "Can't reach par 5s in two",
+        "Lacks explosive distance",
+        "Too conservative at times"
+      ],
+      "fit_grade": "B"
+    },
+    {
+      "rank": 14,
+      "name": "Bryson DeChambeau",
+      "dg_id": "19841",
+      "overall_fit": 80,
+      "breakdown": {
+        "driving": 98,
+        "irons": 70,
+        "short_game": 72,
+        "putting": 75,
+        "experience": 78,
+        "mental": 82
+      },
+      "augusta_essentials": {
+        "par5_scoring": 96,
+        "approach_150_175": 72,
+        "scrambling": 76,
+        "bogey_avoidance": 76
+      },
+      "why_he_fits": [
+        "Distance is course-record level",
+        "Can overpower Augusta",
+        "T4 in 2024 - proved it works",
+        "Improved short game"
+      ],
+      "potential_concerns": [
+        "Accuracy issues - trees are everywhere",
+        "Iron play inconsistent",
+        "Can make huge numbers",
+        "Putting unreliable",
+        "LIV competition questions"
+      ],
+      "fit_grade": "B-"
+    },
+    {
+      "rank": 15,
+      "name": "Shane Lowry",
+      "dg_id": "13136",
+      "overall_fit": 82,
+      "breakdown": {
+        "driving": 70,
+        "irons": 82,
+        "short_game": 90,
+        "putting": 82,
+        "experience": 88,
+        "mental": 90
+      },
+      "augusta_essentials": {
+        "par5_scoring": 76,
+        "approach_150_175": 82,
+        "scrambling": 92,
+        "bogey_avoidance": 88
+      },
+      "why_he_fits": [
+        "2022 Open champion - major winner",
+        "T3 at Augusta 2022",
+        "Creative short game",
+        "Tough in bad weather"
+      ],
+      "potential_concerns": [
+        "Not long enough",
+        "Form inconsistent",
+        "Needs perfect conditions",
+        "Recent results poor"
+      ],
+      "fit_grade": "B-"
+    },
+    {
+      "rank": 16,
+      "name": "Russell Henley",
+      "dg_id": "14408",
+      "overall_fit": 77,
+      "breakdown": {
+        "driving": 65,
+        "irons": 92,
+        "short_game": 82,
+        "putting": 80,
+        "experience": 75,
+        "mental": 82
+      },
+      "augusta_essentials": {
+        "par5_scoring": 68,
+        "approach_150_175": 94,
+        "scrambling": 85,
+        "bogey_avoidance": 88
+      },
+      "why_he_fits": [
+        "T4 in 2023 - proved he can contend",
+        "Elite iron player",
+        "Accuracy over distance works here",
+        "Hot putter that week"
+      ],
+      "potential_concerns": [
+        "Way too short off tee",
+        "Can't reach par 5s",
+        "Needs career week putting",
+        "One-dimensional"
+      ],
+      "fit_grade": "B-"
+    },
+    {
+      "rank": 17,
+      "name": "Cameron Young",
+      "dg_id": "26651",
+      "overall_fit": 81,
+      "breakdown": {
+        "driving": 96,
+        "irons": 80,
+        "short_game": 72,
+        "putting": 68,
+        "experience": 55,
+        "mental": 78
+      },
+      "augusta_essentials": {
+        "par5_scoring": 92,
+        "approach_150_175": 78,
+        "scrambling": 76,
+        "bogey_avoidance": 78
+      },
+      "why_he_fits": [
+        "Just won PLAYERS - hot",
+        "Distance is huge advantage",
+        "T7 in 2024 debut",
+        "Can overpower course"
+      ],
+      "potential_concerns": [
+        "Putting is terrible",
+        "Short game weak",
+        "2nd Masters only",
+        "Can't close tournaments"
+      ],
+      "fit_grade": "B-"
+    },
+    {
+      "rank": 18,
+      "name": "Matt Fitzpatrick",
+      "dg_id": "17646",
+      "overall_fit": 75,
+      "breakdown": {
+        "driving": 62,
+        "irons": 94,
+        "short_game": 82,
+        "putting": 82,
+        "experience": 78,
+        "mental": 85
+      },
+      "augusta_essentials": {
+        "par5_scoring": 64,
+        "approach_150_175": 96,
+        "scrambling": 86,
+        "bogey_avoidance": 86
+      },
+      "why_he_fits": [
+        "2022 US Open champion",
+        "Elite iron player",
+        "T14 at Augusta shows he can play",
+        "Good course manager"
+      ],
+      "potential_concerns": [
+        "Too short for modern Augusta",
+        "Can't reach par 5s in two",
+        "Distance disadvantage too big",
+        "Recent form inconsistent"
+      ],
+      "fit_grade": "C+"
+    },
+    {
+      "rank": 19,
+      "name": "Tommy Fleetwood",
+      "dg_id": "12294",
+      "overall_fit": 79,
+      "breakdown": {
+        "driving": 72,
+        "irons": 86,
+        "short_game": 88,
+        "putting": 84,
+        "experience": 82,
+        "mental": 82
+      },
+      "augusta_essentials": {
+        "par5_scoring": 78,
+        "approach_150_175": 84,
+        "scrambling": 90,
+        "bogey_avoidance": 84
+      },
+      "why_he_fits": [
+        "All-around solid game",
+        "Good recent form",
+        "T3 at Bay Hill shows he can compete",
+        "Popular - plays well in spotlight"
+      ],
+      "potential_concerns": [
+        "Never top-10 at Augusta",
+        "Not elite at any one thing",
+        "Struggles on back nine Sunday",
+        "Short off tee"
+      ],
+      "fit_grade": "C+"
+    },
+    {
+      "rank": 20,
+      "name": "Sahith Theegala",
+      "dg_id": "23821",
+      "overall_fit": 80,
+      "breakdown": {
+        "driving": 78,
+        "irons": 82,
+        "short_game": 82,
+        "putting": 82,
+        "experience": 55,
+        "mental": 82
+      },
+      "augusta_essentials": {
+        "par5_scoring": 82,
+        "approach_150_175": 80,
+        "scrambling": 84,
+        "bogey_avoidance": 84
+      },
+      "why_he_fits": [
+        "Rising star - trending up",
+        "T16 in 2024 debut",
+        "Game suited for Augusta",
+        "Age 27 entering prime"
+      ],
+      "potential_concerns": [
+        "Only 2nd Masters",
+        "Not elite anywhere yet",
+        "Unproven in major pressure",
+        "Needs to take next step"
+      ],
+      "fit_grade": "C+"
+    }
+  ],
+  "methodology_notes": {
+    "scoring_weights": {
+      "irons": 0.30,
+      "driving": 0.20,
+      "short_game": 0.15,
+      "putting": 0.15,
+      "experience": 0.10,
+      "mental": 0.10
+    },
+    "augusta_specific_weights": {
+      "par5_scoring": 0.35,
+      "approach_150_175": 0.30,
+      "scrambling": 0.20,
+      "bogey_avoidance": 0.15
+    }
+  },
+  "insights": {
+    "best_fits": ["Scottie Scheffler", "Rory McIlroy", "Xander Schauffele"],
+    "value_fits": ["Jordan Spieth", "Will Zalatoris", "Jon Rahm"],
+    "fade_due_to_fit": ["Matt Fitzpatrick", "Russell Henley", "Cameron Young"],
+    "distance_matters": "Augusta playing shorter due to modern distance - favors bombers who can also hit irons",
+    "experience_matters": "First-timers face impossible learning curve - need 3+ starts to truly contend",
+    "iron_play_critical": "150-175 yard approach shots are Augusta money zone - elite iron players excel"
+  }
+}

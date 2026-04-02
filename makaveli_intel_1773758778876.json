@@ -1,0 +1,286 @@
+{
+  "scenario": "Iran Conflict - March 2026",
+  "timestamp": "2026-03-17T14:46:18.874Z",
+  "sources": [],
+  "swarmFeeds": [
+    {
+      "agentType": "resource",
+      "attentionWeight": 0.6,
+      "dataPoints": [
+        {
+          "metric": "Hormuz throughput",
+          "value": "12% of normal",
+          "timestamp": "2026-03-17T14:46:18.873Z",
+          "source": "satellite_tracking"
+        },
+        {
+          "metric": "Brent crude",
+          "value": "$94.50/bbl",
+          "timestamp": "2026-03-17T14:46:18.873Z",
+          "source": "market_data"
+        },
+        {
+          "metric": "Iran oil exports",
+          "value": "0.8mbpd (down from 1.4mbpd)",
+          "timestamp": "2026-03-17T14:46:18.873Z",
+          "source": "tanker_tracking"
+        },
+        {
+          "metric": "SPR drawdown rate",
+          "value": "1.2M bbl/day",
+          "timestamp": "2026-03-17T14:46:18.873Z",
+          "source": "IEA"
+        }
+      ],
+      "anomalies": [
+        {
+          "description": "Kharg Island export terminal showing thermal signatures consistent with repair operations despite official claims of total destruction",
+          "severity": "medium",
+          "expectedValue": "No activity (per official statements)",
+          "actualValue": "Active thermal signatures detected",
+          "makaveliNote": "Possible deception operation or partial functionality"
+        },
+        {
+          "description": "Chinese tanker traffic rerouting to avoid Hormuz at 3x normal rate",
+          "severity": "high",
+          "expectedValue": "Normal routing patterns",
+          "actualValue": "Massive diversion to Cape route"
+        }
+      ]
+    },
+    {
+      "agentType": "alliance",
+      "attentionWeight": 0.8,
+      "dataPoints": [
+        {
+          "metric": "Saudi-Pakistan SMDA activation status",
+          "value": "Standby (not triggered)",
+          "timestamp": "2026-03-17T14:46:18.873Z",
+          "source": "diplomatic_chatter"
+        },
+        {
+          "metric": "GCC emergency session",
+          "value": "Scheduled March 18",
+          "timestamp": "2026-03-17T14:46:18.873Z",
+          "source": "diplomatic_cables"
+        },
+        {
+          "metric": "Turkish naval deployment",
+          "value": "2 frigates to Eastern Med",
+          "timestamp": "2026-03-17T14:46:18.873Z",
+          "source": "maritime_tracking"
+        },
+        {
+          "metric": "Russian diplomatic engagement",
+          "value": "Backchannel offers to Iran",
+          "timestamp": "2026-03-17T14:46:18.873Z",
+          "source": "intelligence_assessment"
+        }
+      ],
+      "anomalies": [
+        {
+          "description": "UAE officials privately signaling openness to Hormuz reopening while publicly supporting closure",
+          "severity": "high",
+          "expectedValue": "Unified GCC stance",
+          "actualValue": "UAE bifurcated messaging"
+        }
+      ]
+    },
+    {
+      "agentType": "military",
+      "attentionWeight": 0.7,
+      "dataPoints": [
+        {
+          "metric": "U.S. sortie rate",
+          "value": "180/day (down from 240/day)",
+          "timestamp": "2026-03-17T14:46:18.873Z",
+          "source": "CENTCOM"
+        },
+        {
+          "metric": "Iranian missile inventory",
+          "value": "Estimated 60% depleted",
+          "timestamp": "2026-03-17T14:46:18.873Z",
+          "source": "intelligence_estimate"
+        },
+        {
+          "metric": "Israeli interceptor stocks",
+          "value": "Critical (<200 Arrow missiles)",
+          "timestamp": "2026-03-17T14:46:18.873Z",
+          "source": "IDF_assessment"
+        },
+        {
+          "metric": "THAAD redeployment",
+          "value": "2 batteries from Korea to UAE",
+          "timestamp": "2026-03-17T14:46:18.873Z",
+          "source": "DoD"
+        }
+      ],
+      "anomalies": [
+        {
+          "description": "Iranian IRGC command structure showing coordination despite claimed decapitation",
+          "severity": "critical",
+          "expectedValue": "Degraded command and control",
+          "actualValue": "Continued operational coherence"
+        },
+        {
+          "description": "Hezbollah rocket fire intensity declining faster than inventory depletion suggests",
+          "severity": "medium",
+          "expectedValue": "Sustained fire rate",
+          "actualValue": "30% reduction in launches"
+        }
+      ]
+    },
+    {
+      "agentType": "economic",
+      "attentionWeight": 0.6,
+      "dataPoints": [
+        {
+          "metric": "Asian LNG price",
+          "value": "$18.50/MMBtu (+54%)",
+          "timestamp": "2026-03-17T14:46:18.873Z",
+          "source": "commodity_markets"
+        },
+        {
+          "metric": "Iranian rial vs USD",
+          "value": "580,000 (black market)",
+          "timestamp": "2026-03-17T14:46:18.873Z",
+          "source": "currency_trackers"
+        },
+        {
+          "metric": "Global shipping insurance",
+          "value": "+340% for Gulf routes",
+          "timestamp": "2026-03-17T14:46:18.873Z",
+          "source": "Lloyd's"
+        },
+        {
+          "metric": "Iranian inflation (unofficial)",
+          "value": "89% annualized",
+          "timestamp": "2026-03-17T14:46:18.873Z",
+          "source": "economic_monitoring"
+        }
+      ],
+      "anomalies": [
+        {
+          "description": "Iranian central bank injecting foreign currency at unsustainable rate despite sanctions",
+          "severity": "high",
+          "expectedValue": "Currency collapse",
+          "actualValue": "Managed float holding"
+        }
+      ]
+    }
+  ],
+  "threeDegreeProb": {
+    "primary": {
+      "label": "Protracted Attrition",
+      "probability": 40,
+      "description": "War continues for months with no clear victory",
+      "keyDrivers": [
+        "Iranian resilience",
+        "U.S. resource constraints",
+        "Regional escalation"
+      ],
+      "entropy": 0.9709505944546686,
+      "makaveliAssessment": "[To be written by Makaveli]"
+    },
+    "secondary": {
+      "label": "Negotiated Settlement",
+      "probability": 30,
+      "description": "Exhaustion leads to diplomatic resolution",
+      "keyDrivers": [
+        "Economic pressure",
+        "Humanitarian catastrophe",
+        "Third-party mediation"
+      ],
+      "entropy": 0.8812908992306927,
+      "makaveliAssessment": "[To be written by Makaveli]"
+    },
+    "tertiary": {
+      "label": "Regime Collapse or Wider War",
+      "probability": 15,
+      "description": "Internal uprising OR Pakistan/Turkey entry",
+      "keyDrivers": [
+        "Leadership fragility",
+        "Treaty obligations",
+        "Miscalculation"
+      ],
+      "entropy": 0.6098403047164004,
+      "makaveliAssessment": "[To be written by Makaveli]"
+    },
+    "bayesianHistory": [
+      {
+        "timestamp": "2026-03-08T00:00:00Z",
+        "event": "Initial U.S. strikes on Iranian leadership",
+        "priorPrimary": 30,
+        "posteriorPrimary": 55,
+        "likelihoodRatio": 1.83,
+        "notes": "Rapid escalation shifted probabilities toward prolonged conflict"
+      },
+      {
+        "timestamp": "2026-03-12T00:00:00Z",
+        "event": "Mojtaba Khamenei succession; Hormuz closure",
+        "priorPrimary": 55,
+        "posteriorPrimary": 45,
+        "likelihoodRatio": 0.82,
+        "notes": "Regime cohesion higher than expected; attrition now baseline"
+      },
+      {
+        "timestamp": "2026-03-15T00:00:00Z",
+        "event": "Regional expansion to GCC states; U.S. resource strain evident",
+        "priorPrimary": 45,
+        "posteriorPrimary": 48,
+        "likelihoodRatio": 1.07,
+        "notes": "Slight increase in attrition probability as war widens"
+      }
+    ]
+  },
+  "confidenceMetrics": {
+    "overall": 5,
+    "dataCompleteness": 8,
+    "sourceReliability": 6,
+    "modelEntropy": 0.82,
+    "keyUncertainties": [
+      "Mojtaba Khamenei health and operational status",
+      "True extent of Iranian command and control degradation",
+      "Pakistan SMDA treaty trigger thresholds",
+      "U.S. THAAD/Patriot inventory depletion rates"
+    ]
+  },
+  "indicators": [
+    {
+      "name": "Mojtaba Khamenei Public Appearance",
+      "currentStatus": "No visual confirmation since March 9",
+      "threshold": "First public appearance or verified recording",
+      "trend": "deteriorating",
+      "makaveliPriority": "critical"
+    },
+    {
+      "name": "Hormuz Mine Clearance Progress",
+      "currentStatus": "Mining ongoing; U.S. escort mission announced",
+      "threshold": "Sustained tanker traffic resumption",
+      "trend": "stable",
+      "makaveliPriority": "critical"
+    },
+    {
+      "name": "Israeli Interceptor Inventory",
+      "currentStatus": "<200 Arrow missiles (critical)",
+      "threshold": "Emergency procurement arrives or depletion",
+      "trend": "deteriorating",
+      "makaveliPriority": "high"
+    },
+    {
+      "name": "Pakistan Military Mobilization",
+      "currentStatus": "No activation of SMDA treaty",
+      "threshold": "Troops to Saudi border or Iranian border",
+      "trend": "stable",
+      "timeToThreshold": "Unknown - event dependent",
+      "makaveliPriority": "high"
+    },
+    {
+      "name": "Saudi Retaliatory Posture",
+      "currentStatus": "Defensive preparations only",
+      "threshold": "Strikes on Iranian territory",
+      "trend": "uncertain",
+      "makaveliPriority": "high"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "comparison": "AAVE vs MKR",
+  "timestamp": "2026-03-13T23:45:00Z",
+  "assets": {
+    "AAVE": {
+      "full_name": "Aave",
+      "category": "Lending",
+      "tvl": 14200000000,
+      "tvl_change_30d": 12.5,
+      "revenue_annualized": 138000000,
+      "market_cap": 1600000000,
+      "fdv": 1600000000,
+      "pf_ratio": 11.6,
+      "category_rank": 1,
+      "market_share": "32% of lending TVL",
+      "unique_users_30d": 125000,
+      "governance": "Active, stable",
+      "upcoming_catalyst": "v4 launch (Q3 2026 expected)"
+    },
+    "MKR": {
+      "full_name": "MakerDAO / Sky",
+      "category": "Stablecoin/CDP",
+      "tvl": 8500000000,
+      "tvl_change_30d": 4.2,
+      "revenue_annualized": 98000000,
+      "market_cap": 1200000000,
+      "fdv": 1340000000,
+      "pf_ratio": 12.3,
+      "category_rank": 2,
+      "market_share": "19% of lending TVL",
+      "unique_users_30d": 45000,
+      "governance": "Complex, controversial (Endgame proposal)",
+      "upcoming_catalyst": "Endgame implementation ongoing"
+    }
+  },
+  "comparative_analysis": {
+    "scale": {
+      "winner": "AAVE",
+      "delta": "AAVE TVL is 67% larger, user base 2.8x larger",
+      "notes": "AAVE clear market leader in lending TVL"
+    },
+    "growth": {
+      "winner": "AAVE",
+      "delta": "AAVE growing 3x faster (12.5% vs 4.2% 30d)",
+      "notes": "Maker growth slowing post-Endgame transition"
+    },
+    "capital_efficiency": {
+      "winner": "MKR",
+      "delta": "MKR generates $0.0115 revenue per $1 TVL vs AAVE $0.0097",
+      "notes": "CDP model more capital efficient than pool-based lending"
+    },
+    "valuation": {
+      "winner": "MKR",
+      "delta": "MKR at 12.3x P/F vs AAVE 11.6x — essentially even",
+      "notes": "Both reasonably valued vs DeFi peers"
+    },
+    "tokenomics": {
+      "winner": "AAVE",
+      "delta": "AAVE fully circulating vs MKR ongoing Endgame changes",
+      "notes": "MKR tokenomics in flux with SKY rebrand"
+    },
+    "governance": {
+      "winner": "AAVE",
+      "delta": "AAVE stable governance vs Maker controversial Endgame",
+      "notes": "Maker governance risk higher due to complexity"
+    }
+  },
+  "relative_strengths": {
+    "AAVE": [
+      "Market leadership in lending TVL",
+      "Faster growth trajectory",
+      "Larger and more active user base",
+      "Stable governance and clear roadmap",
+      "v4 upgrade catalyst ahead"
+    ],
+    "MKR": [
+      "More capital efficient revenue model",
+      "Dominant stablecoin (DAI) with staying power",
+      "Higher revenue per TVL dollar",
+      "Institutional recognition",
+      "Endgame could be transformative if successful"
+    ]
+  },
+  "relative_weaknesses": {
+    "AAVE": [
+      "Lower revenue efficiency than CDP model",
+      "GHO stablecoin still small vs DAI",
+      "v4 delay would hurt sentiment"
+    ],
+    "MKR": [
+      "Governance complexity and controversy",
+      "Slower growth vs competitors",
+      "Tokenomics in flux (Endgame/SKY uncertainty)",
+      "Smaller user base"
+    ]
+  },
+  "research_notes": "Quality protocols, different trade-offs. AAVE: growth + stability leader. MKR: efficiency + stablecoin dominance. AAVE better for growth investors comfortable with lending model. MKR for those betting on DAI persistence and Endgame success. Both reasonably valued. AAVE lower governance risk. MKR higher complexity, higher potential reward if Endgame works. Neither has near-term unlock risks."
+}

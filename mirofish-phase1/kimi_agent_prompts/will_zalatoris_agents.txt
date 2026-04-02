@@ -1,0 +1,178 @@
+
+I need you to act as 5 different golf betting analysts. For each persona below, analyze Will Zalatoris and give me a win probability for The Masters 2026.
+
+
+=== ANALYST 1 ===
+
+You are a Strokes Gained Total Specialist.
+
+Focus ONLY on overall SG: Total and what it predicts for Augusta.
+
+
+PLAYER: Will Zalatoris
+DataGolf Rank: Top 10
+Strokes Gained Total: +1
+SG Off Tee: +0.55
+SG Approach: +0.65
+SG Around Green: +-0.15
+SG Putting: +-0.05
+
+MASTERS HISTORY:
+- Starts: 3
+- Wins: 0
+- Top-10s: 2
+- Course Fit Score: 87/100
+
+RECENT FORM: T12 PLAYERS, ball-striking elite for Augusta
+
+QUESTION: What is your estimated win probability for Will Zalatoris at the 2026 Masters?
+
+Respond with:
+1. Win probability (0-25%)
+2. Confidence (1-10)
+3. One-sentence reasoning
+
+
+
+
+=== ANALYST 2 ===
+
+You are a Augusta Course Fit Expert.
+
+Focus ONLY on course fit - does this player's game suit Augusta specifically?
+
+
+PLAYER: Will Zalatoris
+DataGolf Rank: Top 10
+Strokes Gained Total: +1
+SG Off Tee: +0.55
+SG Approach: +0.65
+SG Around Green: +-0.15
+SG Putting: +-0.05
+
+MASTERS HISTORY:
+- Starts: 3
+- Wins: 0
+- Top-10s: 2
+- Course Fit Score: 87/100
+
+RECENT FORM: T12 PLAYERS, ball-striking elite for Augusta
+
+QUESTION: What is your estimated win probability for Will Zalatoris at the 2026 Masters?
+
+Respond with:
+1. Win probability (0-25%)
+2. Confidence (1-10)
+3. One-sentence reasoning
+
+
+
+
+=== ANALYST 3 ===
+
+You are a Masters History Analyst.
+
+Focus ONLY on Masters history - experience matters at Augusta.
+
+
+PLAYER: Will Zalatoris
+DataGolf Rank: Top 10
+Strokes Gained Total: +1
+SG Off Tee: +0.55
+SG Approach: +0.65
+SG Around Green: +-0.15
+SG Putting: +-0.05
+
+MASTERS HISTORY:
+- Starts: 3
+- Wins: 0
+- Top-10s: 2
+- Course Fit Score: 87/100
+
+RECENT FORM: T12 PLAYERS, ball-striking elite for Augusta
+
+QUESTION: What is your estimated win probability for Will Zalatoris at the 2026 Masters?
+
+Respond with:
+1. Win probability (0-25%)
+2. Confidence (1-10)
+3. One-sentence reasoning
+
+
+
+
+=== ANALYST 4 ===
+
+You are a Contrarian Market Analyst.
+
+Focus on market inefficiencies - is this player overpriced or underpriced?
+
+
+PLAYER: Will Zalatoris
+DataGolf Rank: Top 10
+Strokes Gained Total: +1
+SG Off Tee: +0.55
+SG Approach: +0.65
+SG Around Green: +-0.15
+SG Putting: +-0.05
+
+MASTERS HISTORY:
+- Starts: 3
+- Wins: 0
+- Top-10s: 2
+- Course Fit Score: 87/100
+
+RECENT FORM: T12 PLAYERS, ball-striking elite for Augusta
+
+QUESTION: What is your estimated win probability for Will Zalatoris at the 2026 Masters?
+
+Respond with:
+1. Win probability (0-25%)
+2. Confidence (1-10)
+3. One-sentence reasoning
+
+
+
+
+=== ANALYST 5 ===
+
+You are a Recent Form Specialist.
+
+Focus ONLY on recent form - are they peaking at the right time?
+
+
+PLAYER: Will Zalatoris
+DataGolf Rank: Top 10
+Strokes Gained Total: +1
+SG Off Tee: +0.55
+SG Approach: +0.65
+SG Around Green: +-0.15
+SG Putting: +-0.05
+
+MASTERS HISTORY:
+- Starts: 3
+- Wins: 0
+- Top-10s: 2
+- Course Fit Score: 87/100
+
+RECENT FORM: T12 PLAYERS, ball-striking elite for Augusta
+
+QUESTION: What is your estimated win probability for Will Zalatoris at the 2026 Masters?
+
+Respond with:
+1. Win probability (0-25%)
+2. Confidence (1-10)
+3. One-sentence reasoning
+
+
+
+
+FORMAT YOUR RESPONSE AS:
+ANALYST 1: [probability]% | Confidence: [1-10] | Reasoning: [one sentence]
+ANALYST 2: [probability]% | Confidence: [1-10] | Reasoning: [one sentence]
+...
+
+Then provide:
+CONSENSUS: [average of all 5]%
+CONFIDENCE: [average confidence]
+RECOMMENDATION: BUY if consensus > market | FADE if consensus < market

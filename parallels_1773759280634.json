@@ -1,0 +1,159 @@
+{
+  "scenario": "Regime change operation with air campaign against fortified non-state actor using proxy forces",
+  "timestamp": "2026-03-17T14:54:40.633Z",
+  "parallels": [
+    {
+      "historicalCase": {
+        "id": "lebanon_2006",
+        "name": "Second Lebanon War",
+        "date": "2006",
+        "region": "Levant",
+        "scenarioType": [
+          "asymmetric_warfare",
+          "decapitation_failure",
+          "proxy_conflict",
+          "missile_warfare"
+        ],
+        "summary": "Israel attempted to destroy Hezbollah through air campaign and limited ground incursion. Hezbollah survived, Israel perceived as not achieving objectives.",
+        "keyActors": [
+          {
+            "name": "Israel",
+            "type": "regional_power",
+            "objectives": [
+              "Recover soldiers",
+              "Destroy Hezbollah",
+              "Restore deterrence"
+            ],
+            "constraints": [
+              "Casualty aversion",
+              "Time pressure",
+              "International criticism"
+            ],
+            "resources": [
+              "Air superiority",
+              "Precision munitions",
+              "Intelligence dominance"
+            ]
+          },
+          {
+            "name": "Hezbollah",
+            "type": "non_state",
+            "objectives": [
+              "Survive Israeli assault",
+              "Maintain rocket threat",
+              "Claim victory"
+            ],
+            "constraints": [
+              "No air defense",
+              "Limited territory",
+              "Isolation from Lebanese state"
+            ],
+            "resources": [
+              "Rocket arsenal (13,000+)",
+              "Bunker networks",
+              "Iranian resupply",
+              "Popular support in Shia areas"
+            ]
+          },
+          {
+            "name": "Iran",
+            "type": "regional_power",
+            "typealias": "patron",
+            "objectives": [
+              "Test Israeli limits",
+              "Demonstrate proxy utility",
+              "Deter Israeli strike on Iran"
+            ],
+            "constraints": [
+              "Direct involvement risks wider war"
+            ],
+            "resources": [
+              "Weapons supply",
+              "Training",
+              "Financial support"
+            ]
+          }
+        ],
+        "strategicDynamics": [
+          {
+            "factor": "Air power insufficient against dug-in irregulars",
+            "description": "Bunker networks and rocket dispersal limited damage",
+            "weight": "critical"
+          },
+          {
+            "factor": "Decapitation failed - Nasrallah survived",
+            "description": "Leadership survived, command and control intact",
+            "weight": "critical"
+          },
+          {
+            "factor": "Rocket attrition unsustainable for Israel",
+            "description": "4,000 rockets forced population displacement",
+            "weight": "high"
+          },
+          {
+            "factor": "Ground invasion too limited and late",
+            "description": "33 days of air war before serious ground operations",
+            "weight": "high"
+          }
+        ],
+        "outcome": {
+          "result": "limited_defeat",
+          "duration": "34 days",
+          "casualties": "1,200 Lebanese, 165 Israelis",
+          "economicImpact": "$2.5B Israeli damage, Lebanon infrastructure devastated",
+          "geopoliticalShift": "Hezbollah prestige enhanced; Israeli deterrence questioned; Iran encouraged"
+        },
+        "lessons": [
+          {
+            "insight": "Air campaigns cannot defeat dug-in irregular forces",
+            "applicability": [
+              "counterinsurgency",
+              "asymmetric_warfare",
+              "proxy_destruction"
+            ],
+            "caveats": [
+              "Requires willing ground force or total annihilation"
+            ]
+          },
+          {
+            "insight": "Missile arsenaries create unacceptable costs for limited wars",
+            "applicability": [
+              "deterrence",
+              "area_denial",
+              "escalation_control"
+            ],
+            "caveats": [
+              "Requires survivable launch capabilities"
+            ]
+          },
+          {
+            "insight": "Proxy forces can absorb punishment that states cannot",
+            "applicability": [
+              "proxy_warfare",
+              "irregular_warfare"
+            ],
+            "caveats": [
+              "Requires external resupply and popular tolerance"
+            ]
+          }
+        ]
+      },
+      "relevanceScore": 0.4,
+      "matchingFactors": [
+        "Scenario type overlap: 2 factors",
+        "Strategic dynamic: Air power insufficient against dug-in irregulars"
+      ],
+      "divergingFactors": [
+        "Different geopolitical context"
+      ],
+      "makaveliNote": "Weak but instructive parallel. Consider Air power insufficient against dug-in irregulars with caution."
+    }
+  ],
+  "formattedParallels": "📜 HISTORICAL PARALLELS\n======================================================================\n\n1. Second Lebanon War (2006) ★★\n   Relevance: 40% | Outcome: limited defeat\n   Israel attempted to destroy Hezbollah through air campaign and limited ground incursion. Hezbollah survived, Israel perc...\n\n   Matching Factors:\n      • Scenario type overlap: 2 factors\n      • Strategic dynamic: Air power insufficient against dug-in irregulars\n   Key Differences:\n      ⚠ Different geopolitical context\n\n   Applicable Lessons:\n      💡 Air campaigns cannot defeat dug-in irregular forces\n      💡 Missile arsenaries create unacceptable costs for limited wars\n\n   🎭 Makaveli Note: \"Weak but instructive parallel. Consider Air power insufficient against dug-in irregulars with caution.\"\n\n----------------------------------------------------------------------\n\n",
+  "applicableLessons": [
+    "Second Lebanon War: Air campaigns cannot defeat dug-in irregular forces",
+    "Second Lebanon War: Missile arsenaries create unacceptable costs for limited wars",
+    "Second Lebanon War: Proxy forces can absorb punishment that states cannot"
+  ],
+  "probabilityAdjustment": "Based on Second Lebanon War: Initiator may achieve tactical gains but fail strategic objectives"
+}

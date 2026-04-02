@@ -1,0 +1,17 @@
+{
+  "name": "@cipher/kb-engine",
+  "version": "1.0.0",
+  "description": "KB Causation Engine for CIPHER",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node tests/test-runner.js",
+    "dev": "ts-node tests/causation-engine.test.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}

@@ -33,3 +33,9 @@ build/
 
 # Session files (transient)
 sessions/
+
+# Embedded git repos (exclude to avoid conflicts)
+agentic-quant-wars/
+cyber-globe/deerflow-lib/
+paperclip/
+second-brain/

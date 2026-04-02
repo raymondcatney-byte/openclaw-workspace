@@ -1,0 +1,26 @@
+
+I need you to analyze 10 golfers for The Masters 2026.
+
+For EACH player below, act as 3 specialists:
+1. Strokes Gained Analyst (focus on stats)
+2. Augusta Course Fit Expert (focus on course history)
+3. Contrarian Market Analyst (focus on value vs price)
+
+PLAYERS:
+1. Scottie Scheffler - SG Total: +2.45, Masters Top-10s: 4, Course Fit: 95/100
+2. Rory McIlroy - SG Total: +1.95, Masters Top-10s: 9, Course Fit: 92/100
+3. Hideki Matsuyama - SG Total: +1.4, Masters Top-10s: 6, Course Fit: 86/100
+4. Jon Rahm - SG Total: +1.35, Masters Top-10s: 5, Course Fit: 90/100
+5. Xander Schauffele - SG Total: +2.05, Masters Top-10s: 4, Course Fit: 90/100
+6. Jordan Spieth - SG Total: +0.85, Masters Top-10s: 6, Course Fit: 88/100
+7. Brooks Koepka - SG Total: +0.95, Masters Top-10s: 4, Course Fit: 78/100
+8. Will Zalatoris - SG Total: +1, Masters Top-10s: 2, Course Fit: 87/100
+9. Ludvig Åberg - SG Total: +1.75, Masters Top-10s: 0, Course Fit: 88/100
+10. Cameron Young - SG Total: +1.2, Masters Top-10s: 1, Course Fit: 81/100
+
+For each player, provide:
+- Consensus win probability (0-25%)
+- Whether they're a BUY, FADE, or SKIP vs market
+- One key insight
+
+Then rank the top 5 value bets (highest edge vs market).

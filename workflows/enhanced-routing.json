@@ -1,0 +1,1 @@
+{"version": "2.0", "workflows": [{"name": "Enhanced Daily", "trigger": "07:00", "steps": [{"agent": "Alfred"}, {"agent": "PatternDetector"}, {"agent": "Synthesis"}]}]}

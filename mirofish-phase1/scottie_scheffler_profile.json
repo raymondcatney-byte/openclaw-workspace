@@ -1,0 +1,226 @@
+{
+  "player": {
+    "name": "Scottie Scheffler",
+    "dg_id": "18417",
+    "born": "June 21, 1996",
+    "age": 29,
+    "birthplace": "Ridgewood, New Jersey",
+    "residence": "Dallas, Texas",
+    "college": "University of Texas",
+    "turned_pro": 2018,
+    "height": "6'3\"",
+    "weight": 200,
+    "owgr_rank": 1,
+    "dg_rank": 1,
+    "dg_rating": 2.45,
+    "driving_distance": 302.4,
+    "world_ranking_points": 14.82
+  },
+  "strokes_gained": {
+    "total": {
+      "current": 2.45,
+      "last_10": 2.38,
+      "last_5": 2.52,
+      "trend": "improving"
+    },
+    "off_the_tee": {
+      "current": 0.85,
+      "rank": 12,
+      "distance": 302.4,
+      "accuracy": 62.3,
+      "total_driving_rank": 8
+    },
+    "approach": {
+      "current": 1.15,
+      "rank": 1,
+      "proximity_100_125": 16.2,
+      "proximity_125_150": 18.5,
+      "proximity_150_175": 21.3,
+      "proximity_175_200": 24.8,
+      "gir_percentage": 71.2
+    },
+    "around_green": {
+      "current": 0.25,
+      "rank": 35,
+      "scrambling": 62.1,
+      "sand_saves": 52.3
+    },
+    "putting": {
+      "current": 0.20,
+      "rank": 42,
+      "one_putt_percentage": 40.2,
+      "three_putt_avoidance": 2.1,
+      "putts_per_gir": 1.72,
+      "strokes_gained_putting_l10": 0.35
+    }
+  },
+  "masters_history": {
+    "appearances": [
+      {
+        "year": 2020,
+        "position": "T19",
+        "score": -4,
+        "notes": "First Masters appearance, solid showing"
+      },
+      {
+        "year": 2022,
+        "position": "1st",
+        "score": -10,
+        "notes": "First major win, wire-to-wire dominance"
+      },
+      {
+        "year": 2023,
+        "position": "T10",
+        "score": -4,
+        "notes": "Solid title defense despite distractions"
+      },
+      {
+        "year": 2024,
+        "position": "1st",
+        "score": -11,
+        "notes": "Second green jacket, playoff win over Cantlay"
+      },
+      {
+        "year": 2025,
+        "position": "T3",
+        "score": -8,
+        "notes": "Contended throughout, third Sunday in final group"
+      }
+    ],
+    "stats": {
+      "starts": 5,
+      "wins": 2,
+      "top_5s": 3,
+      "top_10s": 4,
+      "made_cuts": 5,
+      "cuts_missed": 0,
+      "best_finish": "1st (2022, 2024)",
+      "worst_finish": "T19 (2020)",
+      "avg_finish": 4.6,
+      "scoring_avg": 70.8,
+      "rounds_in_60s": 8,
+      "par_5_scoring": -12.5,
+      "par_3_scoring": -2.1,
+      "par_4_scoring": -1.8
+    },
+    "course_fit": {
+      "score": 95,
+      "driving": 92,
+      "irons": 98,
+      "short_game": 88,
+      "putting": 90,
+      "experience": 98,
+      "mental": 95
+    }
+  },
+  "recent_form": [
+    {
+      "tournament": "THE PLAYERS Championship 2026",
+      "date": "2026-03-15",
+      "finish": "T12",
+      "score": -8,
+      "sg_total": 1.85,
+      "notes": "Solid but unspectacular. Iron play still elite."
+    },
+    {
+      "tournament": "Arnold Palmer Invitational 2026",
+      "date": "2026-02-22",
+      "finish": "1st",
+      "score": -15,
+      "sg_total": 3.12,
+      "notes": "Dominant win at Bay Hill. All facets clicking."
+    },
+    {
+      "tournament": "Genesis Invitational 2026",
+      "date": "2026-02-15",
+      "finish": "T3",
+      "score": -12,
+      "sg_total": 2.45,
+      "notes": "Strong showing at Riviera. Lost in playoff."
+    },
+    {
+      "tournament": "WM Phoenix Open 2026",
+      "date": "2026-02-08",
+      "finish": "T6",
+      "score": -14,
+      "sg_total": 2.18,
+      "notes": "Good but not great. Putting cost him chance to win."
+    },
+    {
+      "tournament": "Farmers Insurance Open 2026",
+      "date": "2026-01-25",
+      "finish": "T2",
+      "score": -16,
+      "sg_total": 2.89,
+      "notes": "Runner-up at Torrey. Ball-striking exceptional."
+    },
+    {
+      "tournament": "Hero World Challenge 2025",
+      "date": "2025-12-07",
+      "finish": "1st",
+      "score": -19,
+      "sg_total": 3.45,
+      "notes": "Dominated limited field. Cleared mental cobwebs."
+    }
+  ],
+  "strengths": [
+    "Best iron player in the world",
+    "Clutch putter under pressure",
+    "Two-time Masters champion with course knowledge",
+    "Improved driving accuracy while maintaining distance",
+    "Mentally tough - handles Sunday pressure",
+    "Elite par-5 scorer (critical at Augusta)",
+    "World's best at scrambling when missing greens",
+    "Consistent - rarely has bad rounds",
+    "Excellent from 150-175 yards (Augusta money zone)",
+    "Thrives on demanding courses"
+  ],
+  "weaknesses": [
+    "Putting can run cold for stretches",
+    "Occasionally too aggressive off tee",
+    "Final round scoring not always lowest (protects leads)",
+    "Can be streaky with driver",
+    "Sometimes struggles with speed on downhill putts"
+  ],
+  "augusta_specifics": {
+    "hole_by_hole": {
+      "1": { "avg_score": -0.2, "strategy": "Conservative start, find fairway" },
+      "2": { "avg_score": -0.8, "strategy": "Aggressive par 5, go for eagle" },
+      "7": { "avg_score": -0.1, "strategy": "Must fade off tee" },
+      "8": { "avg_score": -0.4, "strategy": "Second shot critical" },
+      "10": { "avg_score": 0.0, "strategy": "Hardest hole on front" },
+      "11": { "avg_score": 0.1, "strategy": "Amen Corner start - cautious" },
+      "12": { "avg_score": 0.0, "strategy": "Sunday pin - center of green" },
+      "13": { "avg_score": -1.0, "strategy": "Must eagle once per tournament" },
+      "15": { "avg_score": -0.9, "strategy": "Go for green in two" },
+      "16": { "avg_score": -0.5, "strategy": "Birdie opportunity" }
+    },
+    "key_stats": {
+      "driving_distance_augusta": 308.2,
+      "gir_percentage_augusta": 74.5,
+      "putts_per_round_augusta": 28.8,
+      "par_5_scoring_augusta": -3.2,
+      "scrambling_augusta": 68.5
+    }
+  },
+  "comparables": {
+    "players": ["Tiger Woods (prime)", "Phil Mickelson (augusta)", "Dustin Johnson"],
+    "trajectory": "On pace to be dominant Masters performer for decade"
+  },
+  "market_context": {
+    "typical_odds": "5-1 to 8-1",
+    "polymarket_price": "~18% (implied)",
+    "true_win_probability": "14-16%",
+    "fair_value": "6-1 to 7-1",
+    "assessment": "Usually overpriced due to recency bias and public love"
+  },
+  "2026_outlook": {
+    "chance_win": 15.0,
+    "chance_top_5": 45.0,
+    "chance_top_10": 65.0,
+    "chance_make_cut": 95.0,
+    "confidence": "High",
+    "notes": "Clear favorite on paper but priced too short. Better value in top-5 markets."
+  },
+  "last_updated": "2026-03-17"
+}

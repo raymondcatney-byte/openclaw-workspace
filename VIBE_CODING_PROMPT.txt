@@ -1,0 +1,68 @@
+Hey, I need help implementing a "dark signals" intelligence feed for my Makaveli geopolitical analysis app. Here's the vibe:
+
+## What Makaveli Is
+Makaveli is a master geopolitical strategist AI persona I use for war room simulations. He analyzes scenarios like the Iran conflict and gives strategic assessments. He's really good at what he does - his predictions are spot on.
+
+## The Gap
+Right now Makaveli only gets web search data (news headlines, official statements). I want to feed him **ground truth data that doesn't show up in news** - the stuff happening beneath the headlines.
+
+## What I Need Built
+A data collector that gathers **free alternative intelligence sources** and feeds them into Makaveli's analysis pipeline:
+
+### 1. Telegram/WhatsApp Intelligence (MTProto API)
+- Monitor Persian-language Telegram channels
+- Extract sentiment (fearful, defiant, neutral)
+- Track viral messages and rumors
+- Identify trending topics (power outages, economic crisis, etc.)
+- Geographic clustering (which cities are talking about what)
+
+**Free source:** https://my.telegram.org/apps
+
+### 2. Infrastructure Monitoring (DNS + RIPE Atlas)
+- Test if Iranian government sites are actually up
+- Check DNS resolution times (slow = problems)
+- Use RIPE Atlas probes in Iran for connectivity data
+- Detect "partitioned" internet (regime sites up, civilian sites down)
+
+**Free sources:** Cloudflare DNS-over-HTTPS, RIPE Atlas API
+
+### 3. Maritime/AIS Tracking (Optional)
+- Track Iranian-flagged vessels in Persian Gulf
+- Detect shadow fleet activity
+- Monitor Hormuz traffic
+
+**Free source:** OpenAIS, MarineTraffic free tier
+
+### 4. Sanctions Data (Public)
+- OFAC SDN list (how many Iran-related entries)
+- FATF grey list status
+- UN sanctions consolidated list
+
+**Free sources:** treasury.gov, fatf-gafi.org
+
+## The Files
+I have starter code here:
+- `makaveli-free-dark-signals.ts` - Main implementation
+- `INTEGRATION_FREE.md` - Integration guide
+- `setup.sh` - Setup script
+
+## The Goal
+Build a system that:
+1. Runs every 30 minutes (cron or scheduler)
+2. Collects all this free data
+3. Saves to JSON files
+4. Provides a summary Makaveli can use
+
+## What I Need From You
+- Help me understand which parts to implement first
+- Walk through the Telegram API setup (that's the big one)
+- Show me how to integrate this into my existing Makaveli app
+- Debug any issues that come up
+
+## Context
+- My Makaveli app is TypeScript/Node.js
+- I use Groq API for the main analysis
+- I want this to be **completely free** (no paid APIs)
+- The output should feed into Makaveli's prompts as "ground truth intelligence"
+
+Let's build this together. What's the first thing we should tackle?

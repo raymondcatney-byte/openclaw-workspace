@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "tournament": "The Masters 2026",
+    "course": "Augusta National Golf Club",
+    "dates": "April 9-12, 2026",
+    "days_out": 23,
+    "data_collected": "2026-03-17",
+    "source": "MiroFish Golf Analysis System"
+  },
+  "course_info": {
+    "name": "Augusta National Golf Club",
+    "location": "Augusta, Georgia",
+    "par": 72,
+    "yardage": 7510,
+    "grass": {
+      "fairways": "Bermuda (overseeded rye)",
+      "greens": "Bermuda (overseeded rye)"
+    },
+    "key_holes": {
+      "amen_corner": [11, 12, 13],
+      "critical": [13, 15],
+      "closing": [17, 18]
+    },
+    "winning_score_history": {
+      "last_5_years_avg": -11.2,
+      "trend": "Scores getting lower due to distance"
+    }
+  },
+  "market_overview": {
+    "exchange": "Polymarket",
+    "total_liquidity": 2130064.68,
+    "total_volume": 45816706.25,
+    "total_traders": 18472
+  },
+  "players": [
+    {
+      "name": "Scottie Scheffler",
+      "dg_id": "18417",
+      "owgr_rank": 1,
+      "age": 29,
+      "strokes_gained": {
+        "total": 2.45,
+        "off_the_tee": 0.85,
+        "approach": 1.15,
+        "around_green": 0.25,
+        "putting": 0.20
+      },
+      "masters_history": {
+        "starts": 5,
+        "wins": 2,
+        "top_10s": 4,
+        "best_finish": "1st (2022, 2024)",
+        "avg_finish": 4.6
+      },
+      "course_fit": 95,
+      "model_probability": 14.5,
+      "market_probability": 18.5,
+      "edge": -4.0,
+      "recommendation": "FADE",
+      "recent_form": "Won Arnold Palmer, T3 Genesis, T2 Farmers"
+    },
+    {
+      "name": "Rory McIlroy",
+      "dg_id": "10091",
+      "owgr_rank": 2,
+      "age": 36,
+      "strokes_gained": {
+        "total": 1.95,
+        "off_the_tee": 0.65,
+        "approach": 0.80,
+        "around_green": 0.30,
+        "putting": 0.20
+      },
+      "masters_history": {
+        "starts": 16,
+        "wins": 1,
+        "top_10s": 9,
+        "best_finish": "1st (2025)",
+        "avg_finish": 12.8
+      },
+      "course_fit": 92,
+      "model_probability": 13.6,
+      "market_probability": 15.8,
+      "edge": -2.2,
+      "recommendation": "FADE",
+      "recent_form": "T25 PLAYERS, T8 Bay Hill, Career Grand Slam completed"
+    },
+    {
+      "name": "Hideki Matsuyama",
+      "dg_id": "13209",
+      "owgr_rank": 9,
+      "age": 33,
+      "strokes_gained": {
+        "total": 1.40,
+        "off_the_tee": 0.30,
+        "approach": 0.70,
+        "around_green": 0.25,
+        "putting": 0.15
+      },
+      "masters_history": {
+        "starts": 13,
+        "wins": 1,
+        "top_10s": 6,
+        "best_finish": "1st (2021)",
+        "avg_finish": 16.8
+      },
+      "course_fit": 86,
+      "model_probability": 12.5,
+      "market_probability": 5.1,
+      "edge": 7.4,
+      "recommendation": "STRONG BUY",
+      "recent_form": "T8 PLAYERS, T6 Bay Hill, flying under radar"
+    },
+    {
+      "name": "Jon Rahm",
+      "dg_id": "19195",
+      "owgr_rank": 7,
+      "age": 31,
+      "strokes_gained": {
+        "total": 1.35,
+        "off_the_tee": 0.55,
+        "approach": 0.50,
+        "around_green": 0.20,
+        "putting": 0.10
+      },
+      "masters_history": {
+        "starts": 8,
+        "wins": 1,
+        "top_10s": 5,
+        "best_finish": "1st (2023)",
+        "avg_finish": 10.2
+      },
+      "course_fit": 90,
+      "model_probability": 11.4,
+      "market_probability": 7.6,
+      "edge": 3.8,
+      "recommendation": "BUY",
+      "recent_form": "Won LIV Singapore, T8 Hong Kong, LIV stigma discount"
+    },
+    {
+      "name": "Xander Schauffele",
+      "dg_id": "19895",
+      "owgr_rank": 3,
+      "age": 31,
+      "strokes_gained": {
+        "total": 2.05,
+        "off_the_tee": 0.45,
+        "approach": 1.05,
+        "around_green": 0.35,
+        "putting": 0.20
+      },
+      "masters_history": {
+        "starts": 7,
+        "wins": 0,
+        "top_10s": 4,
+        "best_finish": "T2 (2019)",
+        "avg_finish": 8.5
+      },
+      "course_fit": 90,
+      "model_probability": 11.4,
+      "market_probability": 9.8,
+      "edge": 1.6,
+      "recommendation": "BUY",
+      "recent_form": "T3 PLAYERS, consistent at Augusta"
+    },
+    {
+      "name": "Jordan Spieth",
+      "dg_id": "14636",
+      "owgr_rank": 18,
+      "age": 32,
+      "strokes_gained": {
+        "total": 0.85,
+        "off_the_tee": -0.15,
+        "approach": 0.35,
+        "around_green": 0.45,
+        "putting": 0.20
+      },
+      "masters_history": {
+        "starts": 11,
+        "wins": 1,
+        "top_10s": 6,
+        "best_finish": "1st (2015)",
+        "avg_finish": 13.2
+      },
+      "course_fit": 88,
+      "model_probability": 8.6,
+      "market_probability": 2.8,
+      "edge": 5.8,
+      "recommendation": "STRONG BUY",
+      "recent_form": "MC PLAYERS, T25 Bay Hill, driver issues but knows Augusta"
+    },
+    {
+      "name": "Brooks Koepka",
+      "dg_id": "16243",
+      "owgr_rank": 25,
+      "age": 34,
+      "strokes_gained": {
+        "total": 0.95,
+        "off_the_tee": 0.45,
+        "approach": 0.30,
+        "around_green": 0.10,
+        "putting": 0.10
+      },
+      "masters_history": {
+        "starts": 10,
+        "wins": 0,
+        "top_10s": 4,
+        "best_finish": "T2 (2023)",
+        "avg_finish": 17.8
+      },
+      "course_fit": 78,
+      "model_probability": 7.1,
+      "market_probability": 3.9,
+      "edge": 3.2,
+      "recommendation": "BUY",
+      "recent_form": "Won LIV Singapore, T5 Hong Kong, major DNA"
+    },
+    {
+      "name": "Will Zalatoris",
+      "dg_id": "19553",
+      "owgr_rank": 22,
+      "age": 28,
+      "strokes_gained": {
+        "total": 1.00,
+        "off_the_tee": 0.55,
+        "approach": 0.65,
+        "around_green": -0.15,
+        "putting": -0.05
+      },
+      "masters_history": {
+        "starts": 3,
+        "wins": 0,
+        "top_10s": 2,
+        "best_finish": "2nd (2021)",
+        "avg_finish": 6.3
+      },
+      "course_fit": 87,
+      "model_probability": 6.8,
+      "market_probability": 2.5,
+      "edge": 4.3,
+      "recommendation": "STRONG BUY",
+      "recent_form": "T12 PLAYERS, ball-striking elite for Augusta"
+    },
+    {
+      "name": "Ludvig Åberg",
+      "dg_id": "23950",
+      "owgr_rank": 4,
+      "age": 25,
+      "strokes_gained": {
+        "total": 1.75,
+        "off_the_tee": 0.95,
+        "approach": 0.55,
+        "around_green": 0.10,
+        "putting": 0.15
+      },
+      "masters_history": {
+        "starts": 1,
+        "wins": 0,
+        "top_10s": 0,
+        "best_finish": "T25 (2024)",
+        "avg_finish": 25.0
+      },
+      "course_fit": 88,
+      "model_probability": 7.2,
+      "market_probability": 8.7,
+      "edge": -1.5,
+      "recommendation": "FADE",
+      "recent_form": "T6 PLAYERS, hot but overpriced"
+    },
+    {
+      "name": "Cameron Young",
+      "dg_id": "26651",
+      "owgr_rank": 14,
+      "age": 28,
+      "strokes_gained": {
+        "total": 1.20,
+        "off_the_tee": 0.95,
+        "approach": 0.40,
+        "around_green": -0.05,
+        "putting": -0.10
+      },
+      "masters_history": {
+        "starts": 2,
+        "wins": 0,
+        "top_10s": 1,
+        "best_finish": "T7 (2024)",
+        "avg_finish": 17.5
+      },
+      "course_fit": 81,
+      "model_probability": 5.1,
+      "market_probability": 5.5,
+      "edge": -0.4,
+      "recommendation": "FADE",
+      "recent_form": "Won PLAYERS, recency bias overpricing"
+    }
+  ],
+  "model_summary": {
+    "most_likely_winner": "Scottie Scheffler",
+    "model_probability": 14.5,
+    "best_value_bet": "Hideki Matsuyama",
+    "value_edge": 7.4,
+    "market_inefficiencies": [
+      "LIV players trading 20-30% below true value",
+      "Recency bias inflating recent winners",
+      "Narrative tax on McIlroy Grand Slam",
+      "Augusta experience undervalued"
+    ]
+  },
+  "betting_recommendations": {
+    "strong_buy": ["Hideki Matsuyama", "Jordan Spieth", "Will Zalatoris"],
+    "buy": ["Jon Rahm", "Xander Schauffele", "Brooks Koepka"],
+    "fade": ["Scottie Scheffler", "Rory McIlroy", "Ludvig Åberg", "Cameron Young"]
+  },
+  "portfolio": {
+    "strategy": "Value concentration on overlooked champions",
+    "allocation": [
+      {"player": "Hideki Matsuyama", "units": 25, "rationale": "Biggest edge + 2021 champ"},
+      {"player": "Jordan Spieth", "units": 20, "rationale": "Market overreacting to MC"},
+      {"player": "Will Zalatoris", "units": 20, "rationale": "Augusta specialist at 40-1"},
+      {"player": "Jon Rahm", "units": 20, "rationale": "2023 champ, LIV discount"},
+      {"player": "Brooks Koepka", "units": 15, "rationale": "Major DNA, drifting"}
+    ]
+  },
+  "last_updated": "2026-03-17T05:25:00Z"
+}

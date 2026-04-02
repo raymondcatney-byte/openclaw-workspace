@@ -1,0 +1,635 @@
+{
+  "tournament": "The Masters",
+  "year": 2026,
+  "date": "2026-04-09 to 2026-04-12",
+  "course": "Augusta National Golf Club",
+  "field_size": 93,
+  "last_updated": "2026-03-16T00:00:00Z",
+  "players": [
+    {
+      "name": "Scottie Scheffler",
+      "dg_id": "18417",
+      "owgr_rank": 1,
+      "dg_rank": 1,
+      "dg_rating": 2.45,
+      "strokes_gained": {
+        "total": 2.45,
+        "off_the_tee": 0.85,
+        "approach": 1.15,
+        "around_green": 0.25,
+        "putting": 0.20
+      },
+      "masters_history": {
+        "starts": 5,
+        "wins": 2,
+        "top_5s": 4,
+        "top_10s": 4,
+        "made_cuts": 5,
+        "best_finish": "1st (2024, 2022)",
+        "avg_finish": 5.2
+      },
+      "recent_form": [
+        {"tournament": "THE PLAYERS Championship", "finish": "T12", "score": -8},
+        {"tournament": "Arnold Palmer Invitational", "finish": "1st", "score": -15},
+        {"tournament": "Genesis Invitational", "finish": "T3", "score": -12}
+      ],
+      "course_fit_score": 95,
+      "notes": "Defending champion. Elite ball-striker, improved putting. Distance and accuracy ideal for Augusta."
+    },
+    {
+      "name": "Rory McIlroy",
+      "dg_id": "10091",
+      "owgr_rank": 2,
+      "dg_rank": 3,
+      "dg_rating": 1.95,
+      "strokes_gained": {
+        "total": 1.95,
+        "off_the_tee": 0.65,
+        "approach": 0.80,
+        "around_green": 0.30,
+        "putting": 0.20
+      },
+      "masters_history": {
+        "starts": 16,
+        "wins": 1,
+        "top_5s": 5,
+        "top_10s": 9,
+        "made_cuts": 14,
+        "best_finish": "1st (2025)",
+        "avg_finish": 12.8
+      },
+      "recent_form": [
+        {"tournament": "THE PLAYERS Championship", "finish": "T25", "score": -5},
+        {"tournament": "Arnold Palmer Invitational", "finish": "T8", "score": -10},
+        {"tournament": "Genesis Invitational", "finish": "T12", "score": -9}
+      ],
+      "course_fit_score": 92,
+      "notes": "Career Grand Slam completed last year. Knows how to win at Augusta. Questionable Sunday putting under pressure."
+    },
+    {
+      "name": "Xander Schauffele",
+      "dg_id": "19895",
+      "owgr_rank": 3,
+      "dg_rank": 2,
+      "dg_rating": 2.05,
+      "strokes_gained": {
+        "total": 2.05,
+        "off_the_tee": 0.45,
+        "approach": 1.05,
+        "around_green": 0.35,
+        "putting": 0.20
+      },
+      "masters_history": {
+        "starts": 7,
+        "wins": 0,
+        "top_5s": 2,
+        "top_10s": 4,
+        "made_cuts": 7,
+        "best_finish": "T2 (2019)",
+        "avg_finish": 8.5
+      },
+      "recent_form": [
+        {"tournament": "THE PLAYERS Championship", "finish": "T3", "score": -11},
+        {"tournament": "Arnold Palmer Invitational", "finish": "T15", "score": -8},
+        {"tournament": "Genesis Invitational", "finish": "T6", "score": -11}
+      ],
+      "course_fit_score": 90,
+      "notes": "Consistent at Augusta. Elite iron player. Hasn't converted chances but always in contention."
+    },
+    {
+      "name": "Ludvig Åberg",
+      "dg_id": "23950",
+      "owgr_rank": 4,
+      "dg_rank": 5,
+      "dg_rating": 1.75,
+      "strokes_gained": {
+        "total": 1.75,
+        "off_the_tee": 0.95,
+        "approach": 0.55,
+        "around_green": 0.10,
+        "putting": 0.15
+      },
+      "masters_history": {
+        "starts": 1,
+        "wins": 0,
+        "top_5s": 0,
+        "top_10s": 0,
+        "made_cuts": 1,
+        "best_finish": "T25 (2024)",
+        "avg_finish": 25.0
+      },
+      "recent_form": [
+        {"tournament": "THE PLAYERS Championship", "finish": "T6", "score": -10},
+        {"tournament": "Arnold Palmer Invitational", "finish": "T20", "score": -7},
+        {"tournament": "Genesis Invitational", "finish": "T8", "score": -10}
+      ],
+      "course_fit_score": 88,
+      "notes": "Young bomber. Distance advantage at Augusta. Limited major experience but rising fast."
+    },
+    {
+      "name": "Collin Morikawa",
+      "dg_id": "22085",
+      "owgr_rank": 5,
+      "dg_rank": 6,
+      "dg_rating": 1.65,
+      "strokes_gained": {
+        "total": 1.65,
+        "off_the_tee": 0.15,
+        "approach": 1.25,
+        "around_green": 0.10,
+        "putting": 0.15
+      },
+      "masters_history": {
+        "starts": 5,
+        "wins": 0,
+        "top_5s": 1,
+        "top_10s": 2,
+        "made_cuts": 5,
+        "best_finish": "T5 (2021)",
+        "avg_finish": 18.2
+      },
+      "recent_form": [
+        {"tournament": "THE PLAYERS Championship", "finish": "T18", "score": -6},
+        {"tournament": "Arnold Palmer Invitational", "finish": "T5", "score": -12},
+        {"tournament": "Genesis Invitational", "finish": "T15", "score": -8}
+      ],
+      "course_fit_score": 85,
+      "notes": "Elite iron player but struggles off tee at Augusta. Needs to drive it better to contend."
+    },
+    {
+      "name": "Viktor Hovland",
+      "dg_id": "18841",
+      "owgr_rank": 6,
+      "dg_rank": 8,
+      "dg_rating": 1.55,
+      "strokes_gained": {
+        "total": 1.55,
+        "off_the_tee": 0.75,
+        "approach": 0.70,
+        "around_green": -0.10,
+        "putting": 0.20
+      },
+      "masters_history": {
+        "starts": 4,
+        "wins": 0,
+        "top_5s": 0,
+        "top_10s": 1,
+        "made_cuts": 3,
+        "best_finish": "T7 (2023)",
+        "avg_finish": 21.5
+      },
+      "recent_form": [
+        {"tournament": "THE PLAYERS Championship", "finish": "T32", "score": -4},
+        {"tournament": "Arnold Palmer Invitational", "finish": "T10", "score": -9},
+        {"tournament": "Genesis Invitational", "finish": "T22", "score": -6}
+      ],
+      "course_fit_score": 82,
+      "notes": "Bomber with improving short game. Augusta demands scrambling - that's his weakness."
+    },
+    {
+      "name": "Jon Rahm",
+      "dg_id": "19195",
+      "owgr_rank": 7,
+      "dg_rank": 12,
+      "dg_rating": 1.35,
+      "strokes_gained": {
+        "total": 1.35,
+        "off_the_tee": 0.55,
+        "approach": 0.50,
+        "around_green": 0.20,
+        "putting": 0.10
+      },
+      "masters_history": {
+        "starts": 8,
+        "wins": 1,
+        "top_5s": 3,
+        "top_10s": 5,
+        "made_cuts": 7,
+        "best_finish": "1st (2023)",
+        "avg_finish": 10.2
+      },
+      "recent_form": [
+        {"tournament": "LIV Singapore", "finish": "T8", "score": -8},
+        {"tournament": "LIV Hong Kong", "finish": "T12", "score": -6},
+        {"tournament": "LIV Jeddah", "finish": "5th", "score": -10}
+      ],
+      "course_fit_score": 90,
+      "notes": "Former champion now on LIV. Less competitive reps but knows Augusta well. Short game elite."
+    },
+    {
+      "name": "Patrick Cantlay",
+      "dg_id": "16143",
+      "owgr_rank": 8,
+      "dg_rank": 9,
+      "dg_rating": 1.50,
+      "strokes_gained": {
+        "total": 1.50,
+        "off_the_tee": 0.25,
+        "approach": 0.80,
+        "around_green": 0.25,
+        "putting": 0.20
+      },
+      "masters_history": {
+        "starts": 6,
+        "wins": 0,
+        "top_5s": 1,
+        "top_10s": 3,
+        "made_cuts": 6,
+        "best_finish": "T3 (2023)",
+        "avg_finish": 14.3
+      },
+      "recent_form": [
+        {"tournament": "THE PLAYERS Championship", "finish": "T15", "score": -7},
+        {"tournament": "Arnold Palmer Invitational", "finish": "T12", "score": -9},
+        {"tournament": "Genesis Invitational", "finish": "T20", "score": -7}
+      ],
+      "course_fit_score": 83,
+      "notes": "Consistent but not spectacular. Game fits Augusta but lacks explosive distance."
+    },
+    {
+      "name": "Brooks Koepka",
+      "dg_id": "16243",
+      "owgr_rank": 25,
+      "dg_rank": 22,
+      "dg_rating": 0.95,
+      "strokes_gained": {
+        "total": 0.95,
+        "off_the_tee": 0.45,
+        "approach": 0.30,
+        "around_green": 0.10,
+        "putting": 0.10
+      },
+      "masters_history": {
+        "starts": 10,
+        "wins": 0,
+        "top_5s": 2,
+        "top_10s": 4,
+        "made_cuts": 8,
+        "best_finish": "T2 (2023)",
+        "avg_finish": 17.8
+      },
+      "recent_form": [
+        {"tournament": "LIV Singapore", "finish": "1st", "score": -14},
+        {"tournament": "LIV Hong Kong", "finish": "T5", "score": -9},
+        {"tournament": "LIV Jeddah", "finish": "T8", "score": -8}
+      ],
+      "course_fit_score": 78,
+      "notes": "Major championship DNA. Found form on LIV. Augusta doesn't suit his eye as well as other majors."
+    },
+    {
+      "name": "Bryson DeChambeau",
+      "dg_id": "19841",
+      "owgr_rank": 15,
+      "dg_rank": 18,
+      "dg_rating": 1.05,
+      "strokes_gained": {
+        "total": 1.05,
+        "off_the_tee": 1.15,
+        "approach": -0.05,
+        "around_green": -0.10,
+        "putting": 0.05
+      },
+      "masters_history": {
+        "starts": 6,
+        "wins": 0,
+        "top_5s": 1,
+        "top_10s": 2,
+        "made_cuts": 4,
+        "best_finish": "T4 (2024)",
+        "avg_finish": 22.5
+      },
+      "recent_form": [
+        {"tournament": "LIV Singapore", "finish": "T3", "score": -12},
+        {"tournament": "LIV Hong Kong", "finish": "1st", "score": -14},
+        {"tournament": "LIV Jeddah", "finish": "T6", "score": -9}
+      ],
+      "course_fit_score": 80,
+      "notes": "Distance advantage at Augusta. Improved short game. Can overpower course but needs to putt."
+    },
+    {
+      "name": "Jordan Spieth",
+      "dg_id": "14636",
+      "owgr_rank": 18,
+      "dg_rank": 24,
+      "dg_rating": 0.85,
+      "strokes_gained": {
+        "total": 0.85,
+        "off_the_tee": -0.15,
+        "approach": 0.35,
+        "around_green": 0.45,
+        "putting": 0.20
+      },
+      "masters_history": {
+        "starts": 11,
+        "wins": 1,
+        "top_5s": 4,
+        "top_10s": 6,
+        "made_cuts": 9,
+        "best_finish": "1st (2015)",
+        "avg_finish": 13.2
+      },
+      "recent_form": [
+        {"tournament": "THE PLAYERS Championship", "finish": "MC", "score": null},
+        {"tournament": "Arnold Palmer Invitational", "finish": "T25", "score": -5},
+        {"tournament": "Genesis Invitational", "finish": "T18", "score": -6}
+      ],
+      "course_fit_score": 88,
+      "notes": "2015 champion. Knows Augusta better than anyone. Struggling with driver but short game is elite."
+    },
+    {
+      "name": "Justin Thomas",
+      "dg_id": "14139",
+      "owgr_rank": 12,
+      "dg_rank": 15,
+      "dg_rating": 1.15,
+      "strokes_gained": {
+        "total": 1.15,
+        "off_the_tee": 0.35,
+        "approach": 0.55,
+        "around_green": 0.15,
+        "putting": 0.10
+      },
+      "masters_history": {
+        "starts": 8,
+        "wins": 0,
+        "top_5s": 1,
+        "top_10s": 3,
+        "made_cuts": 7,
+        "best_finish": "T4 (2020)",
+        "avg_finish": 19.5
+      },
+      "recent_form": [
+        {"tournament": "THE PLAYERS Championship", "finish": "T28", "score": -3},
+        {"tournament": "Arnold Palmer Invitational", "finish": "T22", "score": -6},
+        {"tournament": "Genesis Invitational", "finish": "T10", "score": -9}
+      ],
+      "course_fit_score": 84,
+      "notes": "Game built for Augusta. Father is club professional there. Mental game questions after recent struggles."
+    },
+    {
+      "name": "Hideki Matsuyama",
+      "dg_id": "13209",
+      "owgr_rank": 9,
+      "dg_rank": 11,
+      "dg_rating": 1.40,
+      "strokes_gained": {
+        "total": 1.40,
+        "off_the_tee": 0.30,
+        "approach": 0.70,
+        "around_green": 0.25,
+        "putting": 0.15
+      },
+      "masters_history": {
+        "starts": 13,
+        "wins": 1,
+        "top_5s": 2,
+        "top_10s": 6,
+        "made_cuts": 11,
+        "best_finish": "1st (2021)",
+        "avg_finish": 16.8
+      },
+      "recent_form": [
+        {"tournament": "THE PLAYERS Championship", "finish": "T8", "score": -9},
+        {"tournament": "Arnold Palmer Invitational", "finish": "T6", "score": -11},
+        {"tournament": "Genesis Invitational", "finish": "T12", "score": -8}
+      ],
+      "course_fit_score": 86,
+      "notes": "2021 champion. Game perfectly suited for Augusta. Consistent threat."
+    },
+    {
+      "name": "Will Zalatoris",
+      "dg_id": "19553",
+      "owgr_rank": 22,
+      "dg_rank": 19,
+      "dg_rating": 1.00,
+      "strokes_gained": {
+        "total": 1.00,
+        "off_the_tee": 0.55,
+        "approach": 0.65,
+        "around_green": -0.15,
+        "putting": -0.05
+      },
+      "masters_history": {
+        "starts": 3,
+        "wins": 0,
+        "top_5s": 2,
+        "top_10s": 2,
+        "made_cuts": 3,
+        "best_finish": "2nd (2021)",
+        "avg_finish": 6.3
+      },
+      "recent_form": [
+        {"tournament": "THE PLAYERS Championship", "finish": "T12", "score": -8},
+        {"tournament": "Arnold Palmer Invitational", "finish": "T18", "score": -7},
+        {"tournament": "Genesis Invitational", "finish": "T25", "score": -5}
+      ],
+      "course_fit_score": 87,
+      "notes": "Augusta specialist. Ball-striking perfect for course. Short game is weakness."
+    },
+    {
+      "name": "Cameron Young",
+      "dg_id": "26651",
+      "owgr_rank": 16,
+      "dg_rank": 14,
+      "dg_rating": 1.20,
+      "strokes_gained": {
+        "total": 1.20,
+        "off_the_tee": 0.95,
+        "approach": 0.40,
+        "around_green": -0.05,
+        "putting": -0.10
+      },
+      "masters_history": {
+        "starts": 2,
+        "wins": 0,
+        "top_5s": 0,
+        "top_10s": 1,
+        "made_cuts": 2,
+        "best_finish": "T7 (2024)",
+        "avg_finish": 17.5
+      },
+      "recent_form": [
+        {"tournament": "THE PLAYERS Championship", "finish": "1st", "score": -18},
+        {"tournament": "Arnold Palmer Invitational", "finish": "T5", "score": -12},
+        {"tournament": "Genesis Invitational", "finish": "T15", "score": -8}
+      ],
+      "course_fit_score": 81,
+      "notes": "Just won PLAYERS. Bomber with elite distance. Putting holds him back from winning majors."
+    },
+    {
+      "name": "Tommy Fleetwood",
+      "dg_id": "12294",
+      "owgr_rank": 10,
+      "dg_rank": 10,
+      "dg_rating": 1.45,
+      "strokes_gained": {
+        "total": 1.45,
+        "off_the_tee": 0.20,
+        "approach": 0.65,
+        "around_green": 0.35,
+        "putting": 0.25
+      },
+      "masters_history": {
+        "starts": 7,
+        "wins": 0,
+        "top_5s": 0,
+        "top_10s": 2,
+        "made_cuts": 6,
+        "best_finish": "T14 (2024)",
+        "avg_finish": 26.5
+      },
+      "recent_form": [
+        {"tournament": "THE PLAYERS Championship", "finish": "T20", "score": -6},
+        {"tournament": "Arnold Palmer Invitational", "finish": "T3", "score": -13},
+        {"tournament": "Genesis Invitational", "finish": "T8", "score": -10}
+      ],
+      "course_fit_score": 79,
+      "notes": "All-around game but hasn't figured out Augusta yet. Strong recent form."
+    },
+    {
+      "name": "Matt Fitzpatrick",
+      "dg_id": "17646",
+      "owgr_rank": 14,
+      "dg_rank": 13,
+      "dg_rating": 1.25,
+      "strokes_gained": {
+        "total": 1.25,
+        "off_the_tee": -0.10,
+        "approach": 0.95,
+        "around_green": 0.20,
+        "putting": 0.20
+      },
+      "masters_history": {
+        "starts": 6,
+        "wins": 0,
+        "top_5s": 0,
+        "top_10s": 1,
+        "made_cuts": 5,
+        "best_finish": "T14 (2023)",
+        "avg_finish": 29.2
+      },
+      "recent_form": [
+        {"tournament": "THE PLAYERS Championship", "finish": "T2", "score": -15},
+        {"tournament": "Arnold Palmer Invitational", "finish": "T10", "score": -9},
+        {"tournament": "Genesis Invitational", "finish": "T12", "score": -8}
+      ],
+      "course_fit_score": 75,
+      "notes": "Elite iron player but short hitter. Augusta requires distance he doesn't have."
+    },
+    {
+      "name": "Shane Lowry",
+      "dg_id": "13136",
+      "owgr_rank": 27,
+      "dg_rank": 26,
+      "dg_rating": 0.80,
+      "strokes_gained": {
+        "total": 0.80,
+        "off_the_tee": 0.10,
+        "approach": 0.30,
+        "around_green": 0.30,
+        "putting": 0.10
+      },
+      "masters_history": {
+        "starts": 9,
+        "wins": 0,
+        "top_5s": 0,
+        "top_10s": 2,
+        "made_cuts": 7,
+        "best_finish": "T3 (2022)",
+        "avg_finish": 20.1
+      },
+      "recent_form": [
+        {"tournament": "THE PLAYERS Championship", "finish": "T35", "score": -2},
+        {"tournament": "Arnold Palmer Invitational", "finish": "T28", "score": -4},
+        {"tournament": "Genesis Invitational", "finish": "T30", "score": -3}
+      ],
+      "course_fit_score": 82,
+      "notes": "2022 Open champion. Good at Augusta when on form. Creative around greens."
+    },
+    {
+      "name": "Russell Henley",
+      "dg_id": "14408",
+      "owgr_rank": 28,
+      "dg_rank": 28,
+      "dg_rating": 0.75,
+      "strokes_gained": {
+        "total": 0.75,
+        "off_the_tee": -0.20,
+        "approach": 0.70,
+        "around_green": 0.15,
+        "putting": 0.10
+      },
+      "masters_history": {
+        "starts": 5,
+        "wins": 0,
+        "top_5s": 0,
+        "top_10s": 1,
+        "made_cuts": 4,
+        "best_finish": "T4 (2023)",
+        "avg_finish": 24.8
+      },
+      "recent_form": [
+        {"tournament": "THE PLAYERS Championship", "finish": "T15", "score": -7},
+        {"tournament": "Arnold Palmer Invitational", "finish": "T12", "score": -9},
+        {"tournament": "Genesis Invitational", "finish": "T20", "score": -6}
+      ],
+      "course_fit_score": 77,
+      "notes": "Putted lights out in 2023 for T4. Accuracy over distance. Needs hot putting week."
+    },
+    {
+      "name": "Sahith Theegala",
+      "dg_id": "23821",
+      "owgr_rank": 19,
+      "dg_rank": 17,
+      "dg_rating": 1.10,
+      "strokes_gained": {
+        "total": 1.10,
+        "off_the_tee": 0.30,
+        "approach": 0.45,
+        "around_green": 0.20,
+        "putting": 0.15
+      },
+      "masters_history": {
+        "starts": 2,
+        "wins": 0,
+        "top_5s": 0,
+        "top_10s": 0,
+        "made_cuts": 2,
+        "best_finish": "T16 (2024)",
+        "avg_finish": 25.0
+      },
+      "recent_form": [
+        {"tournament": "THE PLAYERS Championship", "finish": "T10", "score": -9},
+        {"tournament": "Arnold Palmer Invitational", "finish": "T8", "score": -10},
+        {"tournament": "Genesis Invitational", "finish": "T5", "score": -12}
+      ],
+      "course_fit_score": 80,
+      "notes": "Rising star. First Masters experience last year. Game trending up."
+    }
+  ],
+  "course_info": {
+    "name": "Augusta National Golf Club",
+    "location": "Augusta, Georgia",
+    "par": 72,
+    "yardage": 7510,
+    "grass": {
+      "fairways": "Bermuda (overseeded rye)",
+      "greens": "Bermuda (overseeded rye)"
+    },
+    "key_holes": {
+      "amen_corner": [11, 12, 13],
+      "critical": [13, 15],
+      "closing": [17, 18]
+    },
+    "winning_score_history": {
+      "last_5_years_avg": -11.2,
+      "trend": "Scores getting lower due to distance"
+    }
+  },
+  "market_context": {
+    "polymarket_event": "The Masters - Winner",
+    "total_liquidity": 2130064.68,
+    "total_volume": 45816706.25,
+    "notes": "Individual binary markets for each player"
+  }
+}

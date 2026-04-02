@@ -1,0 +1,305 @@
+{
+  "scenario": "Iran conflict with Hormuz closure and decapitation strikes",
+  "timestamp": "2026-03-17T14:54:29.138Z",
+  "parallels": [
+    {
+      "historicalCase": {
+        "id": "tanker_war_1984_88",
+        "name": "Tanker War (Iran-Iraq)",
+        "date": "1984-1988",
+        "region": "Persian Gulf",
+        "scenarioType": [
+          "strait_closure",
+          "resource_denial",
+          "attrition_warfare",
+          "naval_blockade"
+        ],
+        "summary": "Iran and Iraq attacked shipping to deprive each other of oil revenue. U.S. escort operations eventually broke Iranian blockade strategy.",
+        "keyActors": [
+          {
+            "name": "Iran",
+            "type": "regional_power",
+            "objectives": [
+              "Punish Gulf Arab backers of Iraq",
+              "Maintain Hormuz leverage",
+              "Outlast Saddam"
+            ],
+            "constraints": [
+              "Outgunned conventionally",
+              "International isolation",
+              "War exhaustion"
+            ],
+            "resources": [
+              "Asymmetric naval capabilities",
+              "Mine warfare",
+              "Silkworm missiles",
+              "Revolutionary zeal"
+            ]
+          },
+          {
+            "name": "Iraq",
+            "type": "regional_power",
+            "objectives": [
+              "Secure oil exports",
+              "Force Iranian acceptance of ceasefire",
+              "Maintain Gulf support"
+            ],
+            "constraints": [
+              "Landlocked effectively",
+              "Dependence on Gulf ports"
+            ],
+            "resources": [
+              "Air superiority",
+              "Superpower backing",
+              "Chemical weapons"
+            ]
+          },
+          {
+            "name": "United States",
+            "type": "great_power",
+            "objectives": [
+              "Protect oil flows",
+              "Contain Iran",
+              "Prevent Soviet entry"
+            ],
+            "constraints": [
+              "Vietnam syndrome",
+              "Congressional wariness",
+              "Escalation risks"
+            ],
+            "resources": [
+              "Naval supremacy",
+              "Regional basing",
+              "Coalition building"
+            ]
+          }
+        ],
+        "strategicDynamics": [
+          {
+            "factor": "Hormuz closure unsustainable against great power",
+            "description": "Iran could harass but not close strait against U.S. naval power",
+            "weight": "critical"
+          },
+          {
+            "factor": "Attrition favored the economically stronger",
+            "description": "Iraq with Gulf backing outlasted isolated Iran",
+            "weight": "critical"
+          },
+          {
+            "factor": "Asymmetric warfare prolonged but did not win",
+            "description": "Iranian innovations delayed defeat but not prevented",
+            "weight": "high"
+          },
+          {
+            "factor": "International coalition broke blockade",
+            "description": "Reflagging operation made attacks politically costly",
+            "weight": "high"
+          }
+        ],
+        "outcome": {
+          "result": "stalemate",
+          "duration": "4 years (tanker phase)",
+          "casualties": "500+ sailors, 546 merchant ships damaged",
+          "economicImpact": "Insurance rates soared, oil prices volatile but supplies maintained",
+          "geopoliticalShift": "U.S. establishes permanent Gulf naval presence; Iran isolated"
+        },
+        "lessons": [
+          {
+            "insight": "Hormuz can be harassed but not closed against determined great power",
+            "applicability": [
+              "strait_closure_scenarios",
+              "naval_blockade"
+            ],
+            "caveats": [
+              "Requires sustained U.S. commitment",
+              "Coalition support essential"
+            ]
+          },
+          {
+            "insight": "Mine warfare effective for denial, not control",
+            "applicability": [
+              "asymmetric_naval",
+              "area_denial"
+            ],
+            "caveats": [
+              "Can be cleared eventually",
+              "International condemnation follows"
+            ]
+          },
+          {
+            "insight": "Attrition warfare favors the economically integrated",
+            "applicability": [
+              "protracted_conflict",
+              "sanctions_regimes"
+            ],
+            "caveats": [
+              "Requires time and domestic patience",
+              "Revolutionary regimes may endure more pain"
+            ]
+          }
+        ]
+      },
+      "relevanceScore": 0.45000000000000007,
+      "matchingFactors": [
+        "Scenario type overlap: 3 factors",
+        "Actor type: regional_power"
+      ],
+      "divergingFactors": [
+        "Different geopolitical context"
+      ],
+      "makaveliNote": "Weak but instructive parallel. Consider Hormuz closure unsustainable against great power with caution."
+    },
+    {
+      "historicalCase": {
+        "id": "suez_1956",
+        "name": "Suez Crisis",
+        "date": "1956",
+        "region": "Middle East",
+        "scenarioType": [
+          "decapitation_attempt",
+          "regional_war",
+          "resource_stranglehold",
+          "great_power_proxy"
+        ],
+        "summary": "Anglo-French-Israeli attempt to seize Suez Canal and topple Nasser. Successful military operation failed strategically due to superpower pressure and financial warfare.",
+        "keyActors": [
+          {
+            "name": "United Kingdom/France",
+            "type": "great_power",
+            "objectives": [
+              "Regain canal control",
+              "Remove Nasser",
+              "Restore colonial prestige"
+            ],
+            "constraints": [
+              "Post-war financial weakness",
+              "U.S. opposition",
+              "Domestic opposition"
+            ],
+            "resources": [
+              "Military superiority",
+              "Naval power",
+              "Diplomatic alliances"
+            ]
+          },
+          {
+            "name": "Egypt",
+            "type": "regional_power",
+            "objectives": [
+              "Maintain sovereignty",
+              "Control canal revenue",
+              "Lead Arab nationalism"
+            ],
+            "constraints": [
+              "Military inferiority",
+              "Economic isolation"
+            ],
+            "resources": [
+              "Soviet backing",
+              "Canal control as leverage",
+              "Nationalist mobilization"
+            ]
+          },
+          {
+            "name": "United States",
+            "type": "great_power",
+            "objectives": [
+              "Prevent Soviet entry",
+              "Maintain financial stability",
+              "Assert leadership"
+            ],
+            "constraints": [
+              "NATO alliance tensions",
+              "Cold War priorities"
+            ],
+            "resources": [
+              "Financial leverage (Sterling crisis)",
+              "Diplomatic pressure",
+              "Oil supply threats"
+            ]
+          }
+        ],
+        "strategicDynamics": [
+          {
+            "factor": "Decapitation failed to collapse regime",
+            "description": "Nasser survived, regime consolidated around anti-colonial resistance",
+            "weight": "critical"
+          },
+          {
+            "factor": "Financial warfare decisive",
+            "description": "U.S. threat to dump Sterling forced British withdrawal",
+            "weight": "critical"
+          },
+          {
+            "factor": "Military success ≠ strategic victory",
+            "description": "Canal seized but operation politically untenable",
+            "weight": "critical"
+          },
+          {
+            "factor": "Superpower red lines enforced",
+            "description": "Soviet nuclear threats + U.S. financial pressure ended conflict",
+            "weight": "high"
+          }
+        ],
+        "outcome": {
+          "result": "decisive_defeat",
+          "duration": "2 months",
+          "casualties": "3,000+",
+          "economicImpact": "British/French humiliation, end of imperial era",
+          "geopoliticalShift": "U.S. replaces UK/France as Middle East arbiter; Soviet influence expands"
+        },
+        "lessons": [
+          {
+            "insight": "Decapitation strikes without follow-through invite prolonged resistance",
+            "applicability": [
+              "leadership_decapitation",
+              "regime_change_attempts"
+            ],
+            "caveats": [
+              "Requires total military occupation to succeed",
+              "Nationalist backlash likely"
+            ]
+          },
+          {
+            "insight": "Financial leverage can defeat military superiority",
+            "applicability": [
+              "economic_warfare",
+              "sanctions_strategy"
+            ],
+            "caveats": [
+              "Requires control of reserve currency or key markets"
+            ]
+          },
+          {
+            "insight": "Secondary powers cannot challenge superpower consensus",
+            "applicability": [
+              "regional_hegemons",
+              "coalition_warfare"
+            ],
+            "caveats": [
+              "Superpowers must agree on red lines"
+            ]
+          }
+        ]
+      },
+      "relevanceScore": 0.35,
+      "matchingFactors": [
+        "Scenario type overlap: 1 factors",
+        "Actor type: regional_power",
+        "Regional context: Middle East"
+      ],
+      "divergingFactors": [],
+      "makaveliNote": "Weak but instructive parallel. Consider Decapitation failed to collapse regime with caution."
+    }
+  ],
+  "formattedParallels": "📜 HISTORICAL PARALLELS\n======================================================================\n\n1. Tanker War (Iran-Iraq) (1984-1988) ★★\n   Relevance: 45% | Outcome: stalemate\n   Iran and Iraq attacked shipping to deprive each other of oil revenue. U.S. escort operations eventually broke Iranian bl...\n\n   Matching Factors:\n      • Scenario type overlap: 3 factors\n      • Actor type: regional_power\n   Key Differences:\n      ⚠ Different geopolitical context\n\n   Applicable Lessons:\n      💡 Hormuz can be harassed but not closed against determined great power\n      💡 Mine warfare effective for denial, not control\n\n   🎭 Makaveli Note: \"Weak but instructive parallel. Consider Hormuz closure unsustainable against great power with caution.\"\n\n----------------------------------------------------------------------\n\n2. Suez Crisis (1956) ★★\n   Relevance: 35% | Outcome: decisive defeat\n   Anglo-French-Israeli attempt to seize Suez Canal and topple Nasser. Successful military operation failed strategically d...\n\n   Matching Factors:\n      • Scenario type overlap: 1 factors\n      • Actor type: regional_power\n      • Regional context: Middle East\n\n   Applicable Lessons:\n      💡 Decapitation strikes without follow-through invite prolonged resistance\n      💡 Financial leverage can defeat military superiority\n\n   🎭 Makaveli Note: \"Weak but instructive parallel. Consider Decapitation failed to collapse regime with caution.\"\n\n----------------------------------------------------------------------\n\n",
+  "applicableLessons": [
+    "Tanker War (Iran-Iraq): Hormuz can be harassed but not closed against determined great power",
+    "Tanker War (Iran-Iraq): Mine warfare effective for denial, not control",
+    "Tanker War (Iran-Iraq): Attrition warfare favors the economically integrated",
+    "Suez Crisis: Decapitation strikes without follow-through invite prolonged resistance",
+    "Suez Crisis: Financial leverage can defeat military superiority",
+    "Suez Crisis: Secondary powers cannot challenge superpower consensus"
+  ],
+  "probabilityAdjustment": "Based on Tanker War (Iran-Iraq): Protracted conflict likely; attrition favors defender"
+}

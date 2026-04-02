@@ -1,0 +1,29 @@
+{
+  "name": "mirofish-phase1",
+  "version": "1.0.0",
+  "description": "50-Agent Paper Trading System for Polymarket",
+  "type": "module",
+  "scripts": {
+    "scan": "tsx src/jobs/daily-scan.ts",
+    "scan:dry": "DRY_RUN=true tsx src/jobs/daily-scan.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "setup": "tsx scripts/setup-db.ts",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "groq-sdk": "^0.7.0",
+    "drizzle-orm": "^0.30.0",
+    "better-sqlite3": "^9.4.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.9",
+    "@types/node": "^20.11.0",
+    "drizzle-kit": "^0.21.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.2.0"
+  }
+}

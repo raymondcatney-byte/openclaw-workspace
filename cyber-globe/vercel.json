@@ -1,0 +1,13 @@
+// vercel.json - Vercel Cron Jobs configuration (free tier)
+{
+  "crons": [
+    {
+      "path": "/api/agent-cron",
+      "schedule": "*/5 * * * *"
+    },
+    {
+      "path": "/api/market-check",
+      "schedule": "0 * * * *"
+    }
+  ]
+}

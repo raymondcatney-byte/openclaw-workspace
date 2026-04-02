@@ -1,0 +1,124 @@
+# .github/workflows/agent-tasks.yml
+# GitHub Actions workflow - runs scheduled agent tasks (free 2,000 minutes/month)
+# This offloads heavy processing from your browser/Vercel
+
+name: Agent Tasks
+
+on:
+  schedule:
+    # Run every hour
+    - cron: '0 * * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  market-intelligence:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Run market analysis
+        run: |
+          node -e "
+          const https = require('https');
+          
+          async function fetchData() {
+            console.log('🔍 Running market intelligence scan...');
+            console.log('Timestamp:', new Date().toISOString());
+            
+            // Fetch Polymarket data
+            try {
+              const polyData = await new Promise((resolve, reject) => {
+                https.get('https://gamma-api.polymarket.com/events?limit=20&active=true', (res) => {
+                  let data = '';
+                  res.on('data', chunk => data += chunk);
+                  res.on('end', () => resolve(JSON.parse(data)));
+                }).on('error', reject);
+              });
+              
+              const highConfidence = polyData
+                .flatMap(e => e.markets || [])
+                .filter(m => Math.max(m.outcomePrices?.yes || 0, m.outcomePrices?.no || 0) > 0.75)
+                .slice(0, 5);
+              
+              console.log('📊 High-confidence predictions:', highConfidence.length);
+              highConfidence.forEach(m => console.log('  -', m.question.substring(0, 80)));
+            } catch (e) {
+              console.error('Polymarket fetch failed:', e.message);
+            }
+            
+            // Fetch DeFi yields
+            try {
+              const yieldData = await new Promise((resolve, reject) => {
+                https.get('https://yields.llama.fi/pools', (res) => {
+                  let data = '';
+                  res.on('data', chunk => data += chunk);
+                  res.on('end', () => resolve(JSON.parse(data)));
+                }).on('error', reject);
+              });
+              
+              const topYields = yieldData.data
+                .filter(p => p.tvlUsd > 10000000 && p.apy < 30)
+                .sort((a, b) => b.apy - a.apy)
+                .slice(0, 5);
+              
+              console.log('💰 Top yield opportunities:');
+              topYields.forEach(p => console.log(\`  - \${p.project} \${p.symbol}: \${p.apy.toFixed(2)}% APY\`));
+            } catch (e) {
+              console.error('Yield fetch failed:', e.message);
+            }
+            
+            // Fetch global market data
+            try {
+              const marketData = await new Promise((resolve, reject) => {
+                https.get('https://api.coingecko.com/api/v3/global', (res) => {
+                  let data = '';
+                  res.on('data', chunk => data += chunk);
+                  res.on('end', () => resolve(JSON.parse(data)));
+                }).on('error', reject);
+              });
+              
+              const change = marketData.data.market_cap_change_percentage_24h_usd;
+              console.log(\`🌍 Global market change: \${change > 0 ? '+' : ''}\${change.toFixed(2)}%\`);
+            } catch (e) {
+              console.error('Market data fetch failed:', e.message);
+            }
+            
+            console.log('✅ Scan complete');
+          }
+          
+          fetchData().catch(console.error);
+          "
+      
+      - name: Save scan results
+        run: |
+          mkdir -p agent-logs
+          echo "Scan completed at $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> agent-logs/scans.txt
+      
+      - name: Upload logs
+        uses: actions/upload-artifact@v4
+        with:
+          name: agent-scan-$(date +%Y%m%d-%H%M%S)
+          path: agent-logs/
+          retention-days: 7
+
+  # Deep research task - runs once per day
+  deep-research:
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 0 * * *' # Only on daily schedule
+    
+    steps:
+      - name: Run deep analysis
+        run: |
+          echo "🔬 Running deep research analysis..."
+          echo "This could include:"
+          echo "- Correlation analysis across all data sources"
+          echo "- Long-term trend identification"
+          echo "- Portfolio rebalancing suggestions"
+          echo "Done at $(date)"

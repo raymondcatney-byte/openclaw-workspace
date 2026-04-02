@@ -1,0 +1,13 @@
+# DeerFlow Bridge Dependencies
+
+# Core
+websockets>=12.0
+asyncio-mqtt>=0.16.0
+
+# DeerFlow (optional - only if using real DeerFlow)
+# Install from: https://github.com/bytedance/deer-flow
+# cd deerflow-lib && pip install -e .
+
+# Development
+pytest>=7.0.0
+black>=23.0.0

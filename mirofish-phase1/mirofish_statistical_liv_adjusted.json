@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Jordan Spieth",
+    "isLIV": false,
+    "baseProbability": 4.4,
+    "adjustedProbability": 4.4,
+    "marketProbability": 2.8,
+    "edge": 1.6,
+    "livBoost": 0
+  },
+  {
+    "name": "Jon Rahm",
+    "isLIV": true,
+    "baseProbability": 6.2,
+    "adjustedProbability": 8.9,
+    "marketProbability": 7.6,
+    "edge": 1.3,
+    "livBoost": 2.7
+  },
+  {
+    "name": "Hideki Matsuyama",
+    "isLIV": false,
+    "baseProbability": 6.2,
+    "adjustedProbability": 6.2,
+    "marketProbability": 5.1,
+    "edge": 1.1,
+    "livBoost": 0
+  },
+  {
+    "name": "Brooks Koepka",
+    "isLIV": true,
+    "baseProbability": 3.2,
+    "adjustedProbability": 4.7,
+    "marketProbability": 3.9,
+    "edge": 0.8,
+    "livBoost": 1.4
+  },
+  {
+    "name": "Will Zalatoris",
+    "isLIV": false,
+    "baseProbability": 2.9,
+    "adjustedProbability": 2.9,
+    "marketProbability": 2.5,
+    "edge": 0.4,
+    "livBoost": 0
+  },
+  {
+    "name": "Cameron Young",
+    "isLIV": false,
+    "baseProbability": 3.4,
+    "adjustedProbability": 3.4,
+    "marketProbability": 5.5,
+    "edge": -2.1,
+    "livBoost": 0
+  },
+  {
+    "name": "Xander Schauffele",
+    "isLIV": false,
+    "baseProbability": 6.8,
+    "adjustedProbability": 6.8,
+    "marketProbability": 9.8,
+    "edge": -3,
+    "livBoost": 0
+  },
+  {
+    "name": "Ludvig Åberg",
+    "isLIV": false,
+    "baseProbability": 5,
+    "adjustedProbability": 5,
+    "marketProbability": 8.7,
+    "edge": -3.7,
+    "livBoost": 0
+  },
+  {
+    "name": "Rory McIlroy",
+    "isLIV": false,
+    "baseProbability": 7.7,
+    "adjustedProbability": 7.7,
+    "marketProbability": 15.8,
+    "edge": -8.1,
+    "livBoost": 0
+  },
+  {
+    "name": "Scottie Scheffler",
+    "isLIV": false,
+    "baseProbability": 9.1,
+    "adjustedProbability": 9.1,
+    "marketProbability": 18.5,
+    "edge": -9.4,
+    "livBoost": 0
+  }
+]

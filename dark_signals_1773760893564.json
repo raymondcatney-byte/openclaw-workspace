@@ -1,0 +1,981 @@
+{
+  "timestamp": "2026-03-17T15:21:33.564Z",
+  "region": "Iran",
+  "scenario": "Iran Conflict - March 2026",
+  "telegramIntel": {
+    "lastUpdate": "2026-03-17T15:21:33.544Z",
+    "channelsMonitored": 47,
+    "messageVolume": {
+      "hourlyAverage": 1240,
+      "currentHour": 1890,
+      "trend": "spiking",
+      "peakTopics": [
+        "power_outages",
+        "mojtaba_health",
+        "kharg_explosion",
+        "refugee_routes"
+      ]
+    },
+    "sentimentShifts": [
+      {
+        "topic": "blame_attribution",
+        "previousSentiment": "defiant",
+        "currentSentiment": "fearful",
+        "shiftMagnitude": 7,
+        "sampleMessages": [
+          "三个晚上没电了，没人告诉我们什么时候恢复",
+          "他们说要打美国，但我的诊所没有胰岛素了",
+          "我祖父说79年也没这么糟糕"
+        ],
+        "geographicOrigin": [
+          "Tabriz",
+          "Isfahan",
+          "Shiraz"
+        ],
+        "firstDetected": "2026-03-14T18:00:00Z"
+      },
+      {
+        "topic": "mojtaba_legitimacy",
+        "previousSentiment": "neutral",
+        "currentSentiment": "negative",
+        "shiftMagnitude": 6,
+        "sampleMessages": [
+          "新领袖没露脸已经6天了",
+          "国家电视台在读稿子，为什么他不亲自说？",
+          " wounded but operational — 谁信？"
+        ],
+        "geographicOrigin": [
+          "Tehran",
+          "Mashhad",
+          "Qom"
+        ],
+        "firstDetected": "2026-03-12T08:00:00Z"
+      },
+      {
+        "topic": "war_support",
+        "previousSentiment": "defiant",
+        "currentSentiment": "defiant",
+        "shiftMagnitude": 3,
+        "sampleMessages": [
+          "关闭霍尔木兹是对的，让他们尝尝我们的厉害",
+          "我父亲在革命卫队，他说我们有秘密武器",
+          "美国会后悔的，就像他们在伊拉克一样"
+        ],
+        "geographicOrigin": [
+          "Ahvaz",
+          "Kermanshah",
+          "Bushehr"
+        ],
+        "firstDetected": "2026-03-15T14:00:00Z"
+      }
+    ],
+    "narrativeThemes": [
+      {
+        "theme": "martyr_veneration",
+        "frequency": "dominant",
+        "keywords": [
+          "shahid",
+          "blood",
+          "resistance",
+          "imam"
+        ],
+        "regimeOrigin": true,
+        "counterNarrativePresent": true
+      },
+      {
+        "theme": "civilian_suffering",
+        "frequency": "rising",
+        "keywords": [
+          "no_electricity",
+          "medicine_shortage",
+          "water",
+          "refugee"
+        ],
+        "regimeOrigin": false,
+        "counterNarrativePresent": false
+      },
+      {
+        "theme": "mojtaba_invisible",
+        "frequency": "rising",
+        "keywords": [
+          "hidden",
+          "wounded",
+          "death_rumors",
+          "television"
+        ],
+        "regimeOrigin": false,
+        "counterNarrativePresent": true
+      },
+      {
+        "theme": "american_defeat_imminent",
+        "frequency": "stable",
+        "keywords": [
+          "victory",
+          "empire_collapsing",
+          "vietnam",
+          "afghanistan"
+        ],
+        "regimeOrigin": true,
+        "counterNarrativePresent": false
+      }
+    ],
+    "geographicClusters": [
+      {
+        "city": "Tehran",
+        "activityLevel": "high",
+        "primaryConcerns": [
+          "power_outages",
+          "air_raid_sirens",
+          "economic_panic"
+        ],
+        "lastConfirmedActivity": "2026-03-15T22:00:00Z"
+      },
+      {
+        "city": "Tabriz",
+        "activityLevel": "high",
+        "primaryConcerns": [
+          "refugee_influx",
+          "food_prices",
+          "crossing_to_turkey"
+        ],
+        "lastConfirmedActivity": "2026-03-15T21:30:00Z"
+      },
+      {
+        "city": "Isfahan",
+        "activityLevel": "medium",
+        "primaryConcerns": [
+          "industrial_shutdown",
+          "unemployment"
+        ],
+        "lastConfirmedActivity": "2026-03-15T20:00:00Z"
+      },
+      {
+        "city": "Bandar Abbas",
+        "activityLevel": "low",
+        "primaryConcerns": [
+          "military_movement",
+          "port_closure"
+        ],
+        "lastConfirmedActivity": "2026-03-14T16:00:00Z"
+      },
+      {
+        "city": "Qom",
+        "activityLevel": "medium",
+        "primaryConcerns": [
+          "religious_authority",
+          "cleric_statements"
+        ],
+        "lastConfirmedActivity": "2026-03-15T19:00:00Z"
+      }
+    ],
+    "unverifiedClaims": [
+      {
+        "claim": "Mojtaba Khamenei died in Turkish hospital, body not yet returned",
+        "spreadVelocity": "viral",
+        "credibilityIndicators": [
+          "no_photo_6_days",
+          "read_statement_not_video",
+          "turkish_sources_claim"
+        ],
+        "regimeResponse": "Foreign Minister Araghchi denial"
+      },
+      {
+        "claim": "IRGC commander Sarallah killed in second decapitation strike",
+        "spreadVelocity": "fast",
+        "credibilityIndicators": [
+          "no_public_appearance",
+          "telegram_channel_silence"
+        ],
+        "regimeResponse": "None"
+      },
+      {
+        "claim": "Chinese warships shadowing U.S. carrier in Gulf of Oman",
+        "spreadVelocity": "moderate",
+        "credibilityIndicators": [
+          " AIS_gaps",
+          "satellite_imagery_pending"
+        ],
+        "regimeResponse": "None"
+      }
+    ]
+  },
+  "infrastructureIntel": {
+    "lastScan": "2026-03-17T15:21:33.544Z",
+    "dnsStatus": {
+      "topLevelDomains": [
+        {
+          "domain": "irandataportal.sbiran.ir",
+          "type": "government",
+          "status": "up",
+          "lastChecked": "2026-03-15T22:00:00Z",
+          "responseTime": 450,
+          "sslCertificateValid": true
+        },
+        {
+          "domain": "bankmelli.ir",
+          "type": "banking",
+          "status": "intermittent",
+          "lastChecked": "2026-03-15T22:00:00Z",
+          "responseTime": 2800,
+          "sslCertificateValid": true
+        },
+        {
+          "domain": "sepahnews.ir",
+          "type": "military",
+          "status": "up",
+          "lastChecked": "2026-03-15T22:00:00Z",
+          "responseTime": 320,
+          "sslCertificateValid": true
+        },
+        {
+          "domain": "farsnews.ir",
+          "type": "news",
+          "status": "up",
+          "lastChecked": "2026-03-15T22:00:00Z",
+          "responseTime": 180,
+          "sslCertificateValid": true
+        },
+        {
+          "domain": "digikala.com",
+          "type": "commerce",
+          "status": "down",
+          "lastChecked": "2026-03-15T22:00:00Z",
+          "sslCertificateValid": false
+        }
+      ],
+      "nameServerHealth": "partitioned",
+      "resolutionLatency": 850,
+      "blockDetection": [
+        {
+          "method": "complete_blackout",
+          "scope": "national",
+          "targets": [
+            "instagram",
+            "whatsapp",
+            "twitter",
+            "telegram_web"
+          ],
+          "circumventionActive": true
+        },
+        {
+          "method": "throttling",
+          "scope": "targeted",
+          "targets": [
+            "international_news",
+            "vpn_services"
+          ],
+          "circumventionActive": true
+        }
+      ]
+    },
+    "networkLayers": [
+      {
+        "layer": "physical",
+        "status": "degraded",
+        "details": "Power outages affecting 40% of cell towers in Tehran, Tabriz",
+        "impact": "Reduced coverage, fallback to 2G in some areas"
+      },
+      {
+        "layer": "isp",
+        "status": "partitioned",
+        "details": "International gateway capacity at 15% of normal. IRGC-controlled networks prioritized.",
+        "impact": "Civilian internet severely constrained, military/gov C2 functional"
+      },
+      {
+        "layer": "backbone",
+        "status": "operational",
+        "details": "Domestic fiber intact. International links through Turkey, Azerbaijan partially functional.",
+        "impact": "Internal regime communication unaffected"
+      },
+      {
+        "layer": "application",
+        "status": "degraded",
+        "details": "Banking apps intermittent, government portals slow but accessible",
+        "impact": "Economic activity disrupted, state functions maintained"
+      }
+    ],
+    "governmentServices": [
+      {
+        "service": "Bank Melli (Central Bank)",
+        "url": "bankmelli.ir",
+        "status": "limited",
+        "functionality": [
+          "balance_check",
+          "domestic_transfer"
+        ],
+        "lastTransaction": "2026-03-15T14:30:00Z",
+        "errorPatterns": [
+          "timeout_on_intl_wire",
+          "forex_unavailable",
+          "debit_card_decline_spike"
+        ]
+      },
+      {
+        "service": "Tax Administration",
+        "url": "intamedia.ir",
+        "status": "up",
+        "functionality": [
+          "filing",
+          "payment",
+          "audit_notices"
+        ],
+        "errorPatterns": []
+      },
+      {
+        "service": "IRGC Recruitment Portal",
+        "url": "sepahnews.ir",
+        "status": "up",
+        "functionality": [
+          "propaganda",
+          "enrollment",
+          "messaging"
+        ],
+        "errorPatterns": []
+      },
+      {
+        "service": "Health Ministry COVID Portal",
+        "url": "behdasht.gov.ir",
+        "status": "down",
+        "functionality": [],
+        "errorPatterns": [
+          "complete_outage"
+        ]
+      }
+    ],
+    "anomalies": [
+      {
+        "description": "IRGC-controlled autonomous system (AS50812) showing 3x normal traffic while civilian ISPs throttled",
+        "detected": "2026-03-12T00:00:00Z",
+        "severity": "critical",
+        "interpretation": "Regime maintaining command/control while suppressing civilian communication. Military C2 infrastructure prioritized and functional."
+      },
+      {
+        "description": "Banking APIs rejecting international transactions but domestic transfers functional",
+        "detected": "2026-03-14T08:00:00Z",
+        "severity": "high",
+        "interpretation": "Capital controls active. Regime preventing flight while maintaining internal economic circulation."
+      },
+      {
+        "description": "DNS queries to government domains resolving faster than civilian sites (prioritization)",
+        "detected": "2026-03-13T12:00:00Z",
+        "severity": "medium",
+        "interpretation": "QoS prioritization confirms regime infrastructure is protected and operational despite civilian blackout"
+      },
+      {
+        "description": "Encrypted DNS (DoH/DoT) queries to foreign resolvers spiking 400% — circumvention active",
+        "detected": "2026-03-14T00:00:00Z",
+        "severity": "medium",
+        "interpretation": "Technically capable population finding ways around censorship. Signal of dissent or information hunger, not regime weakness."
+      }
+    ]
+  },
+  "satellitePhoneIntel": {
+    "lastUpdate": "2026-03-17T15:21:33.544Z",
+    "networksMonitored": [
+      "Iridium",
+      "Inmarsat",
+      "Thuraya"
+    ],
+    "iridiumData": {
+      "totalActiveTerminals": 2847,
+      "baselineActive": 1240,
+      "iranianRegistered": 456,
+      "callVolume": {
+        "dailyAverage": 4200,
+        "currentDay": 8900,
+        "trend": "spiking",
+        "averageCallDuration": 4.2,
+        "offPeakActivity": 340
+      },
+      "geographicClusters": [
+        {
+          "location": "Tehran/Alborz",
+          "terminalCount": 234,
+          "activityLevel": "intense",
+          "callPatterns": "Burst traffic 02:00-04:00, short duration (<2min)",
+          "associatedVessels": []
+        },
+        {
+          "location": "Bandar Abbas/Bushehr",
+          "terminalCount": 89,
+          "activityLevel": "elevated",
+          "callPatterns": "Maritime coordination with IRGC fast boats",
+          "associatedVessels": [
+            "IRGC naval auxiliaries",
+            "Revolutionary Guard command craft"
+          ]
+        },
+        {
+          "location": "Qom",
+          "terminalCount": 67,
+          "activityLevel": "elevated",
+          "callPatterns": "Long-duration calls to Beirut, Damascus, Najaf",
+          "associatedVessels": []
+        },
+        {
+          "location": "Tabriz",
+          "terminalCount": 45,
+          "activityLevel": "dormant",
+          "callPatterns": "Minimal activity since March 12",
+          "associatedVessels": []
+        }
+      ],
+      "highValueTargets": [
+        {
+          "terminalId": "IRDM-XXXX-78432",
+          "profile": "government",
+          "callFrequency": 28,
+          "primaryDestinations": [
+            "CN",
+            "RU",
+            "SY"
+          ],
+          "lastLocation": "Tehran - Northern District",
+          "notes": "Call pattern suggests senior official. 28 calls/day to Beijing, Moscow, Damascus embassies. Active 06:00-23:00 Tehran time."
+        },
+        {
+          "terminalId": "IRDM-XXXX-99105",
+          "profile": "oil_sector",
+          "callFrequency": 12,
+          "primaryDestinations": [
+            "CN",
+            "AE",
+            "TR"
+          ],
+          "lastLocation": "Kharg Island vicinity",
+          "notes": "Likely NIOC official coordinating oil exports via shadow fleet. Calls to Fujairah, Istanbul trading houses."
+        },
+        {
+          "terminalId": "IRDM-XXXX-44521",
+          "profile": "military",
+          "callFrequency": 45,
+          "primaryDestinations": [
+            "LB",
+            "YE",
+            "IQ"
+          ],
+          "lastLocation": "Ahvaz - IRGC base complex",
+          "notes": "Extremely high frequency. Likely IRGC-Quds Force coordinator with Hezbollah, Houthis, Iraqi militias."
+        }
+      ]
+    },
+    "inmarsatData": {
+      "maritimeTerminalsActive": 156,
+      "portActivity": [
+        {
+          "port": "Bandar Abbas",
+          "terminalsActive": 43,
+          "unusualPatterns": [
+            "Coordinated check-ins every 4 hours",
+            "Encrypted data bursts"
+          ],
+          "lastContact": "2026-03-15T21:00:00Z"
+        },
+        {
+          "port": "Bushehr",
+          "terminalsActive": 28,
+          "unusualPatterns": [
+            "Radar silence + satphone active (emission control)"
+          ],
+          "lastContact": "2026-03-15T20:30:00Z"
+        },
+        {
+          "port": "Chabahar",
+          "terminalsActive": 12,
+          "unusualPatterns": [
+            "Minimal activity - port effectively closed"
+          ],
+          "lastContact": "2026-03-14T14:00:00Z"
+        }
+      ],
+      "navalCoordinationPatterns": [
+        {
+          "description": "Fast attack craft using satphones for beyond-line-of-sight targeting coordination",
+          "vesselsInvolved": [
+            "Multiple IRGC Boghammar class",
+            "Military hovercraft"
+          ],
+          "frequency": "Every 6 hours synchronized",
+          "assessment": "Preparing distributed missile swarm tactics against coalition naval forces"
+        },
+        {
+          "description": "Commercial tankers with Iranian satphone registrations loitering outside Hormuz",
+          "vesselsInvolved": [
+            "Shadow fleet tankers",
+            "Sanctions-evading vessels"
+          ],
+          "frequency": "Daily position reports",
+          "assessment": "Coordinating oil transfers in Gulf of Oman, avoiding AIS tracking"
+        }
+      ]
+    },
+    "usageAnomalies": [
+      {
+        "description": "Satphone terminal density in Tehran northern district 3x normal - government evacuation or command relocation?",
+        "terminalsInvolved": 89,
+        "detected": "2026-03-13T00:00:00Z",
+        "interpretation": "Either regime leadership dispersing to safe houses OR command post relocation due to decapitation threat. Saadabad Palace area particularly dense."
+      },
+      {
+        "description": "Tabriz border terminals went dormant March 12 - possible Turkish coordination cutoff?",
+        "terminalsInvolved": 45,
+        "detected": "2026-03-12T08:00:00Z",
+        "interpretation": "Sudden cessation suggests either Turkish pressure to stop cross-border coordination OR regime fearing Turkish surveillance of border communications."
+      },
+      {
+        "description": "Off-peak satphone usage (02:00-05:00) up 400% - commanders avoiding U.S. SIGINT windows?",
+        "terminalsInvolved": 156,
+        "detected": "2026-03-14T00:00:00Z",
+        "interpretation": "Tactical adaptation to U.S. signals intelligence. Iranian commanders know when American satellites listen, timing coordination for blind windows."
+      }
+    ]
+  },
+  "swiftIntel": {
+    "lastUpdate": "2026-03-17T15:21:33.544Z",
+    "messageVolume": {
+      "dailyMessages": 12400,
+      "baseline": 48500,
+      "trend": "suppressed",
+      "iranianBankParticipation": 25
+    },
+    "corridorAnalysis": [
+      {
+        "corridor": "IR-CN (Iran-China)",
+        "messageCount": 4200,
+        "valueEstimate": "$340M equivalent",
+        "purposeCodes": [
+          "MT103",
+          "MT202",
+          "MT700 (LC)"
+        ],
+        "trend": "increasing",
+        "notes": "Oil-for-goods settlement via Kunlun Bank increasing. Chinese banks using CIPS instead of SWIFT for larger transactions."
+      },
+      {
+        "corridor": "IR-RU (Iran-Russia)",
+        "messageCount": 1800,
+        "valueEstimate": "$120M equivalent",
+        "purposeCodes": [
+          "MT103",
+          "MT202COV"
+        ],
+        "trend": "increasing",
+        "notes": "Mir-SEPAM integration handling retail. SWIFT messages likely government-to-government settlements."
+      },
+      {
+        "corridor": "IR-TR (Iran-Turkey)",
+        "messageCount": 890,
+        "valueEstimate": "$45M equivalent",
+        "purposeCodes": [
+          "MT103"
+        ],
+        "trend": "decreasing",
+        "notes": "Halkbank exposure limiting Turkish appetite. Gold-for-gas trade shifted to barter (no SWIFT)."
+      },
+      {
+        "corridor": "IR-AE (Iran-UAE)",
+        "messageCount": 340,
+        "valueEstimate": "$12M equivalent",
+        "purposeCodes": [
+          "MT199 (free format)"
+        ],
+        "trend": "decreasing",
+        "notes": "UAE banks aggressively de-risking. Remaining traffic likely humanitarian or diplomatic."
+      }
+    ],
+    "sanctionedEntityActivity": [
+      {
+        "entity": "Bank Melli Iran (SDN listed)",
+        "activityType": "correspondent",
+        "volume": "$2.1M over 14 transactions",
+        "counterpartyJurisdictions": [
+          "CN",
+          "RU",
+          "OM"
+        ],
+        "evasionTechniques": [
+          "Nested correspondent accounts",
+          "Front companies in Oman"
+        ],
+        "detectionConfidence": "high"
+      },
+      {
+        "entity": "IRGC Cooperative Foundation",
+        "activityType": "trade_finance",
+        "volume": "$18M estimated",
+        "counterpartyJurisdictions": [
+          "CN",
+          "AE",
+          "IQ"
+        ],
+        "evasionTechniques": [
+          "Trade-based money laundering via Dubai",
+          "Over-invoicing of imports"
+        ],
+        "detectionConfidence": "medium"
+      },
+      {
+        "entity": "National Iranian Oil Company (NIOC)",
+        "activityType": "payment",
+        "volume": "$89M via shadow fleet sales",
+        "counterpartyJurisdictions": [
+          "CN",
+          "SY",
+          "VE"
+        ],
+        "evasionTechniques": [
+          "Ship-to-ship transfers",
+          "AIS spoofing",
+          "Flag hopping"
+        ],
+        "detectionConfidence": "high"
+      }
+    ],
+    "currencyFlows": [
+      {
+        "currency": "CNY",
+        "direction": "inbound",
+        "estimatedValue": "$180M/month",
+        "primaryBanks": [
+          "Bank of Kunlun",
+          "China CITIC Bank"
+        ],
+        "trend": "Increasing - yuanization accelerating"
+      },
+      {
+        "currency": "RUB",
+        "direction": "inbound",
+        "estimatedValue": "$45M/month",
+        "primaryBanks": [
+          "Gazprombank",
+          "Sberbank"
+        ],
+        "trend": "Stable - Mir integration handling retail"
+      },
+      {
+        "currency": "EUR",
+        "direction": "outbound",
+        "estimatedValue": "$12M/month",
+        "primaryBanks": [
+          " enclave banks"
+        ],
+        "trend": "Declining - European banks exiting completely"
+      },
+      {
+        "currency": "Gold",
+        "direction": "inbound",
+        "estimatedValue": "3.2 tonnes/month",
+        "primaryBanks": [
+          "Central Bank of Iran"
+        ],
+        "trend": "Increasing - Turks, Russians delivering physical"
+      }
+    ],
+    "bankHealth": [
+      {
+        "bank": "Bank Melli Iran",
+        "swiftActivity": "degraded",
+        "correspondentStatus": "4 remaining correspondents (down from 127)",
+        "liquidityIndicators": [
+          "CBI emergency lending active",
+          "Depositor withdrawal limits"
+        ],
+        "stressSignals": [
+          "Intra-day overdrafts spiking",
+          "Correspondent bank requests for additional collateral"
+        ]
+      },
+      {
+        "bank": "Bank Sepah (IRGC)",
+        "swiftActivity": "minimal",
+        "correspondentStatus": "Completely isolated",
+        "liquidityIndicators": [
+          "Cash reserves estimated 23 days",
+          "No international market access"
+        ],
+        "stressSignals": [
+          "Salary payment delays for IRGC personnel",
+          "Rial liquidity crunch in branches"
+        ]
+      },
+      {
+        "bank": "Bank Pasargad (private)",
+        "swiftActivity": "degraded",
+        "correspondentStatus": "11 correspondents remaining",
+        "liquidityIndicators": [
+          "Flight to quality from state banks",
+          "USD deposits increasing"
+        ],
+        "stressSignals": [
+          "Limiting withdrawals to preserve liquidity",
+          "Seeking UAE correspondent relationships"
+        ]
+      }
+    ],
+    "anomalies": [
+      {
+        "description": "SWIFT MT199 (free format) messages from Iranian banks to Chinese counterparts up 600% - negotiating oil-for-yuan terms?",
+        "institutionsInvolved": [
+          "Bank Melli Iran",
+          "Bank of Kunlun"
+        ],
+        "detected": "2026-03-10T00:00:00Z",
+        "interpretation": "Formalizing yuan-based settlement outside SWIFT. MT199 often used for negotiation before formal MT700 (LC) issuance."
+      },
+      {
+        "description": "Iranian banks requesting MT999 (proprietary) messaging with Russian banks - CIPS/SPFS bridge activation?",
+        "institutionsInvolved": [
+          "Central Bank of Iran",
+          "Central Bank of Russia"
+        ],
+        "detected": "2026-03-12T00:00:00Z",
+        "interpretation": "Testing alternative messaging systems. Iran seeking to replicate Russia sanctions evasion infrastructure."
+      },
+      {
+        "description": "Suspicious gold import financing via UAE - letters of credit structured as \"machinery parts\"",
+        "institutionsInvolved": [
+          "Bank Pasargad",
+          "UAE exchange houses"
+        ],
+        "detected": "2026-03-14T00:00:00Z",
+        "interpretation": "Trade-based money laundering to acquire physical gold. Indicates lack of confidence in fiat alternatives."
+      }
+    ]
+  },
+  "darkWebIntel": {
+    "lastScrape": "2026-03-17T15:21:33.544Z",
+    "marketsMonitored": [
+      "XSS",
+      "Exploit.in",
+      "RaidForums successor",
+      "Telegram dark channels"
+    ],
+    "documentLeaks": [
+      {
+        "title": "IRGC Aerospace Force missile inventory and readiness status",
+        "source": "XSS forum",
+        "authenticity": "probable",
+        "contentSummary": "Spreadsheet claiming to show 1,847 ballistic missiles, 60% readiness rate, targeting assignments for GCC capitals",
+        "askingPrice": "2.5 BTC",
+        "sellerReputation": "Established (12 successful sales)",
+        "makaveliRelevance": "If authentic, shows missile depletion worse than publicly admitted. 60% readiness contradicts official claims of full capability."
+      },
+      {
+        "title": "Mojtaba Khamenei medical records - Ankara hospital",
+        "source": "Telegram leak channel",
+        "authenticity": "unverified",
+        "contentSummary": "Claimed CT scans showing shrapnel wounds, burns covering 40% body. Discharge summary dated March 11.",
+        "askingPrice": "Free (viral spread)",
+        "sellerReputation": "Unknown",
+        "makaveliRelevance": "Matches death rumors on Telegram. If true, explains 6-day absence. But easily fabricated - requires corroboration."
+      },
+      {
+        "title": "U.S. CENTCOM target list - Iranian command bunkers",
+        "source": "RaidForums successor",
+        "authenticity": "fake",
+        "contentSummary": "Claimed classified document with GPS coordinates. Analysis shows coordinates in Persian Gulf (ocean).",
+        "askingPrice": "0.5 BTC",
+        "sellerReputation": "New account",
+        "makaveliRelevance": "Disinformation attempt. Either scam or Iranian counter-intelligence to identify buyers."
+      }
+    ],
+    "sanctionsEvasion": [
+      {
+        "method": "Shadow fleet oil transfers",
+        "description": "Iranian crude transferred at sea to tankers with changed AIS identities, delivered to Chinese \"teapot\" refineries",
+        "entitiesInvolved": [
+          "NIOC",
+          "Chinese trading houses",
+          "Shell companies in HK/Singapore"
+        ],
+        "volumeEstimate": "800,000 bpd",
+        "detectionDifficulty": "medium",
+        "activeSince": "2019"
+      },
+      {
+        "method": "Crypto mixer washing",
+        "description": "Rial-to-crypto conversion via Turkish exchanges, mixing through Tornado Cash successors, outbound to Dubai real estate",
+        "entitiesInvolved": [
+          "Iranian private wealth",
+          "Turkish crypto brokers",
+          "Dubai property developers"
+        ],
+        "volumeEstimate": "$400M/year",
+        "detectionDifficulty": "high",
+        "activeSince": "2021"
+      },
+      {
+        "method": "Iraqi dinar arbitrage",
+        "description": "Iranian rial smuggled to Iraq, converted to dollars at Baghdad exchange houses, repatriated as \"humanitarian aid\"",
+        "entitiesInvolved": [
+          "IRGC economic wing",
+          "Iraqi Shia militia banks",
+          "Religious foundations"
+        ],
+        "volumeEstimate": "$120M/month",
+        "detectionDifficulty": "low",
+        "activeSince": "2020"
+      }
+    ],
+    "weaponsTrade": [
+      {
+        "category": "drones",
+        "item": "Shahed-136 complete units and technical documentation",
+        "sellerLocation": "Tehran (claimed)",
+        "destinationSuspected": [
+          "Russia",
+          "Venezuela",
+          "Houthis"
+        ],
+        "price": "$50,000/unit (bulk 10+)",
+        "shippingMethod": "Caspian Sea to Astrakhan, then rail",
+        "credibility": "high"
+      },
+      {
+        "category": "missiles",
+        "item": "Fateh-110 technical specifications and production equipment",
+        "sellerLocation": "Darknet broker (likely Iranian expat)",
+        "destinationSuspected": [
+          "Syria",
+          "Hezbollah"
+        ],
+        "price": "1.2 BTC for full docs",
+        "shippingMethod": "Digital delivery / Lebanon overland",
+        "credibility": "medium"
+      },
+      {
+        "category": "equipment",
+        "item": "Night vision goggles, Gen 3, military grade (U.S. origin likely captured)",
+        "sellerLocation": "Kabul (Taliban intermediary)",
+        "destinationSuspected": [
+          "Iran",
+          "Iraqi militias"
+        ],
+        "price": "$2,800/unit",
+        "shippingMethod": "Herat border crossing",
+        "credibility": "high"
+      }
+    ],
+    "cyberActivity": [
+      {
+        "offering": "Access to Saudi Aramco ICS network (unverified)",
+        "targetSector": "energy",
+        "price": "15 BTC initial + 30% of ransom",
+        "seller": "ZeroGuardians (APT35 affiliate suspected)",
+        "technicalDetails": "VPN access to OT network, SCADA read/write capabilities claimed",
+        "threatLevel": "critical"
+      },
+      {
+        "offering": "Israeli Defense Ministry personnel database (2023)",
+        "targetSector": "government",
+        "price": "8 BTC",
+        "seller": "Unknown",
+        "technicalDetails": "Names, addresses, family members, deployment history",
+        "threatLevel": "high"
+      },
+      {
+        "offering": "U.S. CENTCOM satellite imagery credentials",
+        "targetSector": "defense",
+        "price": "3 BTC",
+        "seller": "New account (likely scam)",
+        "technicalDetails": "Claimed NGA contractor access",
+        "threatLevel": "medium"
+      }
+    ],
+    "cryptocurrency": {
+      "bitcoinFlows": [
+        {
+          "from": "Iranian mining operations (Kermanshah)",
+          "to": "Mixer: Sinbad.io",
+          "amount": "23.4 BTC",
+          "timestamp": "2026-03-14T18:00:00Z",
+          "mixerUsed": true,
+          "destination": "Exchange: Binance (sub-account Dubai)"
+        },
+        {
+          "from": "Ransomware: IRGC-linked group",
+          "to": "Wasabi Wallet",
+          "amount": "8.2 BTC",
+          "timestamp": "2026-03-13T12:00:00Z",
+          "mixerUsed": true,
+          "destination": "Exchange: KuCoin"
+        }
+      ],
+      "mixersUsed": [
+        "Sinbad.io",
+        "Wasabi Wallet",
+        "Tornado Cash forks",
+        "Cyclone Cash"
+      ],
+      "exchangeActivity": [
+        {
+          "exchange": "Noones (P2P)",
+          "iranianVolume": "$12M/week",
+          "trend": "Spiking - sanctions evasion urgency",
+          "enforcementRisk": "Low - unregulated P2P"
+        },
+        {
+          "exchange": "KuCoin",
+          "iranianVolume": "$4M/week",
+          "trend": "Stable",
+          "enforcementRisk": "Medium - occasional freezes"
+        },
+        {
+          "exchange": "Binance",
+          "iranianVolume": "$2M/week (sub-accounts only)",
+          "trend": "Declining - compliance tightening",
+          "enforcementRisk": "High - active monitoring"
+        }
+      ],
+      "ransomwarePayments": [
+        {
+          "victim": "Greek shipping company (tanker operator)",
+          "amount": "4.5 BTC",
+          "coin": "Bitcoin",
+          "groupClaiming": "CyberAv3ngers (IRGC proxy)",
+          "date": "2026-03-10"
+        },
+        {
+          "victim": "Turkish port authority",
+          "amount": "2.1 BTC",
+          "coin": "Bitcoin",
+          "groupClaiming": "Yemen Cyber Army (Houthi proxy)",
+          "date": "2026-03-12"
+        }
+      ]
+    },
+    "chatter": [
+      {
+        "forum": "Exploit.in",
+        "topic": "Iranian cyber units recruiting",
+        "sentiment": "opportunistic",
+        "keyClaims": [
+          "High pay for DDoS against U.S. targets",
+          "Safe havens in Malaysia/Indonesia"
+        ],
+        "actorType": "Cybercriminal contractors"
+      },
+      {
+        "forum": "Telegram - Persian channels",
+        "topic": "Border crossing guides",
+        "sentiment": "informational",
+        "keyClaims": [
+          "Turkey route still open but expensive ($5K)",
+          "Pakistan route dangerous",
+          "Azerbaijan deporting Iranians"
+        ],
+        "actorType": "Refugee facilitators"
+      },
+      {
+        "forum": "XSS",
+        "topic": "Anti-regime hacking collectives",
+        "sentiment": "hostile",
+        "keyClaims": [
+          "Planning leak of IRGC economic assets",
+          "Compromised state TV broadcast systems"
+        ],
+        "actorType": "Iranian diaspora activists"
+      }
+    ]
+  }
+}

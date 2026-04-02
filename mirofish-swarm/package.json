@@ -1,0 +1,27 @@
+{
+  "name": "mirofish-swarm",
+  "version": "2.0.0",
+  "description": "MiroFish Phase 2 — 500-agent parallel prediction swarm using K2.5",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/swarm/dev-server.ts",
+    "build": "tsc",
+    "swarm:scan": "tsx src/swarm/run-swarm.ts",
+    "swarm:dry": "DRY_RUN=true tsx src/swarm/run-swarm.ts",
+    "test:pods": "tsx src/swarm/test-pods.ts",
+    "test:consensus": "tsx src/consensus/test-consensus.ts",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openclaw-sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

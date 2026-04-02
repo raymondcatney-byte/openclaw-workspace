@@ -1,0 +1,14 @@
+{
+  "autonomy_level": "moderate",
+  "proactive_frequency": "6hr",
+  "alert_threshold": "medium",
+  "domain_focus": "auto-learn",
+  "improvement_rate": "moderate",
+  "quiet_hours": {"start": 23, "end": 6},
+  "learned": {
+    "top_domains": [],
+    "query_times": [],
+    "engagement_patterns": {},
+    "preferred_formats": {}
+  }
+}

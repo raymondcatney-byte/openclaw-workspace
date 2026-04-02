@@ -1,0 +1,58 @@
+{
+  "asset": "STRK",
+  "protocol_name": "Starknet",
+  "timestamp": "2026-03-13T23:45:00Z",
+  "data_quality": "complete",
+  "fundamentals": {
+    "category": "L2",
+    "tvl": 1250000000,
+    "tvl_change": {"7d": -5.2, "30d": -12.8, "90d": -35.4},
+    "fees_24h": 45000,
+    "fees_7d": 315000,
+    "revenue_annualized": 16400000,
+    "market_cap": 890000000,
+    "fdv": 4200000000,
+    "pf_ratio": 256,
+    "unique_users_30d": 45000,
+    "category_rank": 6,
+    "market_share": "4% of L2 TVL"
+  },
+  "tokenomics": {
+    "circulating_supply": 210000000,
+    "total_supply": 10000000000,
+    "emissions": "inflationary",
+    "next_unlock": {"date": "2026-04-15", "amount": 850000000, "percent_of_float": 68.5},
+    "staking_yield": null,
+    "staking_ratio": null
+  },
+  "sentiment": {
+    "prediction_markets": [],
+    "funding_rate": {"current": -0.015, "trend": "falling"},
+    "social_narrative": "Bearish post-airdrop. Concerns about FDV and unlock schedule. ZK tech respected but adoption lagging.",
+    "developer_activity": "medium"
+  },
+  "risk_indicators": {
+    "audit_status": {"last_audit": "2025-11", "firm": "Trail of Bits", "critical_findings": 1},
+    "liquidation_clusters": [],
+    "concentration_risk": {"top_10_holders": 72.5, "whale_activity": "distributing"},
+    "governance_risk": "medium - early stage governance",
+    "technical_risk": "medium - ZK complexity, limited track record vs optimistic rollups"
+  },
+  "capital_flows": {
+    "exchange_netflow_24h": 12500000,
+    "smart_money_signal": "inflows",
+    "bridge_flows_7d": -45000000,
+    "notable_transactions": [
+      {"type": "transfer", "amount": 2500000, "from": "0xa1b... (team multisig)", "to": "Binance", "value_usd": 10600000}
+    ]
+  },
+  "recent_events": [
+    {"date": "2026-02-20T00:00:00Z", "type": "unlock", "description": "Early investors unlock began, 50M tokens", "impact": "negative - price down 18% since"},
+    {"date": "2026-03-01T00:00:00Z", "type": "partnership", "description": "Starkware partners with gaming studio", "impact": "positive - but too early for metrics"}
+  ],
+  "data_gaps": [
+    "Limited Polymarket markets for L2 comparisons",
+    "Exact team/investor allocation breakdown not fully transparent"
+  ],
+  "research_notes": "CRITICAL UNLOCK RISK: 68.5% of float unlocking April 15. Current price $4.20 implies aggressive selling if holders distribute. TVL declining while Base/Arbitrum growing. Negative funding suggests shorts piling on. FDV ($4.2B) seems high given $16M revenue. Wait for unlock completion and price stabilization before research. Technology respected but tokenomics unfavorable."
+}

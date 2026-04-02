@@ -1,0 +1,2042 @@
+[
+  {
+    "player": "Scottie Scheffler",
+    "opinions": [
+      {
+        "agentId": "sg-total-analyst",
+        "agentName": "SG Total Specialist",
+        "winProbability": 20,
+        "confidence": 9,
+        "reasoning": "Scottie Scheffler's exceptional Strokes Gained Total of +2.45, combined with his strong Masters history, recent form, and well-rounded game with positive SG across all categories, make him a highly likely contender to win The Masters 2026.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 9\nREASONING: Scottie Scheffler's exceptional Strokes Gained Total of +2.45, combined with his strong Masters history, recent form, and well-rounded game with positive SG across all categories, make him a highly likely contender to win The Masters 2026."
+      },
+      {
+        "agentId": "sg-ball-striking-analyst",
+        "agentName": "Ball Striking Specialist",
+        "winProbability": 20,
+        "confidence": 9,
+        "reasoning": "Scottie Scheffler's exceptional ball-striking skills, as evidenced by his strong SG Approach and SG Off the Tee numbers, combined with his impressive Masters history and recent form, make him a highly likely contender to win The Masters 2026.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 9\nREASONING: Scottie Scheffler's exceptional ball-striking skills, as evidenced by his strong SG Approach and SG Off the Tee numbers, combined with his impressive Masters history and recent form, make him a highly likely contender to win The Masters 2026."
+      },
+      {
+        "agentId": "sg-weakness-analyst",
+        "agentName": "Weakness Exposure Analyst",
+        "winProbability": 20,
+        "confidence": 9,
+        "reasoning": "Scottie Scheffler's exceptional course fit, recent form, and well-rounded game with no major weaknesses, as evidenced by his positive strokes gained totals in all categories, make him a strong contender to win The Masters 2026.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 9\nREASONING: Scottie Scheffler's exceptional course fit, recent form, and well-rounded game with no major weaknesses, as evidenced by his positive strokes gained totals in all categories, make him a strong contender to win The Masters 2026."
+      },
+      {
+        "agentId": "experience-analyst",
+        "agentName": "Experience Analyst",
+        "winProbability": 20,
+        "confidence": 9,
+        "reasoning": "Scottie Scheffler's impressive Masters history, including two wins and four top-10s in just five starts, combined with his strong recent form and excellent course fit score, make him a highly likely contender to win The Masters 2026.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 9\nREASONING: Scottie Scheffler's impressive Masters history, including two wins and four top-10s in just five starts, combined with his strong recent form and excellent course fit score, make him a highly likely contender to win The Masters 2026."
+      },
+      {
+        "agentId": "florida-swing-analyst",
+        "agentName": "Florida Swing Analyst",
+        "winProbability": 20,
+        "confidence": 9,
+        "reasoning": "Scottie Scheffler's exceptional recent form, including a win at the Arnold Palmer Invitational and top-3 finishes at the Genesis Invitational and Farmers, combined with his strong Masters history and course fit, make him a highly likely contender for the 2026 Masters title.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 9\nREASONING: Scottie Scheffler's exceptional recent form, including a win at the Arnold Palmer Invitational and top-3 finishes at the Genesis Invitational and Farmers, combined with his strong Masters history and course fit, make him a highly likely contender for the 2026 Masters title."
+      },
+      {
+        "agentId": "major-championship-analyst",
+        "agentName": "Major Championship Specialist",
+        "winProbability": 20,
+        "confidence": 9,
+        "reasoning": "Scottie Scheffler's impressive major championship history, including two Masters wins, combined with his strong recent form and exceptional course fit, make him a highly likely candidate to win The Masters 2026.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 9\nREASONING: Scottie Scheffler's impressive major championship history, including two Masters wins, combined with his strong recent form and exceptional course fit, make him a highly likely candidate to win The Masters 2026."
+      },
+      {
+        "agentId": "sg-approach-analyst",
+        "agentName": "SG Approach Specialist",
+        "winProbability": 20,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's exceptional iron play, as evidenced by his +1.15 SG Approach, combined with his strong Masters history and recent form, make him a top contender for the 2026 Masters title.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's exceptional iron play, as evidenced by his +1.15 SG Approach, combined with his strong Masters history and recent form, make him a top contender for the 2026 Masters title."
+      },
+      {
+        "agentId": "sg-ott-analyst",
+        "agentName": "SG Off-the-Tee Specialist",
+        "winProbability": 18,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's strong Masters history, recent form, and well-rounded game, including a positive SG: OTT, make him a top contender, but his driving distance and ability to curve the ball both ways will be crucial in determining his success at Augusta.",
+        "rawResponse": "PROBABILITY: 18%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's strong Masters history, recent form, and well-rounded game, including a positive SG: OTT, make him a top contender, but his driving distance and ability to curve the ball both ways will be crucial in determining his success at Augusta."
+      },
+      {
+        "agentId": "sg-arg-analyst",
+        "agentName": "SG Around-the-Green Specialist",
+        "winProbability": 18,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's strong course history, recent form, and well-rounded game, including a positive Strokes Gained: Around Green, make him a top contender, but his relatively modest SG: ARG compared to other elite players slightly tempers his win probability.",
+        "rawResponse": "PROBABILITY: 18%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's strong course history, recent form, and well-rounded game, including a positive Strokes Gained: Around Green, make him a top contender, but his relatively modest SG: ARG compared to other elite players slightly tempers his win probability."
+      },
+      {
+        "agentId": "sg-putting-analyst",
+        "agentName": "SG Putting Specialist",
+        "winProbability": 18,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's strong Masters history, recent form, and well-rounded game suggest he has a high chance of winning, but his relatively modest Strokes Gained: Putting statistic slightly tempers enthusiasm given the importance of putting at Augusta.",
+        "rawResponse": "PROBABILITY: 18%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's strong Masters history, recent form, and well-rounded game suggest he has a high chance of winning, but his relatively modest Strokes Gained: Putting statistic slightly tempers enthusiasm given the importance of putting at Augusta."
+      },
+      {
+        "agentId": "sg-trends-analyst",
+        "agentName": "SG Trends Analyst",
+        "winProbability": 18,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's recent form, including wins and high finishes at the Arnold Palmer, Genesis, and Farmers, combined with his strong Masters history and high course fit score, suggest he is peaking at the right time and has a high likelihood of success at Augusta.",
+        "rawResponse": "PROBABILITY: 18%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's recent form, including wins and high finishes at the Arnold Palmer, Genesis, and Farmers, combined with his strong Masters history and high course fit score, suggest he is peaking at the right time and has a high likelihood of success at Augusta."
+      },
+      {
+        "agentId": "sg-par5-analyst",
+        "agentName": "Par-5 Scoring Analyst",
+        "winProbability": 20,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's strong Masters history, recent form, and well-rounded game, particularly his excellent approach play, make him a top contender, but his par-5 scoring average and performance on similar holes at other courses are unknown, introducing some uncertainty into the estimate.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's strong Masters history, recent form, and well-rounded game, particularly his excellent approach play, make him a top contender, but his par-5 scoring average and performance on similar holes at other courses are unknown, introducing some uncertainty into the estimate."
+      },
+      {
+        "agentId": "sg-early-rounds-analyst",
+        "agentName": "Early Rounds Specialist",
+        "winProbability": 20,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's exceptional Masters history, strong recent form, and well-rounded game, as evidenced by his positive strokes gained totals, make him a highly likely contender to win The Masters 2026.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's exceptional Masters history, strong recent form, and well-rounded game, as evidenced by his positive strokes gained totals, make him a highly likely contender to win The Masters 2026."
+      },
+      {
+        "agentId": "augusta-course-historian",
+        "agentName": "Augusta Historian",
+        "winProbability": 20,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's impressive Masters history, strong recent form, and well-rounded game, including elite iron play and sufficient distance off the tee, make him a strong contender, although his relatively modest strokes gained off the tee and around the green might slightly detract from his overall chances.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's impressive Masters history, strong recent form, and well-rounded game, including elite iron play and sufficient distance off the tee, make him a strong contender, although his relatively modest strokes gained off the tee and around the green might slightly detract from his overall chances."
+      },
+      {
+        "agentId": "amen-corner-specialist",
+        "agentName": "Amen Corner Specialist",
+        "winProbability": 20,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's strong Masters history, excellent recent form, and well-rounded game, particularly his impressive approach play and off-the-tee performance, make him a formidable contender to navigate the challenging Amen Corner and win the tournament.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's strong Masters history, excellent recent form, and well-rounded game, particularly his impressive approach play and off-the-tee performance, make him a formidable contender to navigate the challenging Amen Corner and win the tournament."
+      },
+      {
+        "agentId": "back-nine-closer",
+        "agentName": "Back Nine Specialist",
+        "winProbability": 20,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's strong Masters history, recent form, and well-rounded game, particularly his excellent approach play and ability to handle pressure, make him a top contender to close out the tournament on the back nine on Sunday.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's strong Masters history, recent form, and well-rounded game, particularly his excellent approach play and ability to handle pressure, make him a top contender to close out the tournament on the back nine on Sunday."
+      },
+      {
+        "agentId": "distance-analyst",
+        "agentName": "Distance Advantage Analyst",
+        "winProbability": 18,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's impressive Masters history, recent form, and well-rounded game, including positive strokes gained in approach, off the tee, and around the green, make him a strong contender, but his relatively modest off-the-tee advantage and dependence on converting distance into low scores introduce some uncertainty.",
+        "rawResponse": "PROBABILITY: 18%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's impressive Masters history, recent form, and well-rounded game, including positive strokes gained in approach, off the tee, and around the green, make him a strong contender, but his relatively modest off-the-tee advantage and dependence on converting distance into low scores introduce some uncertainty."
+      },
+      {
+        "agentId": "course-management-analyst",
+        "agentName": "Course Management Analyst",
+        "winProbability": 20,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's strong course history, recent form, and well-rounded game, as evidenced by his positive strokes gained totals in all categories, make him a top contender for The Masters 2026.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's strong course history, recent form, and well-rounded game, as evidenced by his positive strokes gained totals in all categories, make him a top contender for The Masters 2026."
+      },
+      {
+        "agentId": "first-timer-analyst",
+        "agentName": "First-Timer Risk Analyst",
+        "winProbability": 20,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's exceptional recent form, strong course history, and well-rounded game, as evidenced by his high strokes gained totals, make him a strong contender for The Masters 2026.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's exceptional recent form, strong course history, and well-rounded game, as evidenced by his high strokes gained totals, make him a strong contender for The Masters 2026."
+      },
+      {
+        "agentId": "weather-analyst",
+        "agentName": "Weather/Course Conditions Analyst",
+        "winProbability": 18,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's exceptional course fit, recent form, and well-rounded game, particularly his strong approach play, make him a strong contender, but his relatively modest putting statistics and potential vulnerability to firm and fast conditions may prevent him from dominating the field.",
+        "rawResponse": "PROBABILITY: 18%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's exceptional course fit, recent form, and well-rounded game, particularly his strong approach play, make him a strong contender, but his relatively modest putting statistics and potential vulnerability to firm and fast conditions may prevent him from dominating the field."
+      },
+      {
+        "agentId": "hole-by-hole-analyst",
+        "agentName": "Hole-by-Hole Strategy Analyst",
+        "winProbability": 20,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's strong Masters history, recent form, and well-rounded game, particularly his excellent approach play and ability to capitalize on par 5s, make him a top contender, but his relatively modest putting and around-the-green statistics introduce some uncertainty.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's strong Masters history, recent form, and well-rounded game, particularly his excellent approach play and ability to capitalize on par 5s, make him a top contender, but his relatively modest putting and around-the-green statistics introduce some uncertainty."
+      },
+      {
+        "agentId": "sunday-contention-analyst",
+        "agentName": "Sunday Contention Analyst",
+        "winProbability": 20,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's strong Masters history, recent form, and well-rounded game suggest he can handle Sunday pressure, but his relatively modest putting statistics and potential for variance in that department introduce some uncertainty.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's strong Masters history, recent form, and well-rounded game suggest he can handle Sunday pressure, but his relatively modest putting statistics and potential for variance in that department introduce some uncertainty."
+      },
+      {
+        "agentId": "injury-recovery-analyst",
+        "agentName": "Injury/Recovery Analyst",
+        "winProbability": 20,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's strong recent form, impressive Masters history, and well-rounded game suggest a high likelihood of success, but his lack of visible physical issues or limitations is not explicitly confirmed in the provided data.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's strong recent form, impressive Masters history, and well-rounded game suggest a high likelihood of success, but his lack of visible physical issues or limitations is not explicitly confirmed in the provided data."
+      },
+      {
+        "agentId": "momentum-analyst",
+        "agentName": "Momentum Trajectory Analyst",
+        "winProbability": 20,
+        "confidence": 8,
+        "reasoning": "Scottie Scheffler's recent form, including wins and high finishes, suggests he is peaking at the right time, and his strong course history at Augusta, combined with his well-rounded game, make him a strong contender for the 2026 Masters.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 8\nREASONING: Scottie Scheffler's recent form, including wins and high finishes, suggests he is peaking at the right time, and his strong course history at Augusta, combined with his well-rounded game, make him a strong contender for the 2026 Masters."
+      },
+      {
+        "agentId": "similar-course-analyst",
+        "agentName": "Similar Course Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11833, Requested 528. Please try again in 1.805s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "recent-form-analyst",
+        "agentName": "Recent Form Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11829, Requested 524. Please try again in 1.765s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "caddie-factor-analyst",
+        "agentName": "Caddie Factor Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11834, Requested 526. Please try again in 1.799999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "equipment-analyst",
+        "agentName": "Equipment Change Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11961, Requested 462. Please try again in 2.114999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "mental-game-analyst",
+        "agentName": "Mental Game Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11961, Requested 488. Please try again in 2.245s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sleeping-giant-analyst",
+        "agentName": "Sleeping Giant Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11960, Requested 506. Please try again in 2.33s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "market-price-analyst",
+        "agentName": "Market Price Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11833, Requested 562. Please try again in 1.974999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "public-money-fader",
+        "agentName": "Public Money Fader",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11829, Requested 528. Please try again in 1.785s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "recency-bias-hunter",
+        "agentName": "Recency Bias Hunter",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11833, Requested 524. Please try again in 1.785s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "longshot-value-hunter",
+        "agentName": "Longshot Value Hunter",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11830, Requested 574. Please try again in 2.02s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "liv-stigma-exploiter",
+        "agentName": "LIV Stigma Exploiter",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11830, Requested 582. Please try again in 2.06s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "narrative-fader",
+        "agentName": "Narrative Fader",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11828, Requested 540. Please try again in 1.839999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "chalk-fader",
+        "agentName": "Chalk Fader",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11833, Requested 516. Please try again in 1.745s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "line-movement-tracker",
+        "agentName": "Line Movement Tracker",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11960, Requested 484. Please try again in 2.219999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "portfolio-strategist",
+        "agentName": "Portfolio Strategist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11829, Requested 590. Please try again in 2.094999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": " expected-value-calculator",
+        "agentName": "Expected Value Calculator",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11829, Requested 580. Please try again in 2.045s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "top-20-value-analyst",
+        "agentName": "Top-20 Value Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11830, Requested 556. Please try again in 1.93s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "augusta-amateur-analyst",
+        "agentName": "Amateur History Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11829, Requested 518. Please try again in 1.735s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "international-analyst",
+        "agentName": "International Player Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11831, Requested 534. Please try again in 1.825s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "age-curve-analyst",
+        "agentName": "Age Curve Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11827, Requested 636. Please try again in 2.315s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "weather-draw-analyst",
+        "agentName": "Tee Time Draw Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11957, Requested 470. Please try again in 2.135s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "cut-making-analyst",
+        "agentName": "Cut-Making Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11954, Requested 498. Please try again in 2.26s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sunday-back-nine-analyst",
+        "agentName": "Sunday Back Nine Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11828, Requested 668. Please try again in 2.48s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "patience-analyst",
+        "agentName": "Patience Quotient Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11805, Requested 558. Please try again in 1.815s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "final-group-analyst",
+        "agentName": "Final Group Experience Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11957, Requested 508. Please try again in 2.325s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "comeback-ability-analyst",
+        "agentName": "Comeback Ability Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11957, Requested 510. Please try again in 2.335s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      }
+    ],
+    "consensus": 19.5,
+    "avgConfidence": 4,
+    "stdDev": 9.8
+  },
+  {
+    "player": "Rory McIlroy",
+    "opinions": [
+      {
+        "agentId": "sg-approach-analyst",
+        "agentName": "SG Approach Specialist",
+        "winProbability": 18,
+        "confidence": 8,
+        "reasoning": "Rory McIlroy's strong course history, recent form, and solid Strokes Gained Approach metric make him a contender, but his SG Approach value is barely above the desired threshold, which slightly tempers his overall win probability.",
+        "rawResponse": "PROBABILITY: 18%\nCONFIDENCE: 8\nREASONING: Rory McIlroy's strong course history, recent form, and solid Strokes Gained Approach metric make him a contender, but his SG Approach value is barely above the desired threshold, which slightly tempers his overall win probability."
+      },
+      {
+        "agentId": "sg-ott-analyst",
+        "agentName": "SG Off-the-Tee Specialist",
+        "winProbability": 12,
+        "confidence": 8,
+        "reasoning": "Rory McIlroy's strong course history, recent form, and well-rounded game, including a positive SG: OTT, make him a contender, but his relatively modest driving distance and recovery skills from pine straw may hinder his ability to separate from the field at Augusta.",
+        "rawResponse": "PROBABILITY: 12%\nCONFIDENCE: 8\nREASONING: Rory McIlroy's strong course history, recent form, and well-rounded game, including a positive SG: OTT, make him a contender, but his relatively modest driving distance and recovery skills from pine straw may hinder his ability to separate from the field at Augusta."
+      },
+      {
+        "agentId": "sg-trends-analyst",
+        "agentName": "SG Trends Analyst",
+        "winProbability": 18,
+        "confidence": 8,
+        "reasoning": "Rory McIlroy's recent form, including a top-10 finish at Bay Hill and a strong course fit score, suggests he is peaking at the right time, but his Strokes Gained Total, while positive, is not exceptionally high, tempering his win probability.",
+        "rawResponse": "PROBABILITY: 18%\nCONFIDENCE: 8\nREASONING: Rory McIlroy's recent form, including a top-10 finish at Bay Hill and a strong course fit score, suggests he is peaking at the right time, but his Strokes Gained Total, while positive, is not exceptionally high, tempering his win probability."
+      },
+      {
+        "agentId": "sg-weakness-analyst",
+        "agentName": "Weakness Exposure Analyst",
+        "winProbability": 18,
+        "confidence": 8,
+        "reasoning": "Rory McIlroy's well-rounded game and strong Masters history suggest a high likelihood of contention, but his relatively modest Strokes Gained Putting and Around the Green numbers introduce a hint of vulnerability that prevents him from being a overwhelming favorite.",
+        "rawResponse": "PROBABILITY: 18%\nCONFIDENCE: 8\nREASONING: Rory McIlroy's well-rounded game and strong Masters history suggest a high likelihood of contention, but his relatively modest Strokes Gained Putting and Around the Green numbers introduce a hint of vulnerability that prevents him from being a overwhelming favorite."
+      },
+      {
+        "agentId": "course-management-analyst",
+        "agentName": "Course Management Analyst",
+        "winProbability": 18,
+        "confidence": 8,
+        "reasoning": "Rory McIlroy's strong course history, well-rounded game, and recent form suggest he has a good chance of winning, but his sometimes inconsistent decision-making and emotional management may hinder his ability to make the smart choices required to succeed at Augusta.",
+        "rawResponse": "PROBABILITY: 18%\nCONFIDENCE: 8\nREASONING: Rory McIlroy's strong course history, well-rounded game, and recent form suggest he has a good chance of winning, but his sometimes inconsistent decision-making and emotional management may hinder his ability to make the smart choices required to succeed at Augusta."
+      },
+      {
+        "agentId": "sg-total-analyst",
+        "agentName": "SG Total Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11999, Requested 465. Please try again in 2.32s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-arg-analyst",
+        "agentName": "SG Around-the-Green Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 12000, Requested 493. Please try again in 2.465s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-putting-analyst",
+        "agentName": "SG Putting Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 12000, Requested 505. Please try again in 2.525s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-ball-striking-analyst",
+        "agentName": "Ball Striking Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 12000, Requested 513. Please try again in 2.565s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-par5-analyst",
+        "agentName": "Par-5 Scoring Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11999, Requested 533. Please try again in 2.66s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-early-rounds-analyst",
+        "agentName": "Early Rounds Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 12000, Requested 461. Please try again in 2.305s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "augusta-course-historian",
+        "agentName": "Augusta Historian",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 12000, Requested 493. Please try again in 2.465s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "amen-corner-specialist",
+        "agentName": "Amen Corner Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 12000, Requested 539. Please try again in 2.695s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "back-nine-closer",
+        "agentName": "Back Nine Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 12000, Requested 575. Please try again in 2.875s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "experience-analyst",
+        "agentName": "Experience Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11999, Requested 465. Please try again in 2.32s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "distance-analyst",
+        "agentName": "Distance Advantage Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11999, Requested 515. Please try again in 2.57s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "first-timer-analyst",
+        "agentName": "First-Timer Risk Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11999, Requested 545. Please try again in 2.72s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "weather-analyst",
+        "agentName": "Weather/Course Conditions Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11998, Requested 489. Please try again in 2.435s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "similar-course-analyst",
+        "agentName": "Similar Course Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11998, Requested 529. Please try again in 2.635s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "hole-by-hole-analyst",
+        "agentName": "Hole-by-Hole Strategy Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11859, Requested 621. Please try again in 2.4s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "recent-form-analyst",
+        "agentName": "Recent Form Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11994, Requested 525. Please try again in 2.594999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "florida-swing-analyst",
+        "agentName": "Florida Swing Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11995, Requested 549. Please try again in 2.72s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "major-championship-analyst",
+        "agentName": "Major Championship Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11995, Requested 471. Please try again in 2.33s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sunday-contention-analyst",
+        "agentName": "Sunday Contention Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11999, Requested 485. Please try again in 2.42s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "injury-recovery-analyst",
+        "agentName": "Injury/Recovery Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11999, Requested 449. Please try again in 2.24s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "momentum-analyst",
+        "agentName": "Momentum Trajectory Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11998, Requested 487. Please try again in 2.425s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "caddie-factor-analyst",
+        "agentName": "Caddie Factor Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11999, Requested 527. Please try again in 2.63s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "equipment-analyst",
+        "agentName": "Equipment Change Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11994, Requested 463. Please try again in 2.284999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "mental-game-analyst",
+        "agentName": "Mental Game Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11996, Requested 489. Please try again in 2.425s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sleeping-giant-analyst",
+        "agentName": "Sleeping Giant Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11994, Requested 507. Please try again in 2.505s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "market-price-analyst",
+        "agentName": "Market Price Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11996, Requested 563. Please try again in 2.795s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "public-money-fader",
+        "agentName": "Public Money Fader",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11995, Requested 529. Please try again in 2.62s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "recency-bias-hunter",
+        "agentName": "Recency Bias Hunter",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11994, Requested 525. Please try again in 2.594999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "longshot-value-hunter",
+        "agentName": "Longshot Value Hunter",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11994, Requested 575. Please try again in 2.845s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "liv-stigma-exploiter",
+        "agentName": "LIV Stigma Exploiter",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11999, Requested 583. Please try again in 2.91s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "narrative-fader",
+        "agentName": "Narrative Fader",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11994, Requested 541. Please try again in 2.675s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "chalk-fader",
+        "agentName": "Chalk Fader",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11995, Requested 517. Please try again in 2.56s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "line-movement-tracker",
+        "agentName": "Line Movement Tracker",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11993, Requested 485. Please try again in 2.389999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "portfolio-strategist",
+        "agentName": "Portfolio Strategist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11985, Requested 591. Please try again in 2.88s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": " expected-value-calculator",
+        "agentName": "Expected Value Calculator",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11996, Requested 581. Please try again in 2.885s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "top-20-value-analyst",
+        "agentName": "Top-20 Value Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11994, Requested 557. Please try again in 2.755s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "augusta-amateur-analyst",
+        "agentName": "Amateur History Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11996, Requested 519. Please try again in 2.574999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "international-analyst",
+        "agentName": "International Player Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11996, Requested 535. Please try again in 2.655s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "age-curve-analyst",
+        "agentName": "Age Curve Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11860, Requested 637. Please try again in 2.485s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "weather-draw-analyst",
+        "agentName": "Tee Time Draw Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11996, Requested 471. Please try again in 2.335s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "cut-making-analyst",
+        "agentName": "Cut-Making Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11996, Requested 499. Please try again in 2.475s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sunday-back-nine-analyst",
+        "agentName": "Sunday Back Nine Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11859, Requested 669. Please try again in 2.639999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "patience-analyst",
+        "agentName": "Patience Quotient Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11994, Requested 559. Please try again in 2.764999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "final-group-analyst",
+        "agentName": "Final Group Experience Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11994, Requested 509. Please try again in 2.514999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "comeback-ability-analyst",
+        "agentName": "Comeback Ability Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11994, Requested 511. Please try again in 2.525s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      }
+    ],
+    "consensus": 16.8,
+    "avgConfidence": 0.8,
+    "stdDev": 5.1
+  },
+  {
+    "player": "Hideki Matsuyama",
+    "opinions": [
+      {
+        "agentId": "weather-analyst",
+        "agentName": "Weather/Course Conditions Analyst",
+        "winProbability": 12,
+        "confidence": 7,
+        "reasoning": "Hideki Matsuyama's strong course history, recent form, and well-rounded game make him a contender, but his relatively modest strokes gained totals and potential vulnerability to firm and fast conditions may hinder his chances of winning.",
+        "rawResponse": "PROBABILITY: 12%\nCONFIDENCE: 7\nREASONING: Hideki Matsuyama's strong course history, recent form, and well-rounded game make him a contender, but his relatively modest strokes gained totals and potential vulnerability to firm and fast conditions may hinder his chances of winning."
+      },
+      {
+        "agentId": "public-money-fader",
+        "agentName": "Public Money Fader",
+        "winProbability": 8,
+        "confidence": 7,
+        "reasoning": "Hideki Matsuyama's strong course history, recent form, and well-rounded game suggest he has a higher win probability than the public might give him credit for, especially considering he's flying under the radar and doesn't fit the typical public darling profile.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 7\nREASONING: Hideki Matsuyama's strong course history, recent form, and well-rounded game suggest he has a higher win probability than the public might give him credit for, especially considering he's flying under the radar and doesn't fit the typical public darling profile."
+      },
+      {
+        "agentId": "sg-total-analyst",
+        "agentName": "SG Total Specialist",
+        "winProbability": 8,
+        "confidence": 6,
+        "reasoning": "Hideki Matsuyama's strong course history and recent form, combined with a solid but not elite Strokes Gained Total of +1.4, suggest he has a decent chance of winning, but his relatively modest SG Approach of +0.7 may hinder him at a course that demands excellence in that area.",
+        "rawResponse": "PROBABILITY: 8%\nCONFIDENCE: 6\nREASONING: Hideki Matsuyama's strong course history and recent form, combined with a solid but not elite Strokes Gained Total of +1.4, suggest he has a decent chance of winning, but his relatively modest SG Approach of +0.7 may hinder him at a course that demands excellence in that area."
+      },
+      {
+        "agentId": "sg-approach-analyst",
+        "agentName": "SG Approach Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11993, Requested 518. Please try again in 2.555s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-ott-analyst",
+        "agentName": "SG Off-the-Tee Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11993, Requested 526. Please try again in 2.594999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-arg-analyst",
+        "agentName": "SG Around-the-Green Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11994, Requested 494. Please try again in 2.44s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-putting-analyst",
+        "agentName": "SG Putting Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11994, Requested 506. Please try again in 2.5s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-ball-striking-analyst",
+        "agentName": "Ball Striking Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11993, Requested 514. Please try again in 2.535s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-trends-analyst",
+        "agentName": "SG Trends Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11994, Requested 490. Please try again in 2.42s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-weakness-analyst",
+        "agentName": "Weakness Exposure Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11991, Requested 528. Please try again in 2.594999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-par5-analyst",
+        "agentName": "Par-5 Scoring Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11994, Requested 534. Please try again in 2.639999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-early-rounds-analyst",
+        "agentName": "Early Rounds Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11994, Requested 462. Please try again in 2.28s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "augusta-course-historian",
+        "agentName": "Augusta Historian",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11992, Requested 494. Please try again in 2.43s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "amen-corner-specialist",
+        "agentName": "Amen Corner Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11993, Requested 540. Please try again in 2.665s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "back-nine-closer",
+        "agentName": "Back Nine Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11864, Requested 576. Please try again in 2.2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "experience-analyst",
+        "agentName": "Experience Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11993, Requested 466. Please try again in 2.295s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "distance-analyst",
+        "agentName": "Distance Advantage Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11992, Requested 516. Please try again in 2.54s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "course-management-analyst",
+        "agentName": "Course Management Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11993, Requested 476. Please try again in 2.344999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "first-timer-analyst",
+        "agentName": "First-Timer Risk Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11992, Requested 546. Please try again in 2.69s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "similar-course-analyst",
+        "agentName": "Similar Course Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11991, Requested 530. Please try again in 2.605s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "hole-by-hole-analyst",
+        "agentName": "Hole-by-Hole Strategy Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11864, Requested 622. Please try again in 2.43s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "recent-form-analyst",
+        "agentName": "Recent Form Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11994, Requested 526. Please try again in 2.6s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "florida-swing-analyst",
+        "agentName": "Florida Swing Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11992, Requested 550. Please try again in 2.71s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "major-championship-analyst",
+        "agentName": "Major Championship Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11993, Requested 472. Please try again in 2.325s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sunday-contention-analyst",
+        "agentName": "Sunday Contention Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11993, Requested 486. Please try again in 2.395s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "injury-recovery-analyst",
+        "agentName": "Injury/Recovery Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11665, Requested 450. Please try again in 575ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "momentum-analyst",
+        "agentName": "Momentum Trajectory Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11993, Requested 488. Please try again in 2.405s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "caddie-factor-analyst",
+        "agentName": "Caddie Factor Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11994, Requested 528. Please try again in 2.61s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "equipment-analyst",
+        "agentName": "Equipment Change Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11992, Requested 464. Please try again in 2.28s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "mental-game-analyst",
+        "agentName": "Mental Game Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11991, Requested 490. Please try again in 2.405s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sleeping-giant-analyst",
+        "agentName": "Sleeping Giant Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11993, Requested 508. Please try again in 2.505s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "market-price-analyst",
+        "agentName": "Market Price Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11863, Requested 564. Please try again in 2.135s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "recency-bias-hunter",
+        "agentName": "Recency Bias Hunter",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11991, Requested 526. Please try again in 2.585s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "longshot-value-hunter",
+        "agentName": "Longshot Value Hunter",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11863, Requested 576. Please try again in 2.195s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "liv-stigma-exploiter",
+        "agentName": "LIV Stigma Exploiter",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11862, Requested 584. Please try again in 2.23s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "narrative-fader",
+        "agentName": "Narrative Fader",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11992, Requested 542. Please try again in 2.67s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "chalk-fader",
+        "agentName": "Chalk Fader",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11993, Requested 518. Please try again in 2.555s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "line-movement-tracker",
+        "agentName": "Line Movement Tracker",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11993, Requested 486. Please try again in 2.395s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "portfolio-strategist",
+        "agentName": "Portfolio Strategist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11842, Requested 592. Please try again in 2.17s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": " expected-value-calculator",
+        "agentName": "Expected Value Calculator",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11862, Requested 582. Please try again in 2.219999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "top-20-value-analyst",
+        "agentName": "Top-20 Value Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11838, Requested 558. Please try again in 1.98s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "augusta-amateur-analyst",
+        "agentName": "Amateur History Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11992, Requested 520. Please try again in 2.56s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "international-analyst",
+        "agentName": "International Player Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11993, Requested 536. Please try again in 2.645s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "age-curve-analyst",
+        "agentName": "Age Curve Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11864, Requested 638. Please try again in 2.51s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "weather-draw-analyst",
+        "agentName": "Tee Time Draw Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11991, Requested 472. Please try again in 2.315s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "cut-making-analyst",
+        "agentName": "Cut-Making Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11991, Requested 500. Please try again in 2.454999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sunday-back-nine-analyst",
+        "agentName": "Sunday Back Nine Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11861, Requested 670. Please try again in 2.655s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "patience-analyst",
+        "agentName": "Patience Quotient Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11861, Requested 560. Please try again in 2.105s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "final-group-analyst",
+        "agentName": "Final Group Experience Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11991, Requested 510. Please try again in 2.505s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "comeback-ability-analyst",
+        "agentName": "Comeback Ability Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11992, Requested 512. Please try again in 2.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      }
+    ],
+    "consensus": 9.4,
+    "avgConfidence": 0.4,
+    "stdDev": 2.3
+  },
+  {
+    "player": "Jon Rahm",
+    "opinions": [
+      {
+        "agentId": "sg-early-rounds-analyst",
+        "agentName": "Early Rounds Specialist",
+        "winProbability": 18,
+        "confidence": 8,
+        "reasoning": "Jon Rahm's strong Masters history, including a win and multiple top-10s, combined with his well-rounded game and recent form, make him a formidable contender, but his LIV stigma and potential nerves on Thursday may slightly temper his chances.",
+        "rawResponse": "PROBABILITY: 18%\nCONFIDENCE: 8\nREASONING: Jon Rahm's strong Masters history, including a win and multiple top-10s, combined with his well-rounded game and recent form, make him a formidable contender, but his LIV stigma and potential nerves on Thursday may slightly temper his chances."
+      },
+      {
+        "agentId": "injury-recovery-analyst",
+        "agentName": "Injury/Recovery Analyst",
+        "winProbability": 20,
+        "confidence": 8,
+        "reasoning": "Jon Rahm's strong recent form, including a win at LIV Singapore, and his excellent Masters history, combined with no reported injuries or red flags, suggest a high likelihood of contention, but his LIV schedule may have limited his preparation and familiarity with the PGA Tour's current landscape.",
+        "rawResponse": "PROBABILITY: 20%\nCONFIDENCE: 8\nREASONING: Jon Rahm's strong recent form, including a win at LIV Singapore, and his excellent Masters history, combined with no reported injuries or red flags, suggest a high likelihood of contention, but his LIV schedule may have limited his preparation and familiarity with the PGA Tour's current landscape."
+      },
+      {
+        "agentId": "sg-approach-analyst",
+        "agentName": "SG Approach Specialist",
+        "winProbability": 12,
+        "confidence": 6,
+        "reasoning": "Jon Rahm's relatively low SG Approach metric of +0.5, which is below the desired threshold of +0.8, raises concerns about his ability to excel in the critical iron play aspect of Augusta National, despite his strong overall game and favorable course history.",
+        "rawResponse": "PROBABILITY: 12%\nCONFIDENCE: 6\nREASONING: Jon Rahm's relatively low SG Approach metric of +0.5, which is below the desired threshold of +0.8, raises concerns about his ability to excel in the critical iron play aspect of Augusta National, despite his strong overall game and favorable course history."
+      },
+      {
+        "agentId": "sg-total-analyst",
+        "agentName": "SG Total Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11961, Requested 463. Please try again in 2.12s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-ott-analyst",
+        "agentName": "SG Off-the-Tee Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11517, Requested 523. Please try again in 200ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-arg-analyst",
+        "agentName": "SG Around-the-Green Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11963, Requested 491. Please try again in 2.269999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-putting-analyst",
+        "agentName": "SG Putting Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11517, Requested 503. Please try again in 100ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-ball-striking-analyst",
+        "agentName": "Ball Striking Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11963, Requested 511. Please try again in 2.37s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-trends-analyst",
+        "agentName": "SG Trends Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11963, Requested 487. Please try again in 2.25s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-weakness-analyst",
+        "agentName": "Weakness Exposure Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11518, Requested 525. Please try again in 215ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-par5-analyst",
+        "agentName": "Par-5 Scoring Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11519, Requested 531. Please try again in 250ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "augusta-course-historian",
+        "agentName": "Augusta Historian",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11519, Requested 491. Please try again in 50ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "amen-corner-specialist",
+        "agentName": "Amen Corner Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11518, Requested 537. Please try again in 275ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "back-nine-closer",
+        "agentName": "Back Nine Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11961, Requested 573. Please try again in 2.67s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "experience-analyst",
+        "agentName": "Experience Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11963, Requested 463. Please try again in 2.13s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "distance-analyst",
+        "agentName": "Distance Advantage Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11962, Requested 513. Please try again in 2.375s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "course-management-analyst",
+        "agentName": "Course Management Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11963, Requested 473. Please try again in 2.18s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "first-timer-analyst",
+        "agentName": "First-Timer Risk Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11518, Requested 543. Please try again in 305ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "weather-analyst",
+        "agentName": "Weather/Course Conditions Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11962, Requested 487. Please try again in 2.245s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "similar-course-analyst",
+        "agentName": "Similar Course Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11517, Requested 527. Please try again in 220ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "hole-by-hole-analyst",
+        "agentName": "Hole-by-Hole Strategy Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11839, Requested 619. Please try again in 2.29s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "recent-form-analyst",
+        "agentName": "Recent Form Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11963, Requested 523. Please try again in 2.43s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "florida-swing-analyst",
+        "agentName": "Florida Swing Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11517, Requested 547. Please try again in 320ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "major-championship-analyst",
+        "agentName": "Major Championship Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11961, Requested 469. Please try again in 2.15s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sunday-contention-analyst",
+        "agentName": "Sunday Contention Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11518, Requested 483. Please try again in 5ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "momentum-analyst",
+        "agentName": "Momentum Trajectory Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11517, Requested 485. Please try again in 10ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "caddie-factor-analyst",
+        "agentName": "Caddie Factor Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11963, Requested 525. Please try again in 2.44s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "equipment-analyst",
+        "agentName": "Equipment Change Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11961, Requested 461. Please try again in 2.109999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "mental-game-analyst",
+        "agentName": "Mental Game Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11518, Requested 487. Please try again in 25ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sleeping-giant-analyst",
+        "agentName": "Sleeping Giant Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11518, Requested 505. Please try again in 114.999999ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "market-price-analyst",
+        "agentName": "Market Price Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11518, Requested 561. Please try again in 395ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "public-money-fader",
+        "agentName": "Public Money Fader",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11963, Requested 527. Please try again in 2.45s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "recency-bias-hunter",
+        "agentName": "Recency Bias Hunter",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11961, Requested 523. Please try again in 2.42s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "longshot-value-hunter",
+        "agentName": "Longshot Value Hunter",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11962, Requested 573. Please try again in 2.675s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "liv-stigma-exploiter",
+        "agentName": "LIV Stigma Exploiter",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11840, Requested 581. Please try again in 2.105s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "narrative-fader",
+        "agentName": "Narrative Fader",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11962, Requested 539. Please try again in 2.505s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "chalk-fader",
+        "agentName": "Chalk Fader",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11962, Requested 515. Please try again in 2.385s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "line-movement-tracker",
+        "agentName": "Line Movement Tracker",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11962, Requested 483. Please try again in 2.225s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "portfolio-strategist",
+        "agentName": "Portfolio Strategist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11837, Requested 589. Please try again in 2.13s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": " expected-value-calculator",
+        "agentName": "Expected Value Calculator",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11962, Requested 579. Please try again in 2.705s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "top-20-value-analyst",
+        "agentName": "Top-20 Value Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11962, Requested 555. Please try again in 2.585s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "augusta-amateur-analyst",
+        "agentName": "Amateur History Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11962, Requested 517. Please try again in 2.395s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "international-analyst",
+        "agentName": "International Player Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11961, Requested 533. Please try again in 2.469999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "age-curve-analyst",
+        "agentName": "Age Curve Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11839, Requested 635. Please try again in 2.37s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "weather-draw-analyst",
+        "agentName": "Tee Time Draw Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11962, Requested 469. Please try again in 2.155s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "cut-making-analyst",
+        "agentName": "Cut-Making Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11961, Requested 497. Please try again in 2.29s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sunday-back-nine-analyst",
+        "agentName": "Sunday Back Nine Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11840, Requested 667. Please try again in 2.535s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "patience-analyst",
+        "agentName": "Patience Quotient Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11961, Requested 557. Please try again in 2.59s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "final-group-analyst",
+        "agentName": "Final Group Experience Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11961, Requested 507. Please try again in 2.34s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "comeback-ability-analyst",
+        "agentName": "Comeback Ability Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11961, Requested 509. Please try again in 2.35s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      }
+    ],
+    "consensus": 17.1,
+    "avgConfidence": 0.4,
+    "stdDev": 4
+  },
+  {
+    "player": "Xander Schauffele",
+    "opinions": [
+      {
+        "agentId": "sg-early-rounds-analyst",
+        "agentName": "Early Rounds Specialist",
+        "winProbability": 12,
+        "confidence": 8,
+        "reasoning": "Xander Schauffele's strong Masters history, consistent recent form, and well-rounded game make him a contender, but his lack of a major win and tendency to not separate himself from the field early on slightly temper his win probability.",
+        "rawResponse": "PROBABILITY: 12%\nCONFIDENCE: 8\nREASONING: Xander Schauffele's strong Masters history, consistent recent form, and well-rounded game make him a contender, but his lack of a major win and tendency to not separate himself from the field early on slightly temper his win probability."
+      },
+      {
+        "agentId": "mental-game-analyst",
+        "agentName": "Mental Game Analyst",
+        "winProbability": 18,
+        "confidence": 8,
+        "reasoning": "Xander Schauffele's consistent performance at Augusta, strong strokes gained statistics, and lack of notable red flags in his mental game suggest a high likelihood of contention, but his winless history at the Masters introduces some uncertainty.",
+        "rawResponse": "PROBABILITY: 18%\nCONFIDENCE: 8\nREASONING: Xander Schauffele's consistent performance at Augusta, strong strokes gained statistics, and lack of notable red flags in his mental game suggest a high likelihood of contention, but his winless history at the Masters introduces some uncertainty."
+      },
+      {
+        "agentId": "sg-total-analyst",
+        "agentName": "SG Total Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11998, Requested 461. Please try again in 2.295s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-approach-analyst",
+        "agentName": "SG Approach Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11856, Requested 513. Please try again in 1.845s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-ott-analyst",
+        "agentName": "SG Off-the-Tee Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11855, Requested 521. Please try again in 1.88s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-arg-analyst",
+        "agentName": "SG Around-the-Green Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11999, Requested 489. Please try again in 2.44s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-putting-analyst",
+        "agentName": "SG Putting Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11999, Requested 501. Please try again in 2.5s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-ball-striking-analyst",
+        "agentName": "Ball Striking Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11997, Requested 509. Please try again in 2.53s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-trends-analyst",
+        "agentName": "SG Trends Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11998, Requested 485. Please try again in 2.415s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-weakness-analyst",
+        "agentName": "Weakness Exposure Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11855, Requested 523. Please try again in 1.89s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sg-par5-analyst",
+        "agentName": "Par-5 Scoring Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11857, Requested 529. Please try again in 1.93s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "augusta-course-historian",
+        "agentName": "Augusta Historian",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11998, Requested 489. Please try again in 2.435s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "amen-corner-specialist",
+        "agentName": "Amen Corner Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11855, Requested 535. Please try again in 1.95s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "back-nine-closer",
+        "agentName": "Back Nine Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11854, Requested 571. Please try again in 2.125s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "experience-analyst",
+        "agentName": "Experience Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11543, Requested 461. Please try again in 20ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "distance-analyst",
+        "agentName": "Distance Advantage Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11856, Requested 511. Please try again in 1.835s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "course-management-analyst",
+        "agentName": "Course Management Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11998, Requested 471. Please try again in 2.344999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "first-timer-analyst",
+        "agentName": "First-Timer Risk Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11857, Requested 541. Please try again in 1.989999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "weather-analyst",
+        "agentName": "Weather/Course Conditions Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11998, Requested 485. Please try again in 2.415s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "similar-course-analyst",
+        "agentName": "Similar Course Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11856, Requested 525. Please try again in 1.905s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "hole-by-hole-analyst",
+        "agentName": "Hole-by-Hole Strategy Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11856, Requested 617. Please try again in 2.365s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "recent-form-analyst",
+        "agentName": "Recent Form Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11856, Requested 521. Please try again in 1.885s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "florida-swing-analyst",
+        "agentName": "Florida Swing Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11855, Requested 545. Please try again in 2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "major-championship-analyst",
+        "agentName": "Major Championship Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11997, Requested 467. Please try again in 2.32s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sunday-contention-analyst",
+        "agentName": "Sunday Contention Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11997, Requested 481. Please try again in 2.389999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "injury-recovery-analyst",
+        "agentName": "Injury/Recovery Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11998, Requested 445. Please try again in 2.215s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "momentum-analyst",
+        "agentName": "Momentum Trajectory Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11998, Requested 483. Please try again in 2.405s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "caddie-factor-analyst",
+        "agentName": "Caddie Factor Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11855, Requested 523. Please try again in 1.89s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "equipment-analyst",
+        "agentName": "Equipment Change Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11999, Requested 459. Please try again in 2.29s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sleeping-giant-analyst",
+        "agentName": "Sleeping Giant Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11997, Requested 503. Please try again in 2.5s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "market-price-analyst",
+        "agentName": "Market Price Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11856, Requested 559. Please try again in 2.075s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "public-money-fader",
+        "agentName": "Public Money Fader",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11857, Requested 525. Please try again in 1.91s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "recency-bias-hunter",
+        "agentName": "Recency Bias Hunter",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11857, Requested 521. Please try again in 1.89s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "longshot-value-hunter",
+        "agentName": "Longshot Value Hunter",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11856, Requested 571. Please try again in 2.135s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "liv-stigma-exploiter",
+        "agentName": "LIV Stigma Exploiter",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11856, Requested 579. Please try again in 2.175s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "narrative-fader",
+        "agentName": "Narrative Fader",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11857, Requested 537. Please try again in 1.97s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "chalk-fader",
+        "agentName": "Chalk Fader",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11855, Requested 513. Please try again in 1.839999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "line-movement-tracker",
+        "agentName": "Line Movement Tracker",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11543, Requested 481. Please try again in 120ms. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "portfolio-strategist",
+        "agentName": "Portfolio Strategist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11855, Requested 587. Please try again in 2.21s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": " expected-value-calculator",
+        "agentName": "Expected Value Calculator",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11857, Requested 577. Please try again in 2.17s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "top-20-value-analyst",
+        "agentName": "Top-20 Value Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11855, Requested 553. Please try again in 2.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "augusta-amateur-analyst",
+        "agentName": "Amateur History Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11857, Requested 515. Please try again in 1.859999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "international-analyst",
+        "agentName": "International Player Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11855, Requested 531. Please try again in 1.93s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "age-curve-analyst",
+        "agentName": "Age Curve Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11853, Requested 633. Please try again in 2.43s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "weather-draw-analyst",
+        "agentName": "Tee Time Draw Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11998, Requested 467. Please try again in 2.325s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "cut-making-analyst",
+        "agentName": "Cut-Making Specialist",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11998, Requested 495. Please try again in 2.465s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "sunday-back-nine-analyst",
+        "agentName": "Sunday Back Nine Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11654, Requested 665. Please try again in 1.595s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "patience-analyst",
+        "agentName": "Patience Quotient Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11854, Requested 555. Please try again in 2.045s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "final-group-analyst",
+        "agentName": "Final Group Experience Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11998, Requested 505. Please try again in 2.514999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      },
+      {
+        "agentId": "comeback-ability-analyst",
+        "agentName": "Comeback Ability Analyst",
+        "winProbability": 0,
+        "confidence": 0,
+        "reasoning": "Error",
+        "rawResponse": "Error: 429 {\"error\":{\"message\":\"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kjat3jmbfbcacw2jwc3n0q67` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11997, Requested 507. Please try again in 2.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}"
+      }
+    ],
+    "consensus": 15,
+    "avgConfidence": 0.3,
+    "stdDev": 3
+  }
+]

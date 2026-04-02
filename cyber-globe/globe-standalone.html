@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Cyber Globe</title>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { margin: 0; padding: 0; overflow: hidden; background: linear-gradient(to bottom, #020617, #0f172a, #020617); }
+        * { box-sizing: border-box; }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script type="text/babel">
+        const { useEffect, useRef, useState } = React;
+        
+        const EVENT_COLORS = {
+            attack: '#ff0044',
+            transfer: '#00ff88',
+            activity: '#00d4ff',
+            alert: '#ffaa00',
+            breach: '#ff00ff',
+        };
+        
+        const EVENT_TYPE_LABELS = {
+            attack: 'Cyber Attack',
+            transfer: 'Data Transfer',
+            activity: 'Suspicious Activity',
+            alert: 'Security Alert',
+            breach: 'Data Breach',
+        };
+        
+        const MAJOR_CITIES = [
+            { name: 'New York', lat: 40.7128, lng: -74.0060 },
+            { name: 'London', lat: 51.5074, lng: -0.1278 },
+            { name: 'Tokyo', lat: 35.6762, lng: 139.6503 },
+            { name: 'Singapore', lat: 1.3521, lng: 103.8198 },
+            { name: 'Sydney', lat: -33.8688, lng: 151.2093 },
+            { name: 'Berlin', lat: 52.5200, lng: 13.4050 },
+            { name: 'Moscow', lat: 55.7558, lng: 37.6173 },
+            { name: 'Beijing', lat: 39.9042, lng: 116.4074 },
+            { name: 'Dubai', lat: 25.2048, lng: 55.2708 },
+            { name: 'São Paulo', lat: -23.5505, lng: -46.6333 },
+            { name: 'Mumbai', lat: 19.0760, lng: 72.8777 },
+            { name: 'Paris', lat: 48.8566, lng: 2.3522 },
+            { name: 'San Francisco', lat: 37.7749, lng: -122.4194 },
+            { name: 'Seoul', lat: 37.5665, lng: 126.9780 },
+            { name: 'Toronto', lat: 43.6532, lng: -79.3832 },
+            { name: 'Cape Town', lat: -33.9249, lng: 18.4241 },
+            { name: 'Mexico City', lat: 19.4326, lng: -99.1332 },
+            { name: 'Bangkok', lat: 13.7563, lng: 100.5018 },
+            { name: 'Istanbul', lat: 41.0082, lng: 28.9784 },
+            { name: 'Cairo', lat: 30.0444, lng: 31.2357 },
+        ];
+        
+        const EVENT_TYPES = ['attack', 'transfer', 'activity', 'alert', 'breach'];
+        let eventIdCounter = 1;
+        
+        function generateMockEvents(count = 15) {
+            const events = [];
+            const shuffledCities = [...MAJOR_CITIES].sort(() => Math.random() - 0.5);
+            
+            for (let i = 0; i < count; i++) {
+                const city = shuffledCities[i % shuffledCities.length];
+                const type = EVENT_TYPES[Math.floor(Math.random() * EVENT_TYPES.length)];
+                
+                events.push({
+                    id: eventIdCounter++,
+                    type,
+                    lat: city.lat,
+                    lng: city.lng,
+                    city: city.name,
+                    timestamp: Date.now(),
+                    intensity: 0.3 + Math.random() * 0.7,
+                });
+            }
+            
+            return events;
+        }
+        
+        function updateEvents(currentEvents) {
+            const newEvents = [...currentEvents];
+            const replaceIndex = Math.floor(Math.random() * newEvents.length);
+            const city = MAJOR_CITIES[Math.floor(Math.random() * MAJOR_CITIES.length)];
+            const type = EVENT_TYPES[Math.floor(Math.random() * EVENT_TYPES.length)];
+            
+            newEvents[replaceIndex] = {
+                id: eventIdCounter++,
+                type,
+                lat: city.lat,
+                lng: city.lng,
+                city: city.name,
+                timestamp: Date.now(),
+                intensity: 0.3 + Math.random() * 0.7,
+            };
+            return newEvents;
+        }
+        
+        function formatTimestamp(timestamp) {
+            const date = new Date(timestamp);
+            return date.toLocaleTimeString('en-US', {
+                hour12: false,
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+            });
+        }
+        
+        function EventPanel({ events }) {
+            const stats = events.reduce((acc, event) => {
+                acc[event.type] = (acc[event.type] || 0) + 1;
+                return acc;
+            }, {});
+            
+            const totalEvents = events.length;
+            const avgIntensity = events.reduce((sum, e) => sum + e.intensity, 0) / totalEvents;
+            
+            return (
+                <div className="absolute top-4 right-4 z-10 w-80 bg-slate-900/80 backdrop-blur-md rounded-lg border border-cyan-500/30 shadow-2xl shadow-cyan-500/10 overflow-hidden">
+                    <div className="px-4 py-3 border-b border-cyan-500/30 bg-gradient-to-r from-cyan-500/10 to-transparent">
+                        <h2 className="text-lg font-bold text-cyan-400 flex items-center gap-2">
+                            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                            </svg>
+                            Live Cyber Events
+                        </h2>
+                    </div>
+                    
+                    <div className="px-4 py-3 border-b border-cyan-500/20">
+                        <div className="grid grid-cols-2 gap-2 text-xs">
+                            <div className="bg-slate-800/50 rounded p-2">
+                                <span className="text-slate-400">Active Events: </span>
+                                <span className="text-cyan-400 font-mono font-bold">{totalEvents}</span>
+                            </div>
+                            <div className="bg-slate-800/50 rounded p-2">
+                                <span className="text-slate-400">Avg Intensity: </span>
+                                <span className="text-cyan-400 font-mono font-bold">{(avgIntensity * 100).toFixed(0)}%</span>
+                            </div>
+                        </div>
+                        <div className="flex flex-wrap gap-1 mt-2">
+                            {Object.entries(stats).map(([type, count]) => (
+                                <span key={type} className="text-[10px] px-2 py-0.5 rounded-full font-medium" style={{
+                                    backgroundColor: `${EVENT_COLORS[type]}20`,
+                                    color: EVENT_COLORS[type],
+                                    border: `1px solid ${EVENT_COLORS[type]}40`,
+                                }}>
+                                    {EVENT_TYPE_LABELS[type]}: {count}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+                    
+                    <div className="max-h-64 overflow-y-auto">
+                        {events.map((event) => (
+                            <div key={event.id} className="px-4 py-2 border-b border-slate-700/50 hover:bg-slate-800/50 transition-colors">
+                                <div className="flex items-center justify-between">
+                                    <div className="flex items-center gap-2">
+                                        <div className="w-2 h-2 rounded-full animate-pulse" style={{ backgroundColor: EVENT_COLORS[event.type] }} />
+                                        <span className="text-xs font-medium text-slate-200">{event.city}</span>
+                                    </div>
+                                    <span className="text-[10px] text-slate-500 font-mono">{formatTimestamp(event.timestamp)}</span>
+                                </div>
+                                <div className="flex items-center justify-between mt-1">
+                                    <span className="text-[10px] font-medium" style={{ color: EVENT_COLORS[event.type] }}>
+                                        {EVENT_TYPE_LABELS[event.type]}
+                                    </span>
+                                    <div className="flex items-center gap-1">
+                                        <div className="w-12 h-1 bg-slate-700 rounded-full overflow-hidden">
+                                            <div className="h-full rounded-full" style={{
+                                                width: `${event.intensity * 100}%`,
+                                                backgroundColor: EVENT_COLORS[event.type],
+                                            }} />
+                                        </div>
+                                        <span className="text-[10px] text-slate-500 font-mono">{(event.intensity * 100).toFixed(0)}%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                    
+                    <div className="px-4 py-2 border-t border-cyan-500/20 bg-slate-800/30">
+                        <div className="flex items-center gap-2 text-[10px] text-slate-500">
+                            <div className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse" />
+                            <span>System Online • Auto-updating</span>
+                        </div>
+                    </div>
+                </div>
+            );
+        }
+        
+        function App() {
+            const containerRef = useRef(null);
+            const [events, setEvents] = useState(generateMockEvents(15));
+            const [webglError, setWebglError] = useState(null);
+            
+            const sceneRef = useRef(null);
+            const cameraRef = useRef(null);
+            const rendererRef = useRef(null);
+            const globeGroupRef = useRef(null);
+            const markerGroupRef = useRef(null);
+            const starsRef = useRef(null);
+            const markerMapRef = useRef(new Map());
+            const animationIdRef = useRef(null);
+            const eventsRef = useRef(events);
+            
+            const isDraggingRef = useRef(false);
+            const previousMouseRef = useRef({ x: 0, y: 0 });
+            const targetRotationRef = useRef({ x: 0, y: 0 });
+            const currentRotationRef = useRef({ x: 0, y: 0 });
+            const cameraZRef = useRef(6);
+            
+            useEffect(() => {
+                eventsRef.current = events;
+            }, [events]);
+            
+            useEffect(() => {
+                if (!containerRef.current) return;
+                
+                const scene = new THREE.Scene();
+                sceneRef.current = scene;
+                
+                const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1000);
+                camera.position.set(0, 0, 6);
+                cameraRef.current = camera;
+                
+                let renderer;
+                try {
+                    renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+                    if (!renderer.getContext()) throw new Error('No WebGL');
+                } catch (e) {
+                    setWebglError('WebGL not available');
+                    return;
+                }
+                renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+                renderer.setSize(window.innerWidth, window.innerHeight);
+                containerRef.current.appendChild(renderer.domElement);
+                rendererRef.current = renderer;
+                
+                const globeGroup = new THREE.Group();
+                globeGroupRef.current = globeGroup;
+                scene.add(globeGroup);
+                
+                const earthGeometry = new THREE.SphereGeometry(2, 64, 64);
+                const earthMaterial = new THREE.MeshStandardMaterial({
+                    color: 0x1a3a5c,
+                    roughness: 0.8,
+                    metalness: 0.1,
+                    emissive: 0x0a1f2e,
+                    emissiveIntensity: 0.3,
+                });
+                
+                const textureLoader = new THREE.TextureLoader();
+                textureLoader.crossOrigin = 'anonymous';
+                textureLoader.load('https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg', (texture) => {
+                    try {
+                        if (texture.colorSpace !== undefined) texture.colorSpace = THREE.SRGBColorSpace;
+                        earthMaterial.map = texture;
+                        earthMaterial.color = new THREE.Color(0xffffff);
+                        earthMaterial.needsUpdate = true;
+                    } catch (e) {}
+                }, undefined, () => {});
+                
+                const earth = new THREE.Mesh(earthGeometry, earthMaterial);
+                globeGroup.add(earth);
+                
+                const outerGlowGeometry = new THREE.SphereGeometry(2.15, 32, 32);
+                const outerGlowMaterial = new THREE.MeshBasicMaterial({
+                    color: 0x00d4ff, transparent: true, opacity: 0.15, side: THREE.BackSide
+                });
+                const outerGlow = new THREE.Mesh(outerGlowGeometry, outerGlowMaterial);
+                globeGroup.add(outerGlow);
+                
+                const innerGlowGeometry = new THREE.SphereGeometry(2.08, 32, 32);
+                const innerGlowMaterial = new THREE.MeshBasicMaterial({
+                    color: 0x00a8cc, transparent: true, opacity: 0.1, side: THREE.BackSide
+                });
+                const innerGlow = new THREE.Mesh(innerGlowGeometry, innerGlowMaterial);
+                globeGroup.add(innerGlow);
+                
+                const markerGroup = new THREE.Group();
+                markerGroupRef.current = markerGroup;
+                globeGroup.add(markerGroup);
+                
+                const gridGroup = new THREE.Group();
+                const gridMaterial = new THREE.LineBasicMaterial({ color: 0x00d4ff, transparent: true, opacity: 0.15 });
+                
+                for (let lat = -80; lat <= 80; lat += 20) {
+                    const phi = (90 - lat) * (Math.PI / 180);
+                    const radius = 2.03 * Math.sin(phi);
+                    const y = 2.03 * Math.cos(phi);
+                    const points = [];
+                    for (let i = 0; i <= 64; i++) {
+                        const theta = (i / 64) * Math.PI * 2;
+                        points.push(new THREE.Vector3(radius * Math.cos(theta), y, radius * Math.sin(theta)));
+                    }
+                    const geometry = new THREE.BufferGeometry().setFromPoints(points);
+                    gridGroup.add(new THREE.Line(geometry, gridMaterial));
+                }
+                
+                for (let lng = 0; lng < 360; lng += 20) {
+                    const theta = lng * (Math.PI / 180);
+                    const points = [];
+                    for (let i = 0; i <= 64; i++) {
+                        const phi = (i / 64) * Math.PI;
+                        points.push(new THREE.Vector3(
+                            2.03 * Math.sin(phi) * Math.cos(theta),
+                            2.03 * Math.cos(phi),
+                            2.03 * Math.sin(phi) * Math.sin(theta)
+                        ));
+                    }
+                    const geometry = new THREE.BufferGeometry().setFromPoints(points);
+                    gridGroup.add(new THREE.Line(geometry, gridMaterial));
+                }
+                scene.add(gridGroup);
+                
+                const starGeometry = new THREE.BufferGeometry();
+                const starPositions = [];
+                const starColors = [];
+                for (let i = 0; i < 2000; i++) {
+                    const theta = Math.random() * Math.PI * 2;
+                    const phi = Math.acos(2 * Math.random() - 1);
+                    const radius = 50 + Math.random() * 50;
+                    starPositions.push(
+                        radius * Math.sin(phi) * Math.cos(theta),
+                        radius * Math.sin(phi) * Math.sin(theta),
+                        radius * Math.cos(phi)
+                    );
+                    const brightness = 0.5 + Math.random() * 0.5;
+                    starColors.push(brightness, brightness, brightness);
+                }
+                starGeometry.setAttribute('position', new THREE.Float32BufferAttribute(starPositions, 3));
+                starGeometry.setAttribute('color', new THREE.Float32BufferAttribute(starColors, 3));
+                const starMaterial = new THREE.PointsMaterial({ size: 0.1, vertexColors: true, transparent: true, opacity: 0.8 });
+                const stars = new THREE.Points(starGeometry, starMaterial);
+                starsRef.current = stars;
+                scene.add(stars);
+                
+                const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
+                scene.add(ambientLight);
+                const pointLight1 = new THREE.PointLight(0xffffff, 1.5);
+                pointLight1.position.set(10, 10, 10);
+                scene.add(pointLight1);
+                const pointLight2 = new THREE.PointLight(0x00d4ff, 0.3);
+                pointLight2.position.set(-10, -10, -10);
+                scene.add(pointLight2);
+                
+                const handleMouseDown = (e) => {
+                    isDraggingRef.current = true;
+                    previousMouseRef.current = { x: e.clientX, y: e.clientY };
+                };
+                
+                const handleMouseMove = (e) => {
+                    if (!isDraggingRef.current) return;
+                    const deltaX = e.clientX - previousMouseRef.current.x;
+                    const deltaY = e.clientY - previousMouseRef.current.y;
+                    targetRotationRef.current.y += deltaX * 0.005;
+                    targetRotationRef.current.x += deltaY * 0.005;
+                    targetRotationRef.current.x = Math.max(-Math.PI / 2, Math.min(Math.PI / 2, targetRotationRef.current.x));
+                    previousMouseRef.current = { x: e.clientX, y: e.clientY };
+                };
+                
+                const handleMouseUp = () => { isDraggingRef.current = false; };
+                
+                const handleWheel = (e) => {
+                    e.preventDefault();
+                    cameraZRef.current += e.deltaY * 0.01;
+                    cameraZRef.current = Math.max(3, Math.min(10, cameraZRef.current));
+                };
+                
+                const handleResize = () => {
+                    if (cameraRef.current && rendererRef.current) {
+                        cameraRef.current.aspect = window.innerWidth / window.innerHeight;
+                        cameraRef.current.updateProjectionMatrix();
+                        rendererRef.current.setSize(window.innerWidth, window.innerHeight);
+                    }
+                };
+                
+                renderer.domElement.addEventListener('mousedown', handleMouseDown);
+                window.addEventListener('mousemove', handleMouseMove);
+                window.addEventListener('mouseup', handleMouseUp);
+                renderer.domElement.addEventListener('wheel', handleWheel, { passive: false });
+                window.addEventListener('resize', handleResize);
+                
+                const animate = () => {
+                    animationIdRef.current = requestAnimationFrame(animate);
+                    const time = Date.now() * 0.001;
+                    
+                    currentRotationRef.current.x += (targetRotationRef.current.x - currentRotationRef.current.x) * 0.1;
+                    currentRotationRef.current.y += (targetRotationRef.current.y - currentRotationRef.current.y) * 0.1;
+                    
+                    if (globeGroupRef.current) {
+                        globeGroupRef.current.rotation.x = currentRotationRef.current.x;
+                        globeGroupRef.current.rotation.y = currentRotationRef.current.y;
+                        if (!isDraggingRef.current) targetRotationRef.current.y += 0.0005;
+                    }
+                    
+                    outerGlow.rotation.y += 0.0003;
+                    innerGlow.rotation.y -= 0.0002;
+                    
+                    if (starsRef.current) starsRef.current.rotation.y += 0.00005;
+                    
+                    if (cameraRef.current) {
+                        cameraRef.current.position.z += (cameraZRef.current - cameraRef.current.position.z) * 0.1;
+                    }
+                    
+                    const currentEvents = eventsRef.current;
+                    markerMapRef.current.forEach((markerData, id) => {
+                        const event = currentEvents.find(e => e.id === id);
+                        if (event) {
+                            markerData.event = event;
+                            const pulseScale = 1 + Math.sin(time * 3 + id) * 0.3;
+                            const pulseOpacity = (0.5 + Math.sin(time * 3 + id) * 0.3) * event.intensity;
+                            markerData.ring.scale.set(pulseScale, pulseScale, pulseScale);
+                            markerData.ring.material.opacity = pulseOpacity;
+                            markerData.ring.lookAt(cameraRef.current?.position || new THREE.Vector3(0, 0, 6));
+                        }
+                    });
+                    
+                    renderer.render(scene, camera);
+                };
+                
+                animate();
+                
+                return () => {
+                    if (animationIdRef.current) cancelAnimationFrame(animationIdRef.current);
+                    renderer.domElement.removeEventListener('mousedown', handleMouseDown);
+                    window.removeEventListener('mousemove', handleMouseMove);
+                    window.removeEventListener('mouseup', handleMouseUp);
+                    renderer.domElement.removeEventListener('wheel', handleWheel);
+                    window.removeEventListener('resize', handleResize);
+                    renderer.dispose();
+                    if (containerRef.current && renderer.domElement.parentNode === containerRef.current) {
+                        containerRef.current.removeChild(renderer.domElement);
+                    }
+                };
+            }, []);
+            
+            useEffect(() => {
+                if (!markerGroupRef.current) return;
+                const markerGroup = markerGroupRef.current;
+                const markerMap = markerMapRef.current;
+                
+                events.forEach((event) => {
+                    if (!markerMap.has(event.id)) {
+                        const color = EVENT_COLORS[event.type];
+                        const phi = (90 - event.lat) * (Math.PI / 180);
+                        const theta = (event.lng + 180) * (Math.PI / 180);
+                        const x = -(2.02 * Math.sin(phi) * Math.cos(theta));
+                        const y = 2.02 * Math.cos(phi);
+                        const z = 2.02 * Math.sin(phi) * Math.sin(theta);
+                        
+                        const sphereGeometry = new THREE.SphereGeometry(0.02, 16, 16);
+                        const sphereMaterial = new THREE.MeshBasicMaterial({ color });
+                        const sphere = new THREE.Mesh(sphereGeometry, sphereMaterial);
+                        sphere.position.set(x, y, z);
+                        
+                        const ringGeometry = new THREE.RingGeometry(0.03, 0.06, 32);
+                        const ringMaterial = new THREE.MeshBasicMaterial({
+                            color, transparent: true, opacity: 0.5 * event.intensity, side: THREE.DoubleSide
+                        });
+                        const ring = new THREE.Mesh(ringGeometry, ringMaterial);
+                        ring.position.set(x, y, z);
+                        ring.lookAt(new THREE.Vector3(0, 0, 0));
+                        
+                        const beamGeometry = new THREE.CylinderGeometry(0.005, 0.005, 0.3, 8);
+                        const beamMaterial = new THREE.MeshBasicMaterial({ color, transparent: true, opacity: 0.4 });
+                        const beam = new THREE.Mesh(beamGeometry, beamMaterial);
+                        const direction = new THREE.Vector3(x, y, z).normalize();
+                        const beamPosition = direction.clone().multiplyScalar(2.02 + 0.15);
+                        beam.position.copy(beamPosition);
+                        beam.lookAt(new THREE.Vector3(0, 0, 0));
+                        beam.rotateX(Math.PI / 2);
+                        
+                        markerGroup.add(sphere);
+                        markerGroup.add(ring);
+                        markerGroup.add(beam);
+                        markerMap.set(event.id, { sphere, ring, beam, event });
+                    }
+                });
+                
+                const eventIds = new Set(events.map(e => e.id));
+                markerMap.forEach((marker, id) => {
+                    if (!eventIds.has(id)) {
+                        markerGroup.remove(marker.sphere);
+                        markerGroup.remove(marker.ring);
+                        markerGroup.remove(marker.beam);
+                        marker.sphere.geometry.dispose();
+                        marker.sphere.material.dispose();
+                        marker.ring.geometry.dispose();
+                        marker.ring.material.dispose();
+                        marker.beam.geometry.dispose();
+                        marker.beam.material.dispose();
+                        markerMap.delete(id);
+                    }
+                });
+            }, [events]);
+            
+            useEffect(() => {
+                const interval = setInterval(() => setEvents(prev => updateEvents(prev)), 3000);
+                return () => clearInterval(interval);
+            }, []);
+            
+            if (webglError) {
+                return (
+                    <div className="w-screen h-screen flex items-center justify-center bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
+                        <div className="bg-slate-800/90 border border-cyan-500/30 rounded-lg p-8 max-w-md text-center">
+                            <h2 className="text-xl font-bold text-cyan-400 mb-2">WebGL Required</h2>
+                            <p className="text-slate-300 text-sm">Your browser doesn't support WebGL, which is needed for the 3D globe.</p>
+                        </div>
+                    </div>
+                );
+            }
+            
+            return (
+                <div className="relative w-screen h-screen overflow-hidden bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
+                    <div ref={containerRef} className="absolute inset-0" />
+                    <EventPanel events={events} />
+                    <div className="absolute bottom-4 left-4 text-slate-500 text-xs">
+                        <p>Click & drag to rotate • Scroll to zoom</p>
+                    </div>
+                </div>
+            );
+        }
+        
+        ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+    </script>
+</body>
+</html>

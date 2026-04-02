@@ -1,0 +1,57 @@
+{
+  "asset": "AAVE",
+  "protocol_name": "Aave",
+  "timestamp": "2026-03-13T23:45:00Z",
+  "data_quality": "complete",
+  "fundamentals": {
+    "category": "Lending",
+    "tvl": 14200000000,
+    "tvl_change": {"7d": 3.1, "30d": 12.5, "90d": 18.3},
+    "fees_24h": 380000,
+    "fees_7d": 2660000,
+    "revenue_annualized": 138000000,
+    "market_cap": 1600000000,
+    "fdv": 1600000000,
+    "pf_ratio": 11.6,
+    "unique_users_30d": 125000,
+    "category_rank": 1,
+    "market_share": "32% of lending TVL"
+  },
+  "tokenomics": {
+    "circulating_supply": 16000000,
+    "total_supply": 16000000,
+    "emissions": "fixed",
+    "next_unlock": {"date": null, "amount": null, "percent_of_float": null},
+    "staking_yield": 6.8,
+    "staking_ratio": 35.2
+  },
+  "sentiment": {
+    "prediction_markets": [
+      {"question": "Aave v4 launches by Q3 2026?", "probability": 0.68, "volume": 890000, "liquidity": 210000}
+    ],
+    "funding_rate": {"current": 0.012, "trend": "stable"},
+    "social_narrative": "v4 anticipation building. GHO stablecoin gaining traction. Revenue share proposal popular.",
+    "developer_activity": "high"
+  },
+  "risk_indicators": {
+    "audit_status": {"last_audit": "2025-08", "firm": "OpenZeppelin + Certora", "critical_findings": 0},
+    "liquidation_clusters": [],
+    "concentration_risk": {"top_10_holders": 48.2, "whale_activity": "accumulating"},
+    "governance_risk": "low - active but stable",
+    "technical_risk": "low - multiple audits, battle tested"
+  },
+  "capital_flows": {
+    "exchange_netflow_24h": -2800000,
+    "smart_money_signal": "inflows",
+    "bridge_flows_7d": null,
+    "notable_transactions": [
+      {"type": "stake", "amount": 45000, "from": "0x3b1...", "to": "Aave Safety Module", "value_usd": 7200000}
+    ]
+  },
+  "recent_events": [
+    {"date": "2026-03-08T00:00:00Z", "type": "governance", "description": "Proposal to activate revenue sharing for stakers passes", "impact": "positive - 6.8% yield sustainable"},
+    {"date": "2026-02-28T00:00:00Z", "type": "upgrade", "description": "GHO borrowing caps raised, peg stabilizing at $0.998", "impact": "positive - stablecoin adoption"}
+  ],
+  "data_gaps": [],
+  "research_notes": "Market leader with strengthening fundamentals. TVL growing faster than competitors. v4 upgrade catalyst ahead. Revenue sharing makes staking yield sustainable. No unlock risks. Smart money accumulating. Key risk: Regulatory scrutiny on lending protocols. GHO growth critical for long-term value accrual."
+}
