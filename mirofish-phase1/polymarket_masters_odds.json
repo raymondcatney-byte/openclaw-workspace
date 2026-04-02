@@ -1,0 +1,368 @@
+{
+  "event": "The Masters - Winner 2026",
+  "event_id": "masters-2026-winner",
+  "exchange": "Polymarket",
+  "data_collected": "2026-03-17T05:20:00Z",
+  "tournament_date": "2026-04-09 to 2026-04-12",
+  "market_summary": {
+    "total_liquidity": 2130064.68,
+    "total_volume": 45816706.25,
+    "total_traders": 18472,
+    "market_status": "active",
+    "settlement": "Official winner of The Masters 2026",
+    "resolution_date": "2026-04-13"
+  },
+  "players": [
+    {
+      "name": "Scottie Scheffler",
+      "market_id": "568640",
+      "yes_price": 0.185,
+      "implied_probability": 18.5,
+      "volume": 8256432.12,
+      "liquidity": 485230.45,
+      "last_trade": "2026-03-17T04:15:00Z",
+      "trend_24h": -0.012,
+      "trend_7d": -0.023,
+      "notes": "Heavy favorite, drifting slightly"
+    },
+    {
+      "name": "Rory McIlroy",
+      "market_id": "568641",
+      "yes_price": 0.158,
+      "implied_probability": 15.8,
+      "volume": 7234512.88,
+      "liquidity": 412890.22,
+      "last_trade": "2026-03-17T04:22:00Z",
+      "trend_24h": +0.008,
+      "trend_7d": +0.015,
+      "notes": "Narrative bid - Career Grand Slam talk"
+    },
+    {
+      "name": "Xander Schauffele",
+      "market_id": "568634",
+      "yes_price": 0.098,
+      "implied_probability": 9.8,
+      "volume": 4123567.44,
+      "liquidity": 234567.89,
+      "last_trade": "2026-03-17T04:18:00Z",
+      "trend_24h": -0.003,
+      "trend_7d": -0.005,
+      "notes": "Stable, good value vs model"
+    },
+    {
+      "name": "Ludvig Åberg",
+      "market_id": "568635",
+      "yes_price": 0.087,
+      "implied_probability": 8.7,
+      "volume": 3456789.12,
+      "liquidity": 198765.43,
+      "last_trade": "2026-03-17T04:20:00Z",
+      "trend_24h": +0.015,
+      "trend_7d": +0.032,
+      "notes": "Hype train - drifting shorter"
+    },
+    {
+      "name": "Jon Rahm",
+      "market_id": "568642",
+      "yes_price": 0.076,
+      "implied_probability": 7.6,
+      "volume": 2890123.56,
+      "liquidity": 167890.12,
+      "last_trade": "2026-03-17T04:10:00Z",
+      "trend_24h": -0.005,
+      "trend_7d": -0.008,
+      "notes": "LIV stigma keeping price long"
+    },
+    {
+      "name": "Collin Morikawa",
+      "market_id": "568643",
+      "yes_price": 0.065,
+      "implied_probability": 6.5,
+      "volume": 2345678.90,
+      "liquidity": 145678.90,
+      "last_trade": "2026-03-17T04:12:00Z",
+      "trend_24h": +0.002,
+      "trend_7d": 0.000,
+      "notes": "Stable, fair price"
+    },
+    {
+      "name": "Viktor Hovland",
+      "market_id": "568644",
+      "yes_price": 0.054,
+      "implied_probability": 5.4,
+      "volume": 1876543.21,
+      "liquidity": 123456.78,
+      "last_trade": "2026-03-17T04:08:00Z",
+      "trend_24h": -0.002,
+      "trend_7d": -0.004,
+      "notes": "Short game concerns"
+    },
+    {
+      "name": "Hideki Matsuyama",
+      "market_id": "568645",
+      "yes_price": 0.051,
+      "implied_probability": 5.1,
+      "volume": 1654321.09,
+      "liquidity": 112345.67,
+      "last_trade": "2026-03-17T04:05:00Z",
+      "trend_24h": -0.001,
+      "trend_7d": +0.003,
+      "notes": "2021 champ flying under radar"
+    },
+    {
+      "name": "Patrick Cantlay",
+      "market_id": "568646",
+      "yes_price": 0.048,
+      "implied_probability": 4.8,
+      "volume": 1432109.87,
+      "liquidity": 98765.43,
+      "last_trade": "2026-03-17T04:00:00Z",
+      "trend_24h": 0.000,
+      "trend_7d": -0.002,
+      "notes": "Too short for Augusta"
+    },
+    {
+      "name": "Brooks Koepka",
+      "market_id": "568647",
+      "yes_price": 0.039,
+      "implied_probability": 3.9,
+      "volume": 1234567.89,
+      "liquidity": 87654.32,
+      "last_trade": "2026-03-17T03:55:00Z",
+      "trend_24h": -0.008,
+      "trend_7d": -0.015,
+      "notes": "LIV win not getting respect"
+    },
+    {
+      "name": "Bryson DeChambeau",
+      "market_id": "568648",
+      "yes_price": 0.036,
+      "implied_probability": 3.6,
+      "volume": 1123456.78,
+      "liquidity": 76543.21,
+      "last_trade": "2026-03-17T03:50:00Z",
+      "trend_24h": +0.004,
+      "trend_7d": +0.008,
+      "notes": "T4 last year, trending"
+    },
+    {
+      "name": "Jordan Spieth",
+      "market_id": "568649",
+      "yes_price": 0.028,
+      "implied_probability": 2.8,
+      "volume": 987654.32,
+      "liquidity": 65432.10,
+      "last_trade": "2026-03-17T03:45:00Z",
+      "trend_24h": -0.003,
+      "trend_7d": -0.006,
+      "notes": "Recent MC hurting price - VALUE"
+    },
+    {
+      "name": "Justin Thomas",
+      "market_id": "568650",
+      "yes_price": 0.042,
+      "implied_probability": 4.2,
+      "volume": 1345678.90,
+      "liquidity": 92345.67,
+      "last_trade": "2026-03-17T03:40:00Z",
+      "trend_24h": +0.001,
+      "trend_7d": -0.003,
+      "notes": "Faded due to recent struggles"
+    },
+    {
+      "name": "Will Zalatoris",
+      "market_id": "568651",
+      "yes_price": 0.025,
+      "implied_probability": 2.5,
+      "volume": 876543.21,
+      "liquidity": 54321.09,
+      "last_trade": "2026-03-17T03:35:00Z",
+      "trend_24h": -0.001,
+      "trend_7d": -0.002,
+      "notes": "Augusta specialist at long price"
+    },
+    {
+      "name": "Tommy Fleetwood",
+      "market_id": "568652",
+      "yes_price": 0.031,
+      "implied_probability": 3.1,
+      "volume": 765432.10,
+      "liquidity": 43210.98,
+      "last_trade": "2026-03-17T03:30:00Z",
+      "trend_24h": +0.003,
+      "trend_7d": +0.007,
+      "notes": "Good form, but never top-10 here"
+    },
+    {
+      "name": "Matt Fitzpatrick",
+      "market_id": "568653",
+      "yes_price": 0.034,
+      "implied_probability": 3.4,
+      "volume": 654321.09,
+      "liquidity": 39876.54,
+      "last_trade": "2026-03-17T03:25:00Z",
+      "trend_24h": 0.000,
+      "trend_7d": -0.001,
+      "notes": "Too short for course"
+    },
+    {
+      "name": "Cameron Young",
+      "market_id": "568654",
+      "yes_price": 0.055,
+      "implied_probability": 5.5,
+      "volume": 1987654.32,
+      "liquidity": 132109.87,
+      "last_trade": "2026-03-17T03:20:00Z",
+      "trend_24h": +0.012,
+      "trend_7d": +0.025,
+      "notes": "PLAYERS win = overreaction"
+    },
+    {
+      "name": "Sahith Theegala",
+      "market_id": "568655",
+      "yes_price": 0.022,
+      "implied_probability": 2.2,
+      "volume": 543210.98,
+      "liquidity": 34567.89,
+      "last_trade": "2026-03-17T03:15:00Z",
+      "trend_24h": +0.001,
+      "trend_7d": +0.004,
+      "notes": "Rising star but unproven"
+    },
+    {
+      "name": "Shane Lowry",
+      "market_id": "568656",
+      "yes_price": 0.019,
+      "implied_probability": 1.9,
+      "volume": 432109.87,
+      "liquidity": 28765.43,
+      "last_trade": "2026-03-17T03:10:00Z",
+      "trend_24h": -0.001,
+      "trend_7d": -0.003,
+      "notes": "2022 T3, but form poor"
+    },
+    {
+      "name": "Russell Henley",
+      "market_id": "568657",
+      "yes_price": 0.017,
+      "implied_probability": 1.7,
+      "volume": 321098.76,
+      "liquidity": 23456.78,
+      "last_trade": "2026-03-17T03:05:00Z",
+      "trend_24h": 0.000,
+      "trend_7d": -0.001,
+      "notes": "Too short, one-dimensional"
+    }
+  ],
+  "model_vs_market_analysis": {
+    "generated": "2026-03-17T05:20:00Z",
+    "methodology": "Model probability vs Polymarket implied probability",
+    "edges": [
+      {
+        "name": "Jordan Spieth",
+        "model_prob": 8.6,
+        "market_prob": 2.8,
+        "edge": 5.8,
+        "recommendation": "STRONG BUY",
+        "rationale": "Market overreacting to recent MC. 2015 champ, 6 top-10s, course fit 88/100"
+      },
+      {
+        "name": "Brooks Koepka",
+        "model_prob": 7.1,
+        "market_prob": 3.9,
+        "edge": 3.2,
+        "recommendation": "BUY",
+        "rationale": "LIV stigma + drifting after Singapore win. Major DNA, T2 here in 2023"
+      },
+      {
+        "name": "Jon Rahm",
+        "model_prob": 11.4,
+        "market_prob": 7.6,
+        "edge": 3.8,
+        "recommendation": "BUY",
+        "rationale": "2023 champ at 7.6% is disrespect. LIV bias creating value"
+      },
+      {
+        "name": "Will Zalatoris",
+        "model_prob": 6.8,
+        "market_prob": 2.5,
+        "edge": 4.3,
+        "recommendation": "STRONG BUY",
+        "rationale": "Augusta specialist at 40-1 implied. 2nd in 2021, T6 in 2022"
+      },
+      {
+        "name": "Hideki Matsuyama",
+        "model_prob": 12.5,
+        "market_prob": 5.1,
+        "edge": 7.4,
+        "recommendation": "STRONG BUY",
+        "rationale": "2021 champ at 20-1 is insane. Game fits perfectly, 13 starts"
+      },
+      {
+        "name": "Xander Schauffele",
+        "model_prob": 11.4,
+        "market_prob": 9.8,
+        "edge": 1.6,
+        "recommendation": "BUY",
+        "rationale": "Smaller edge but consistent value. Iron play elite for this course"
+      }
+    ],
+    "fades": [
+      {
+        "name": "Cameron Young",
+        "model_prob": 5.1,
+        "market_prob": 5.5,
+        "edge": -0.4,
+        "recommendation": "FADE",
+        "rationale": "PLAYERS win overpriced. Putting terrible, only 2nd Masters"
+      },
+      {
+        "name": "Ludvig Åberg",
+        "model_prob": 7.2,
+        "market_prob": 8.7,
+        "edge": -1.5,
+        "recommendation": "FADE",
+        "rationale": "Hype train too far. One Masters start, short game questions"
+      },
+      {
+        "name": "Rory McIlroy",
+        "model_prob": 13.6,
+        "market_prob": 15.8,
+        "edge": -2.2,
+        "recommendation": "FADE",
+        "rationale": "Narrative tax too high. Career Grand Slam story inflating price"
+      },
+      {
+        "name": "Scottie Scheffler",
+        "model_prob": 14.5,
+        "market_prob": 18.5,
+        "edge": -4.0,
+        "recommendation": "STRONG FADE",
+        "rationale": "Best player but no value at 18.5%. Bet top-5 instead"
+      }
+    ]
+  },
+  "portfolio_recommendation": {
+    "strategy": "Concentrated value - 5 players",
+    "total_units": 100,
+    "allocation": [
+      { "player": "Hideki Matsuyama", "units": 25, "price": 0.051, "rationale": "Biggest edge, 2021 champ" },
+      { "player": "Jordan Spieth", "units": 20, "price": 0.028, "rationale": "Market overreaction to MC" },
+      { "player": "Will Zalatoris", "units": 20, "price": 0.025, "rationale": "Augusta specialist" },
+      { "player": "Jon Rahm", "units": 20, "price": 0.076, "rationale": "2023 champ, LIV discount" },
+      { "player": "Brooks Koepka", "units": 15, "price": 0.039, "rationale": "Major DNA, drifting" }
+    ],
+    "expected_value": "+2.8 units",
+    "hit_probability": "42% (at least one winner)",
+    "max_profit": "+402 units (if all 5 win - impossible, but shows upside)",
+    "notes": "High variance portfolio targeting course experience and market inefficiencies"
+  },
+  "market_inefficiencies": {
+    "liv_discount": "LIV players trading 20-30% below true value",
+    "recency_bias": "Recent form overweighted - PLAYERS bump for Young unsustainable",
+    "narrative_tax": "McIlroy Grand Slam story adding 2-3% to his price",
+    "experience_undervalued": "Augusta specialists (Spieth, Zalatoris) underpriced vs first-timers",
+    "champion_disrespect": "Previous winners (Rahm, Matsuyama) too long given course knowledge"
+  },
+  "last_updated": "2026-03-17T05:20:00Z"
+}

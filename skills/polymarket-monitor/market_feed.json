@@ -1,0 +1,173 @@
+[
+  {
+    "id": "megaeth-market-cap-fdv-one-day-after-launch",
+    "category": "crypto",
+    "name": "MegaETH Market Cap Day 1",
+    "current_price": 0.0175,
+    "price_yes": "1.8%",
+    "price_no": "98.2%",
+    "changes": {
+      "1h": null,
+      "24h": null,
+      "7d": null,
+      "trend": "stable"
+    },
+    "volume": 2304798.5691850185,
+    "liquidity": 58501.14088,
+    "last_updated": "2026-04-02T14:58:21.538732",
+    "polymarket_url": "https://polymarket.com/event/megaeth-market-cap-fdv-one-day-after-launch",
+    "alert": null
+  },
+  {
+    "id": "putin-out-before-2027",
+    "category": "geopolitics",
+    "name": "Putin Out Before 2027",
+    "current_price": 0.105,
+    "price_yes": "10.5%",
+    "price_no": "89.5%",
+    "changes": {
+      "1h": null,
+      "24h": null,
+      "7d": null,
+      "trend": "stable"
+    },
+    "volume": 3400301.918454976,
+    "liquidity": 339730.0121,
+    "last_updated": "2026-04-02T14:58:21.748996",
+    "polymarket_url": "https://polymarket.com/event/putin-out-before-2027",
+    "alert": null
+  },
+  {
+    "id": "presidential-election-winner-2028",
+    "category": "geopolitics",
+    "name": "2028 Presidential Election Winner",
+    "current_price": 0.0055,
+    "price_yes": "0.5%",
+    "price_no": "99.5%",
+    "changes": {
+      "1h": null,
+      "24h": null,
+      "7d": null,
+      "trend": "stable"
+    },
+    "volume": 5552216.794563032,
+    "liquidity": 1430701.37545,
+    "last_updated": "2026-04-02T14:58:22.042249",
+    "polymarket_url": "https://polymarket.com/event/presidential-election-winner-2028",
+    "alert": null
+  },
+  {
+    "id": "which-party-wins-2028-us-presidential-election",
+    "category": "geopolitics",
+    "name": "2028 Election Party Winner",
+    "current_price": 0.5,
+    "price_yes": "50.0%",
+    "price_no": "50.0%",
+    "changes": {
+      "1h": null,
+      "24h": null,
+      "7d": null,
+      "trend": "stable"
+    },
+    "volume": 0.0,
+    "liquidity": 0.0,
+    "last_updated": "2026-04-02T14:58:22.346275",
+    "polymarket_url": "https://polymarket.com/event/which-party-wins-2028-us-presidential-election",
+    "alert": null
+  },
+  {
+    "id": "what-will-happen-before-gta-vi",
+    "category": "gaming",
+    "name": "What Will Happen Before GTA VI",
+    "current_price": 0.545,
+    "price_yes": "54.5%",
+    "price_no": "45.5%",
+    "changes": {
+      "1h": 0.0,
+      "24h": 0.0,
+      "7d": null,
+      "trend": "stable"
+    },
+    "volume": 1411429.3124159987,
+    "liquidity": 52766.9186,
+    "last_updated": "2026-04-02T14:58:22.550433",
+    "polymarket_url": "https://polymarket.com/event/what-will-happen-before-gta-vi",
+    "alert": null
+  },
+  {
+    "id": "gta-vi-released-before-june-2026",
+    "category": "gaming",
+    "name": "GTA VI Released Before June 2026",
+    "current_price": 0.0135,
+    "price_yes": "1.4%",
+    "price_no": "98.7%",
+    "changes": {
+      "1h": 0.0,
+      "24h": 0.0,
+      "7d": null,
+      "trend": "stable"
+    },
+    "volume": 13068856.86442999,
+    "liquidity": 89588.53384,
+    "last_updated": "2026-04-02T14:58:22.865702",
+    "polymarket_url": "https://polymarket.com/event/gta-vi-released-before-june-2026",
+    "alert": null
+  },
+  {
+    "id": "2026-nhl-stanley-cup-champion",
+    "category": "sports",
+    "name": "2026 NHL Stanley Cup Champion",
+    "current_price": 0.105,
+    "price_yes": "10.5%",
+    "price_no": "89.5%",
+    "changes": {
+      "1h": null,
+      "24h": null,
+      "7d": null,
+      "trend": "stable"
+    },
+    "volume": 245137.27608200102,
+    "liquidity": 107792.7848,
+    "last_updated": "2026-04-02T14:58:23.213236",
+    "polymarket_url": "https://polymarket.com/event/2026-nhl-stanley-cup-champion",
+    "alert": null
+  },
+  {
+    "id": "2026-nba-champion",
+    "category": "sports",
+    "name": "2026 NBA Champion",
+    "current_price": 0.375,
+    "price_yes": "37.5%",
+    "price_no": "62.5%",
+    "changes": {
+      "1h": null,
+      "24h": null,
+      "7d": null,
+      "trend": "stable"
+    },
+    "volume": 5780574.930462927,
+    "liquidity": 299646.3495,
+    "last_updated": "2026-04-02T14:58:23.437014",
+    "polymarket_url": "https://polymarket.com/event/2026-nba-champion",
+    "alert": null
+  },
+  {
+    "id": "harvey-weinstein-prison-time",
+    "category": "legal",
+    "name": "Harvey Weinstein Prison Time",
+    "current_price": 0.28,
+    "price_yes": "28.0%",
+    "price_no": "72.0%",
+    "changes": {
+      "1h": -0.0014999999999999458,
+      "24h": -0.0014999999999999458,
+      "7d": null,
+      "trend": "stable"
+    },
+    "volume": 295359.5042120006,
+    "liquidity": 2804.19926,
+    "last_updated": "2026-04-02T14:58:23.648626",
+    "polymarket_url": "https://polymarket.com/event/harvey-weinstein-prison-time",
+    "alert": null
+  }
+]

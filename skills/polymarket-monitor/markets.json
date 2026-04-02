@@ -1,0 +1,66 @@
+{
+  "crypto": [
+    {
+      "id": "megaeth-market-cap-fdv-one-day-after-launch",
+      "name": "MegaETH Market Cap Day 1",
+      "threshold": 0.05,
+      "description": "MegaETH market cap (FDV) one day after launch"
+    }
+  ],
+  "geopolitics": [
+    {
+      "id": "putin-out-before-2027",
+      "name": "Putin Out Before 2027",
+      "threshold": 0.03,
+      "description": "Will Putin leave office by December 31, 2026"
+    },
+    {
+      "id": "presidential-election-winner-2028",
+      "name": "2028 Presidential Election Winner",
+      "threshold": 0.03,
+      "description": "Who will win the 2028 US Presidential Election"
+    },
+    {
+      "id": "which-party-wins-2028-us-presidential-election",
+      "name": "2028 Election Party Winner",
+      "threshold": 0.03,
+      "description": "Which party wins 2028 US Presidential Election"
+    }
+  ],
+  "gaming": [
+    {
+      "id": "what-will-happen-before-gta-vi",
+      "name": "What Will Happen Before GTA VI",
+      "threshold": 0.05,
+      "description": "Which event occurs before GTA VI release"
+    },
+    {
+      "id": "gta-vi-released-before-june-2026",
+      "name": "GTA VI Released Before June 2026",
+      "threshold": 0.05,
+      "description": "Will GTA VI release before June 2026"
+    }
+  ],
+  "sports": [
+    {
+      "id": "2026-nhl-stanley-cup-champion",
+      "name": "2026 NHL Stanley Cup Champion",
+      "threshold": 0.04,
+      "description": "Which team wins the 2026 NHL Stanley Cup"
+    },
+    {
+      "id": "2026-nba-champion",
+      "name": "2026 NBA Champion",
+      "threshold": 0.04,
+      "description": "Which team wins the 2026 NBA Championship"
+    }
+  ],
+  "legal": [
+    {
+      "id": "harvey-weinstein-prison-time",
+      "name": "Harvey Weinstein Prison Time",
+      "threshold": 0.04,
+      "description": "Will Harvey Weinstein serve additional prison time"
+    }
+  ]
+}
