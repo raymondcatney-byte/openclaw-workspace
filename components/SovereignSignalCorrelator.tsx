@@ -3,6 +3,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useRTDS, PriceState, AssetClass } from '@/hooks/useRTDS';
 import { useCrossAssetSignals, RegimeType, REGIME_DESCRIPTIONS } from '@/hooks/useCrossAssetSignals';
+import { usePolymarket, PolymarketEvent, formatProbability, formatVolume } from '@/hooks/usePolymarket';
 import {
   AlertTriangle,
   TrendingUp,
@@ -19,6 +20,10 @@ import {
   RefreshCw,
   Eye,
   EyeOff,
+  Wifi,
+  WifiOff,
+  Loader2,
+  ExternalLink,
 } from 'lucide-react';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
@@ -42,18 +47,8 @@ export type CorrelationType =
   | 'contrarian_signal'      // Polymarket crowded, price diverging
   | 'momentum_confluence';   // Both prediction and price trending same direction
 
-export interface PolymarketEvent {
-  id: string;
-  title: string;
-  category: string;
-  endDate: string;
-  probability: number; // 0-100
-  probabilityChange24h: number;
-  volume24h: number;
-  liquidity: number;
-  relatedAssets: string[]; // Symbols this event correlates with
-  marketUrl: string;
-}
+// Re-export PolymarketEvent from hook
+export type { PolymarketEvent } from '@/hooks/usePolymarket';
 
 export interface SovereignSignal {
   id: string;
@@ -82,9 +77,8 @@ export interface SovereignSignal {
 }
 
 export interface UseSovereignSignalsOptions {
-  events?: PolymarketEvent[];
-  enableAutoDiscovery?: boolean;
   minEdgeScore?: number;
+  maxEvents?: number;
   onSignal?: (signal: SovereignSignal) => void;
 }
 
@@ -168,19 +162,35 @@ export const DEFAULT_EVENTS: PolymarketEvent[] = [
 ];
 
 // ============================================================================
-// Main Hook
+// Main Hook (Using Real Polymarket Data)
 // ============================================================================
 
 export function useSovereignSignals(options: UseSovereignSignalsOptions = {}) {
   const {
-    events = DEFAULT_EVENTS,
     minEdgeScore = 40,
+    maxEvents = 50,
     onSignal,
   } = options;
 
+  // Get real Polymarket data
+  const { 
+    events, 
+    loading: pmLoading, 
+    error: pmError, 
+    refresh,
+    lastUpdated,
+  } = usePolymarket({
+    categories: ['crypto', 'politics', 'finance', 'tech'],
+    limit: maxEvents,
+    activeOnly: true,
+    minLiquidity: 10000,
+    minVolume24h: 5000,
+    refreshInterval: 60000, // 1 minute
+  });
+
   // Get data from other hooks
-  const { getPrice, prices } = useRTDS();
-  const { regime, metrics } = useCrossAssetSignals();
+  const { prices, getPrice } = useRTDS({});
+  const { regime, metrics } = useCrossAssetSignals({});
 
   // State
   const [signals, setSignals] = useState<SovereignSignal[]>([]);
@@ -189,11 +199,10 @@ export function useSovereignSignals(options: UseSovereignSignalsOptions = {}) {
   // Generate signals based on correlations
   useEffect(() => {
     const newSignals: SovereignSignal[] = [];
-    const now = Date.now();
 
-    events.forEach((event) => {
+    events.slice(0, maxEvents).forEach((event) => {
       // Check each related asset
-      event.relatedAssets.forEach((symbol) => {
+      event.relatedAssets?.forEach((symbol) => {
         const price = getPrice(symbol);
         if (!price) return;
 
@@ -218,7 +227,7 @@ export function useSovereignSignals(options: UseSovereignSignalsOptions = {}) {
     });
 
     setSignals(deduped);
-    setLastUpdate(now);
+    setLastUpdate(Date.now());
 
     // Emit new high-edge signals
     deduped.forEach((signal) => {
@@ -227,7 +236,7 @@ export function useSovereignSignals(options: UseSovereignSignalsOptions = {}) {
       }
     });
 
-  }, [events, prices, regime.current, metrics, getPrice, minEdgeScore, onSignal]);
+  }, [events, prices, regime.current, metrics, getPrice, minEdgeScore, maxEvents, onSignal]);
 
   // Group signals by type
   const groupedSignals = useMemo(() => {
@@ -256,7 +265,9 @@ export function useSovereignSignals(options: UseSovereignSignalsOptions = {}) {
       regime: groupedSignals.regime_alignment.length,
       contrarian: groupedSignals.contrarian_signal.length,
     },
-  }), [signals, groupedSignals]);
+    pmConnected: !pmError,
+    pmEventCount: events.length,
+  }), [signals, groupedSignals, pmError, events.length]);
 
   return {
     signals,
@@ -264,6 +275,10 @@ export function useSovereignSignals(options: UseSovereignSignalsOptions = {}) {
     stats,
     lastUpdate,
     regime: regime.current,
+    loading: pmLoading,
+    error: pmError,
+    refresh,
+    lastPolymarketUpdate: lastUpdated,
   };
 }
 
@@ -412,20 +427,30 @@ function isRegimeAligned(event: PolymarketEvent, regime: RegimeType): boolean {
 
 interface SovereignSignalPanelProps {
   className?: string;
-  events?: PolymarketEvent[];
   minEdgeScore?: number;
+  maxEvents?: number;
   onSignalClick?: (signal: SovereignSignal) => void;
 }
 
 export function SovereignSignalPanel({
   className,
-  events = DEFAULT_EVENTS,
   minEdgeScore = 40,
+  maxEvents = 50,
   onSignalClick,
 }: SovereignSignalPanelProps) {
-  const { signals, groupedSignals, stats, lastUpdate, regime } = useSovereignSignals({
-    events,
+  const { 
+    signals, 
+    groupedSignals, 
+    stats, 
+    lastUpdate, 
+    regime,
+    loading,
+    error,
+    refresh,
+    lastPolymarketUpdate,
+  } = useSovereignSignals({
     minEdgeScore,
+    maxEvents,
   });
 
   const [selectedTypes, setSelectedTypes] = useState<Set<CorrelationType>>(
@@ -458,13 +483,28 @@ export function SovereignSignalPanel({
               <Target className="w-4 h-4 text-amber-400" />
             </div>
             <div>
-              <h3 className="text-sm font-semibold text-slate-100">Sovereign Signals</h3>
+              <div className="flex items-center gap-2">
+                <h3 className="text-sm font-semibold text-slate-100">Sovereign Signals</h3>
+                {stats.pmConnected ? (
+                  <Wifi className="w-3 h-3 text-green-400" />
+                ) : (
+                  <WifiOff className="w-3 h-3 text-red-400" />
+                )}
+              </div>
               <p className="text-xs text-slate-500">
-                {stats.total} opportunities · {stats.highEdge} high edge
+                {loading ? 'Loading...' : `${stats.total} opportunities · ${stats.pmEventCount} PM events`}
               </p>
             </div>
           </div>
           <div className="flex items-center gap-2">
+            <button
+              onClick={refresh}
+              disabled={loading}
+              className="p-1.5 rounded-md text-slate-500 hover:text-slate-300 hover:bg-slate-800 transition-colors disabled:opacity-50"
+              title="Refresh Polymarket data"
+            >
+              <RefreshCw className={cn("w-4 h-4", loading && "animate-spin")} />
+            </button>
             <div 
               className="px-2 py-1 rounded-full text-xs"
               style={{ 
@@ -475,6 +515,17 @@ export function SovereignSignalPanel({
               {REGIME_DESCRIPTIONS[regime].emoji} {REGIME_DESCRIPTIONS[regime].label}
             </div>
           </div>
+        </div>
+        
+        {/* Connection status bar */}
+        <div className="flex items-center gap-2 mt-2">
+          {error ? (
+            <span className="text-[10px] text-red-400">PM API Error: {error.message}</span>
+          ) : (
+            <span className="text-[10px] text-slate-500">
+              Last updated: {lastPolymarketUpdate ? new Date(lastPolymarketUpdate).toLocaleTimeString() : 'Never'}
+            </span>
+          )}
         </div>
       </div>
 
@@ -500,11 +551,17 @@ export function SovereignSignalPanel({
 
       {/* Signals List */}
       <div className="flex-1 overflow-y-auto">
-        {filteredSignals.length === 0 ? (
+        {loading ? (
+          <div className="flex flex-col items-center justify-center h-48 text-slate-500">
+            <Loader2 className="w-8 h-8 mb-2 animate-spin" />
+            <p className="text-sm">Loading Polymarket data...</p>
+            <p className="text-xs mt-1">Fetching live prediction markets</p>
+          </div>
+        ) : filteredSignals.length === 0 ? (
           <div className="flex flex-col items-center justify-center h-48 text-slate-500">
             <GitBranch className="w-8 h-8 mb-2 opacity-50" />
             <p className="text-sm">No high-edge signals</p>
-            <p className="text-xs mt-1">Lower edge threshold to see more</p>
+            <p className="text-xs mt-1">{stats.pmEventCount > 0 ? 'Try lowering edge threshold' : 'Waiting for Polymarket data'}</p>
           </div>
         ) : (
           <div className="divide-y divide-slate-800">
@@ -609,11 +666,13 @@ function SignalCard({ signal, onClick }: { signal: SovereignSignal; onClick?: ()
               <div className="grid grid-cols-4 gap-2">
                 <div className="bg-slate-800/30 rounded p-2">
                   <div className="text-[10px] text-slate-500">PM Prob</div>
-                  <div className="text-sm font-mono">{signal.confidence.toFixed(0)}%</div>
+                  <div className="text-sm font-mono" style={{ color: getProbabilityColor(signal.confidence) }}>
+                    {signal.confidence.toFixed(0)}%
+                  </div>
                 </div>
                 <div className="bg-slate-800/30 rounded p-2">
                   <div className="text-[10px] text-slate-500">Price</div>
-                  <div className="text-sm font-mono">${signal.currentPrice?.toFixed(2)}</div>
+                  <div className="text-sm font-mono text-slate-200">${signal.currentPrice?.toFixed(2)}</div>
                 </div>
                 <div className="bg-slate-800/30 rounded p-2">
                   <div className="text-[10px] text-slate-500">24h Chg</div>
@@ -629,6 +688,25 @@ function SignalCard({ signal, onClick }: { signal: SovereignSignal; onClick?: ()
                   <div className="text-sm text-slate-300 capitalize">{signal.timeHorizon}</div>
                 </div>
               </div>
+
+              {/* Polymarket Link */}
+              {signal.polymarketEvent?.slug && (
+                <a
+                  href={`https://polymarket.com/event/${signal.polymarketEvent.slug}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className="flex items-center gap-2 text-xs text-cyan-400 hover:text-cyan-300 transition-colors"
+                >
+                  <ExternalLink className="w-3 h-3" />
+                  <span>View on Polymarket</span>
+                  {signal.polymarketEvent.volume24h > 0 && (
+                    <span className="text-[10px] text-slate-500">
+                      · {formatVolume(signal.polymarketEvent.volume24h)} vol
+                    </span>
+                  )}
+                </a>
+              )}
 
               {/* Conviction badge */}
               <div className="flex items-center gap-2">
