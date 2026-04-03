@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 import { RTDSMarketPanel } from './RTDSMarketPanel';
 import { AgentAlertFeed } from './AgentAlertFeed';
 import { SovereignSignalPanel } from './SovereignSignalCorrelator';
+import { UnusualMovementPanel, MovementAlertBadge } from './UnusualMovementPanel';
+import { useUnusualMovementDetection } from '@/hooks/useUnusualMovementDetection';
 import { 
   useRTDS, 
   DEFAULT_SYMBOLS,
@@ -52,7 +54,7 @@ function cn(...inputs: ClassValue[]) {
 // Types
 // ============================================================================
 
-type DashboardView = 'overview' | 'prices' | 'signals' | 'sovereign' | 'settings';
+type DashboardView = 'overview' | 'prices' | 'movements' | 'signals' | 'sovereign' | 'settings';
 
 interface AgentDashboardProps {
   className?: string;
@@ -110,6 +112,8 @@ export function AgentDashboard({ className, defaultView = 'overview' }: AgentDas
     };
   }, [getPricesByAssetClass, regimeSignals]);
 
+  const { criticalCount } = useUnusualMovementDetection({ symbols: DEFAULT_SYMBOLS });
+
   // Get key prices for overview
   const spyPrice = prices.get('SPY');
   const btcPrice = prices.get('BTC');
@@ -120,6 +124,7 @@ export function AgentDashboard({ className, defaultView = 'overview' }: AgentDas
   const navItems: { id: DashboardView; label: string; icon: React.ReactNode; badge?: number }[] = [
     { id: 'overview', label: 'Overview', icon: <LayoutGrid className="w-4 h-4" /> },
     { id: 'prices', label: 'Market Prices', icon: <BarChart3 className="w-4 h-4" /> },
+    { id: 'movements', label: 'Movement Alerts', icon: <Bell className="w-4 h-4" />, badge: criticalCount },
     { id: 'signals', label: 'Agent Signals', icon: <Zap className="w-4 h-4" />, badge: stats.activeAlerts },
     { id: 'sovereign', label: 'Sovereign Alpha', icon: <Target className="w-4 h-4" /> },
     { id: 'settings', label: 'Settings', icon: <Settings className="w-4 h-4" /> },
@@ -223,6 +228,9 @@ export function AgentDashboard({ className, defaultView = 'overview' }: AgentDas
         {activeView === 'prices' && (
           <RTDSMarketPanel className="h-full rounded-none border-0" />
         )}
+        {activeView === 'movements' && (
+          <UnusualMovementPanel className="h-full rounded-none border-0" />
+        )}
         {activeView === 'signals' && (
           <AgentAlertFeed className="h-full rounded-none border-0" />
         )}
@@ -273,9 +281,12 @@ function OverviewView({
   return (
     <div className="h-full overflow-y-auto p-4">
       {/* Header */}
-      <div className="mb-6">
-        <h1 className="text-xl font-bold text-slate-100">Agent Dashboard</h1>
-        <p className="text-sm text-slate-500">Cross-asset market intelligence & signal detection</p>
+      <div className="flex items-center justify-between mb-6">
+        <div>
+          <h1 className="text-xl font-bold text-slate-100">Agent Dashboard</h1>
+          <p className="text-sm text-slate-500">Cross-asset market intelligence & signal detection</p>
+        </div>
+        <MovementAlertBadge />
       </div>
 
       {/* Key Metrics Grid */}
