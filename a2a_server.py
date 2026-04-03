@@ -26,9 +26,9 @@ import uvicorn
 
 AGENT_CONFIG = {
     "name": "MarketAnomalyScanner",
-    "description": "Real-time cryptocurrency market anomaly detection and intelligence service. Identifies unusual volume, price dislocations, funding rate extremes, and cross-exchange arbitrage opportunities.",
+    "description": "Real-time market intelligence service. Detects whale movements, cross-asset correlations, unusual price movements, and Polymarket prediction market divergences.",
     "url": "https://api.anomalyscan.io",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "capabilities": {
         "streaming": True,
         "pushNotifications": True
@@ -155,6 +155,118 @@ class WhaleScanRequest(BaseModel):
     signalTypes: List[str] = ["exchange_inflow", "dex_swap"]
     thresholds: WhaleThresholds = Field(default_factory=WhaleThresholds)
     entityFilters: EntityFilters = Field(default_factory=EntityFilters)
+
+
+# ============================================================================
+# New Market Intelligence Models
+# ============================================================================
+
+class RTDSPriceRequest(BaseModel):
+    """Request real-time price data from RTDS."""
+    symbols: List[str] = Field(default=["BTC", "ETH", "SPY", "QQQ"])
+    includeMetadata: bool = True
+
+class RTDSPriceResponse(BaseModel):
+    symbol: str
+    price: float
+    change24h: float
+    volume24h: float
+    high24h: float
+    low24h: float
+    assetClass: str
+    lastUpdated: str
+    isCarriedForward: bool = False
+
+class CrossAssetSignalRequest(BaseModel):
+    """Request cross-asset correlation signals."""
+    symbols: List[str] = Field(default=["BTC", "ETH", "SPY", "QQQ", "XAUUSD", "VXX"])
+    minConfidence: float = 0.6
+    lookbackWindow: int = 300  # seconds
+
+class SignalDetails(BaseModel):
+    type: str
+    severity: str
+    description: str
+    confidence: float
+    timestamp: str
+    affectedAssets: List[str]
+    regimeContext: str
+    thesis: str
+
+class CrossAssetSignalResponse(BaseModel):
+    signals: List[SignalDetails]
+    currentRegime: str
+    regimeConfidence: float
+    regimeDuration: int  # seconds
+    totalAnalyzed: int
+    generatedAt: str
+
+class UnusualMovementRequest(BaseModel):
+    """Request unusual movement detection."""
+    symbols: List[str] = Field(default=["BTC", "ETH", "SOL", "AAPL", "TSLA", "NVDA", "SPY", "QQQ"])
+    detectionTypes: List[str] = Field(default=["flash_crash", "pump", "volatility_expansion", "trend_reversal"])
+    sensitivity: str = "medium"  # low, medium, high
+    lookbackMinutes: int = 5
+
+class MovementAlert(BaseModel):
+    symbol: str
+    type: str
+    severity: str
+    triggerPrice: float
+    priceChange: float  # percent
+    volumeAnomaly: Optional[float] = None  # z-score
+    timestamp: str
+    description: str
+    suggestedAction: str
+
+class UnusualMovementResponse(BaseModel):
+    alerts: List[MovementAlert]
+    monitoredCount: int
+    scanWindow: int  # seconds
+    generatedAt: str
+
+class SovereignSignalRequest(BaseModel):
+    """Request sovereign signals - PM divergence detection."""
+    minEdgeScore: int = 40
+    maxEvents: int = 50
+    categories: List[str] = Field(default=["crypto", "politics", "finance", "tech"])
+    includePmData: bool = True
+
+class PmEvent(BaseModel):
+    id: str
+    title: str
+    category: str
+    probability: float
+    probabilityChange24h: float
+    volume24h: float
+    liquidity: float
+    relatedAssets: List[str]
+
+class SovereignSignalDetails(BaseModel):
+    id: str
+    type: str
+    severity: str
+    title: str
+    description: str
+    edgeScore: int
+    alignmentScore: int
+    confidence: int
+    priceSymbol: str
+    currentPrice: float
+    priceChange24h: float
+    polymarketEvent: Optional[PmEvent] = None
+    thesis: str
+    timeHorizon: str
+    conviction: str
+    regimeContext: str
+
+class SovereignSignalResponse(BaseModel):
+    signals: List[SovereignSignalDetails]
+    totalEvents: int
+    pmConnected: bool
+    lastPmUpdate: Optional[str] = None
+    currentRegime: str
+    generatedAt: str
 
 # ============================================================================
 # Task Store (In-Memory for Demo)
@@ -472,6 +584,350 @@ class WhaleDetectionEngine:
 
 whale_engine = WhaleDetectionEngine()
 
+
+# ============================================================================
+# Market Intelligence Engines (New)
+# ============================================================================
+
+class RTDSEngine:
+    """
+    Real-time price data engine.
+    In production: Connect to Polymarket RTDS WebSocket.
+    """
+    
+    MOCK_PRICES = {
+        "BTC": {"price": 67234.50, "change24h": 2.3, "volume24h": 28_500_000_000, "high24h": 68100.00, "low24h": 65400.00, "assetClass": "crypto"},
+        "ETH": {"price": 3456.78, "change24h": 1.8, "volume24h": 15_200_000_000, "high24h": 3520.00, "low24h": 3380.00, "assetClass": "crypto"},
+        "SOL": {"price": 178.45, "change24h": 5.2, "volume24h": 4_100_000_000, "high24h": 185.00, "low24h": 169.20, "assetClass": "crypto"},
+        "SPY": {"price": 518.32, "change24h": -0.4, "volume24h": 45_000_000, "high24h": 521.50, "low24h": 515.80, "assetClass": "equity"},
+        "QQQ": {"price": 442.18, "change24h": 0.2, "volume24h": 28_000_000, "high24h": 445.00, "low24h": 439.50, "assetClass": "equity"},
+        "VXX": {"price": 14.82, "change24h": -2.1, "volume24h": 12_000_000, "high24h": 15.20, "low24h": 14.65, "assetClass": "equity"},
+        "AAPL": {"price": 168.45, "change24h": 0.8, "volume24h": 52_000_000, "high24h": 170.00, "low24h": 166.80, "assetClass": "equity"},
+        "TSLA": {"price": 175.23, "change24h": -1.5, "volume24h": 98_000_000, "high24h": 179.50, "low24h": 173.20, "assetClass": "equity"},
+        "NVDA": {"price": 878.56, "change24h": 3.2, "volume24h": 45_000_000, "high24h": 890.00, "low24h": 855.00, "assetClass": "equity"},
+        "XAUUSD": {"price": 2234.50, "change24h": 0.5, "volume24h": 125_000_000, "high24h": 2245.00, "low24h": 2220.00, "assetClass": "metal"},
+    }
+    
+    async def get_prices(self, symbols: List[str]) -> List[RTDSPriceResponse]:
+        """Get current prices for symbols."""
+        results = []
+        now = datetime.now(timezone.utc).isoformat()
+        
+        for symbol in symbols:
+            if symbol.upper() in self.MOCK_PRICES:
+                data = self.MOCK_PRICES[symbol.upper()]
+                results.append(RTDSPriceResponse(
+                    symbol=symbol.upper(),
+                    price=data["price"],
+                    change24h=data["change24h"],
+                    volume24h=data["volume24h"],
+                    high24h=data["high24h"],
+                    low24h=data["low24h"],
+                    assetClass=data["assetClass"],
+                    lastUpdated=now,
+                    isCarriedForward=False
+                ))
+        
+        return results
+    
+    async def stream_prices(self, symbols: List[str]):
+        """Stream price updates."""
+        sequence = 0
+        while True:
+            await asyncio.sleep(3)
+            sequence += 1
+            
+            # Simulate small price movements
+            updates = []
+            for symbol in symbols:
+                if symbol.upper() in self.MOCK_PRICES:
+                    base = self.MOCK_PRICES[symbol.upper()]["price"]
+                    noise = (hash(symbol + str(sequence)) % 100 - 50) / 1000
+                    updates.append({
+                        "symbol": symbol.upper(),
+                        "price": round(base * (1 + noise), 2),
+                        "timestamp": datetime.now(timezone.utc).isoformat(),
+                        "sequence": sequence
+                    })
+            
+            yield {
+                "eventType": "price_update",
+                "updates": updates,
+                "timestamp": datetime.now(timezone.utc).isoformat()
+            }
+
+
+class CrossAssetEngine:
+    """
+    Cross-asset correlation and regime detection engine.
+    """
+    
+    REGIMES = {
+        "expansion_risk_on": {"label": "Expansion (Risk On)", "emoji": "🚀", "color": "#22c55e"},
+        "contraction_risk_off": {"label": "Contraction (Risk Off)", "emoji": "🛡️", "color": "#ef4444"},
+        "dollar_dominance": {"label": "Dollar Dominance", "emoji": "💵", "color": "#3b82f6"},
+        "inflation_hedge": {"label": "Inflation Hedge", "emoji": "🥇", "color": "#f59e0b"},
+        "geopolitical_stress": {"label": "Geopolitical Stress", "emoji": "⚠️", "color": "#f97316"},
+        "tech_momentum": {"label": "Tech Momentum", "emoji": "💻", "color": "#8b5cf6"},
+        "crypto_spring": {"label": "Crypto Spring", "emoji": "🌱", "color": "#10b981"},
+        "crypto_winter": {"label": "Crypto Winter", "emoji": "❄️", "color": "#06b6d4"},
+        "choppy_neutral": {"label": "Choppy Neutral", "emoji": "〰️", "color": "#64748b"},
+        "unclear": {"label": "Unclear", "emoji": "❓", "color": "#94a3b8"},
+    }
+    
+    async def analyze(self, symbols: List[str], min_confidence: float) -> CrossAssetSignalResponse:
+        """Generate cross-asset signals."""
+        await asyncio.sleep(0.3)
+        
+        now = datetime.now(timezone.utc).isoformat()
+        
+        # Mock regime detection
+        import random
+        regime_key = random.choice(list(self.REGIMES.keys()))
+        
+        # Mock signals
+        signals = []
+        if random.random() > 0.5:
+            signals.append(SignalDetails(
+                type="divergence",
+                severity="high",
+                description="Crypto diverging from tech equities - possible rotation signal",
+                confidence=0.75,
+                timestamp=now,
+                affectedAssets=["BTC", "ETH", "QQQ"],
+                regimeContext=regime_key,
+                thesis="Bitcoin breaking correlation with NASDAQ suggests independent catalyst or institutional accumulation"
+            ))
+        
+        if random.random() > 0.7:
+            signals.append(SignalDetails(
+                type="regime_shift",
+                severity="critical",
+                description="Risk-off regime emerging - VXX spike with equity decline",
+                confidence=0.82,
+                timestamp=now,
+                affectedAssets=["SPY", "QQQ", "VXX", "XAUUSD"],
+                regimeContext="contraction_risk_off",
+                thesis="Volatility expansion across tech names with gold bid suggests defensive positioning"
+            ))
+        
+        return CrossAssetSignalResponse(
+            signals=signals,
+            currentRegime=regime_key,
+            regimeConfidence=0.78,
+            regimeDuration=1800,
+            totalAnalyzed=len(symbols),
+            generatedAt=now
+        )
+
+
+class UnusualMovementEngine:
+    """
+    Unusual price movement detection engine.
+    """
+    
+    async def scan(self, symbols: List[str], detection_types: List[str], sensitivity: str) -> UnusualMovementResponse:
+        """Scan for unusual movements."""
+        await asyncio.sleep(0.3)
+        
+        now = datetime.now(timezone.utc).isoformat()
+        alerts = []
+        
+        import random
+        
+        # Generate mock alerts based on detection types
+        if "flash_crash" in detection_types and random.random() > 0.7:
+            alerts.append(MovementAlert(
+                symbol="TSLA",
+                type="flash_crash",
+                severity="critical",
+                triggerPrice=172.50,
+                priceChange=-5.2,
+                timestamp=now,
+                description="Rapid 5% decline in 3 minutes - potential stop cascade or news event",
+                suggestedAction="Monitor for bounce opportunity or wait for stabilization"
+            ))
+        
+        if "pump" in detection_types and random.random() > 0.8:
+            alerts.append(MovementAlert(
+                symbol="SOL",
+                type="pump",
+                severity="high",
+                triggerPrice=182.30,
+                priceChange=6.8,
+                volumeAnomaly=3.5,
+                timestamp=now,
+                description="Breakout volume with 6.8% move - momentum continuation likely",
+                suggestedAction="Consider scaling into position with tight stop"
+            ))
+        
+        if "volatility_expansion" in detection_types and random.random() > 0.6:
+            alerts.append(MovementAlert(
+                symbol="NVDA",
+                type="volatility_expansion",
+                severity="medium",
+                triggerPrice=885.00,
+                priceChange=2.1,
+                volumeAnomaly=2.8,
+                timestamp=now,
+                description="Volatility 3x normal range - earnings anticipation or institutional rebalancing",
+                suggestedAction="Reduce position size or hedge with options"
+            ))
+        
+        return UnusualMovementResponse(
+            alerts=alerts,
+            monitoredCount=len(symbols),
+            scanWindow=300,
+            generatedAt=now
+        )
+    
+    async def stream_alerts(self, symbols: List[str], detection_types: List[str]):
+        """Stream movement alerts."""
+        sequence = 0
+        while True:
+            await asyncio.sleep(8)
+            sequence += 1
+            
+            import random
+            if random.random() > 0.6:
+                symbol = random.choice(symbols)
+                alert_types = ["price_spike", "volume_anomaly", "trend_reversal"]
+                alert_type = random.choice(alert_types)
+                
+                yield {
+                    "eventType": "movement_alert",
+                    "sequence": sequence,
+                    "timestamp": datetime.now(timezone.utc).isoformat(),
+                    "alert": {
+                        "symbol": symbol,
+                        "type": alert_type,
+                        "severity": random.choice(["low", "medium", "high"]),
+                        "triggerPrice": round(random.uniform(100, 1000), 2),
+                        "priceChange": round(random.uniform(-3, 3), 2),
+                        "timestamp": datetime.now(timezone.utc).isoformat()
+                    }
+                }
+
+
+class SovereignSignalEngine:
+    """
+    Sovereign signal engine - Polymarket divergence detection.
+    """
+    
+    MOCK_PM_EVENTS = [
+        {
+            "id": "crypto-regulation",
+            "title": "Crypto Regulation Passes in Q2",
+            "category": "Crypto",
+            "probability": 34,
+            "probabilityChange24h": -5,
+            "volume24h": 2400000,
+            "liquidity": 890000,
+            "relatedAssets": ["BTC", "ETH", "COIN", "HOOD"]
+        },
+        {
+            "id": "fed-rate-cut",
+            "title": "Fed Cuts Rates Before July",
+            "category": "Macro",
+            "probability": 67,
+            "probabilityChange24h": 8,
+            "volume24h": 5600000,
+            "liquidity": 2100000,
+            "relatedAssets": ["SPY", "QQQ", "BTC", "ETH", "XAUUSD"]
+        },
+        {
+            "id": "nvda-earnings",
+            "title": "NVDA Beats Earnings Estimates",
+            "category": "Earnings",
+            "probability": 72,
+            "probabilityChange24h": 3,
+            "volume24h": 1200000,
+            "liquidity": 450000,
+            "relatedAssets": ["NVDA", "QQQ", "SPY"]
+        },
+        {
+            "id": "eth-etf",
+            "title": "ETH ETF Approved This Quarter",
+            "category": "Crypto",
+            "probability": 28,
+            "probabilityChange24h": -12,
+            "volume24h": 1800000,
+            "liquidity": 670000,
+            "relatedAssets": ["ETH", "COIN", "HOOD"]
+        },
+    ]
+    
+    async def generate_signals(self, min_edge: int, max_events: int, categories: List[str]) -> SovereignSignalResponse:
+        """Generate sovereign signals from PM divergence."""
+        await asyncio.sleep(0.5)
+        
+        now = datetime.now(timezone.utc).isoformat()
+        signals = []
+        
+        # Mock price data for correlation
+        mock_prices = {
+            "BTC": {"price": 67234.50, "change24h": 2.3},
+            "ETH": {"price": 3456.78, "change24h": 1.8},
+            "SPY": {"price": 518.32, "change24h": -0.4},
+            "QQQ": {"price": 442.18, "change24h": 0.2},
+            "NVDA": {"price": 878.56, "change24h": 3.2},
+            "XAUUSD": {"price": 2234.50, "change24h": 0.5},
+            "COIN": {"price": 198.45, "change24h": 4.2},
+            "HOOD": {"price": 18.23, "change24h": -1.8},
+        }
+        
+        for event in self.MOCK_PM_EVENTS[:max_events]:
+            for asset in event["relatedAssets"]:
+                if asset in mock_prices:
+                    price_data = mock_prices[asset]
+                    
+                    # Calculate divergence
+                    pm_change = event["probabilityChange24h"]
+                    price_change = price_data["change24h"]
+                    alignment = 100 - abs(pm_change - price_change * 10)  # Rough alignment calc
+                    edge = min(100, max(40, abs(alignment - 50) * 2))
+                    
+                    if edge >= min_edge:
+                        signal_type = "divergence_opportunity" if alignment < 50 else "momentum_confluence"
+                        
+                        signals.append(SovereignSignalDetails(
+                            id=f"{event['id']}-{asset}",
+                            type=signal_type,
+                            severity="high" if edge > 70 else "medium",
+                            title=f"{event['title']} / {asset} Disconnect",
+                            description=f"Polymarket {event['probability']}% vs {asset} {price_change:+.1f}% - {edge:.0f} edge score",
+                            edgeScore=int(edge),
+                            alignmentScore=int(alignment),
+                            confidence=event["probability"],
+                            priceSymbol=asset,
+                            currentPrice=price_data["price"],
+                            priceChange24h=price_change,
+                            polymarketEvent=PmEvent(**event),
+                            thesis=f"High conviction prediction market ({event['probability']}%) diverging from price action suggests information asymmetry",
+                            timeHorizon="days",
+                            conviction="tactical",
+                            regimeContext="tech_momentum"
+                        ))
+        
+        # Sort by edge score
+        signals.sort(key=lambda x: x.edgeScore, reverse=True)
+        
+        return SovereignSignalResponse(
+            signals=signals,
+            totalEvents=len(self.MOCK_PM_EVENTS),
+            pmConnected=True,
+            lastPmUpdate=now,
+            currentRegime="tech_momentum",
+            generatedAt=now
+        )
+
+
+# Instantiate new engines
+rtds_engine = RTDSEngine()
+cross_asset_engine = CrossAssetEngine()
+movement_engine = UnusualMovementEngine()
+sovereign_engine = SovereignSignalEngine()
+
 # ============================================================================
 # Authentication
 # ============================================================================
@@ -578,14 +1034,22 @@ async def tasks_send(
     
     for part in request.message.parts:
         if part.get("type") == "text":
-            text = part.get("text", "")
+            text = part.get("text", "").lower()
             # Parse skill from text (simple parsing)
-            if "whale_watch" in text.lower():
+            if "whale_watch" in text or "whale" in text:
                 skill_id = "whale_watch"
-            elif "spot_anomaly_scan" in text.lower():
+            elif "spot_anomaly_scan" in text or "spot" in text:
                 skill_id = "spot_anomaly_scan"
-            elif "perp_anomaly_scan" in text.lower():
+            elif "perp_anomaly_scan" in text or "perp" in text:
                 skill_id = "perp_anomaly_scan"
+            elif "rtds_price" in text or "price" in text:
+                skill_id = "rtds_price"
+            elif "cross_asset_signal" in text or "cross_asset" in text or "regime" in text:
+                skill_id = "cross_asset_signal"
+            elif "unusual_movement" in text or "movement" in text or "alert" in text:
+                skill_id = "unusual_movement"
+            elif "sovereign_signal" in text or "sovereign" in text or "divergence" in text:
+                skill_id = "sovereign_signal"
         elif part.get("type") == "data":
             params = part.get("data", {})
     
@@ -627,6 +1091,94 @@ async def tasks_send(
                 },
                 "id": int(request.id.split("-")[-1]) if request.id.split("-")[-1].isdigit() else 1
             }
+        elif skill_id == "rtds_price":
+            req = RTDSPriceRequest(**params)
+            prices = await rtds_engine.get_prices(req.symbols)
+            
+            artifact = Artifact(
+                type="json",
+                title="RTDS Price Data",
+                content={"prices": [p.model_dump() for p in prices]}
+            )
+            
+            task_store.update_task(request.id, TaskState.COMPLETED, [artifact])
+            
+            return {
+                "jsonrpc": "2.0",
+                "result": {
+                    "id": request.id,
+                    "status": TaskState.COMPLETED,
+                    "artifacts": [artifact.model_dump()]
+                },
+                "id": 1
+            }
+            
+        elif skill_id == "cross_asset_signal":
+            req = CrossAssetSignalRequest(**params)
+            result = await cross_asset_engine.analyze(req.symbols, req.minConfidence)
+            
+            artifact = Artifact(
+                type="json",
+                title="Cross-Asset Signal Analysis",
+                content=result.model_dump()
+            )
+            
+            task_store.update_task(request.id, TaskState.COMPLETED, [artifact])
+            
+            return {
+                "jsonrpc": "2.0",
+                "result": {
+                    "id": request.id,
+                    "status": TaskState.COMPLETED,
+                    "artifacts": [artifact.model_dump()]
+                },
+                "id": 1
+            }
+            
+        elif skill_id == "unusual_movement":
+            req = UnusualMovementRequest(**params)
+            result = await movement_engine.scan(req.symbols, req.detectionTypes, req.sensitivity)
+            
+            artifact = Artifact(
+                type="json",
+                title="Unusual Movement Alerts",
+                content=result.model_dump()
+            )
+            
+            task_store.update_task(request.id, TaskState.COMPLETED, [artifact])
+            
+            return {
+                "jsonrpc": "2.0",
+                "result": {
+                    "id": request.id,
+                    "status": TaskState.COMPLETED,
+                    "artifacts": [artifact.model_dump()]
+                },
+                "id": 1
+            }
+            
+        elif skill_id == "sovereign_signal":
+            req = SovereignSignalRequest(**params)
+            result = await sovereign_engine.generate_signals(req.minEdgeScore, req.maxEvents, req.categories)
+            
+            artifact = Artifact(
+                type="json",
+                title="Sovereign Signal Report",
+                content=result.model_dump()
+            )
+            
+            task_store.update_task(request.id, TaskState.COMPLETED, [artifact])
+            
+            return {
+                "jsonrpc": "2.0",
+                "result": {
+                    "id": request.id,
+                    "status": TaskState.COMPLETED,
+                    "artifacts": [artifact.model_dump()]
+                },
+                "id": 1
+            }
+            
         else:
             # Mock response for other skills
             artifact = Artifact(
@@ -674,9 +1226,13 @@ async def tasks_send_subscribe(
     
     for part in request.message.parts:
         if part.get("type") == "text":
-            text = part.get("text", "")
-            if "whale" in text.lower() or "realtime" in text.lower():
+            text = part.get("text", "").lower()
+            if "whale" in text:
                 skill_id = "whale_watch"
+            elif "price" in text or "rtds" in text:
+                skill_id = "rtds_price"
+            elif "movement" in text or "alert" in text:
+                skill_id = "unusual_movement"
         elif part.get("type") == "data":
             params = part.get("data", {})
     
@@ -750,23 +1306,75 @@ async def websocket_task_stream(websocket: WebSocket, task_id: str):
     task_store.add_subscriber(session_id, websocket)
     
     try:
-        # Parse scan parameters
-        params = WhaleScanRequest(**task.get("params", {}))
+        skill_id = task.get("skillId", "whale_watch")
+        params = task.get("params", {})
         
-        # Stream alerts
-        async for alert in whale_engine.stream_alerts(params):
-            await websocket.send_json({
-                "jsonrpc": "2.0",
-                "method": "tasks/artifact",
-                "params": {
-                    "taskId": task_id,
-                    "artifact": {
-                        "type": "json",
-                        "title": "Whale Alert",
-                        "content": alert
+        if skill_id == "whale_watch":
+            # Parse whale scan parameters
+            scan_params = WhaleScanRequest(**params)
+            async for alert in whale_engine.stream_alerts(scan_params):
+                await websocket.send_json({
+                    "jsonrpc": "2.0",
+                    "method": "tasks/artifact",
+                    "params": {
+                        "taskId": task_id,
+                        "artifact": {
+                            "type": "json",
+                            "title": "Whale Alert",
+                            "content": alert
+                        }
                     }
-                }
-            })
+                })
+                
+        elif skill_id == "rtds_price":
+            # Stream price updates
+            req = RTDSPriceRequest(**params)
+            async for update in rtds_engine.stream_prices(req.symbols):
+                await websocket.send_json({
+                    "jsonrpc": "2.0",
+                    "method": "tasks/artifact",
+                    "params": {
+                        "taskId": task_id,
+                        "artifact": {
+                            "type": "json",
+                            "title": "Price Update",
+                            "content": update
+                        }
+                    }
+                })
+                
+        elif skill_id == "unusual_movement":
+            # Stream movement alerts
+            req = UnusualMovementRequest(**params)
+            async for alert in movement_engine.stream_alerts(req.symbols, req.detectionTypes):
+                await websocket.send_json({
+                    "jsonrpc": "2.0",
+                    "method": "tasks/artifact",
+                    "params": {
+                        "taskId": task_id,
+                        "artifact": {
+                            "type": "json",
+                            "title": "Movement Alert",
+                            "content": alert
+                        }
+                    }
+                })
+        else:
+            # Default: send a few test messages
+            for i in range(5):
+                await asyncio.sleep(2)
+                await websocket.send_json({
+                    "jsonrpc": "2.0",
+                    "method": "tasks/artifact",
+                    "params": {
+                        "taskId": task_id,
+                        "artifact": {
+                            "type": "text",
+                            "title": "Update",
+                            "content": {"message": f"Update {i+1} for {skill_id}"}
+                        }
+                    }
+                })
         
         # Send completion
         await websocket.send_json({
@@ -836,6 +1444,34 @@ async def list_skills():
                 "name": "Perpetual Futures Anomaly Scan",
                 "description": "Detect funding rate extremes and liquidation cascades",
                 "supported_modes": ["sync"]
+            },
+            {
+                "id": "rtds_price",
+                "name": "RTDS Real-Time Prices",
+                "description": "Live price data from Polymarket RTDS (stocks, crypto, forex, metals)",
+                "input_schema": RTDSPriceRequest.schema(),
+                "supported_modes": ["sync", "stream"]
+            },
+            {
+                "id": "cross_asset_signal",
+                "name": "Cross-Asset Signal Detection",
+                "description": "Regime detection and correlation analysis across asset classes",
+                "input_schema": CrossAssetSignalRequest.schema(),
+                "supported_modes": ["sync"]
+            },
+            {
+                "id": "unusual_movement",
+                "name": "Unusual Movement Detection",
+                "description": "Real-time alerts for price anomalies, flash crashes, and momentum breakouts",
+                "input_schema": UnusualMovementRequest.schema(),
+                "supported_modes": ["sync", "stream"]
+            },
+            {
+                "id": "sovereign_signal",
+                "name": "Sovereign Signal Correlator",
+                "description": "Polymarket divergence detection - prediction market vs price action",
+                "input_schema": SovereignSignalRequest.schema(),
+                "supported_modes": ["sync"]
             }
         ]
     }
@@ -848,20 +1484,31 @@ if __name__ == "__main__":
     print("""
     ╔═══════════════════════════════════════════════════════════╗
     ║       MarketAnomalyScanner A2A Server                     ║
-    ║       Whale Detection & Market Intelligence               ║
+    ║       v1.1.0 - Multi-Asset Intelligence                   ║
     ╚═══════════════════════════════════════════════════════════╝
     
-    Endpoints:
+    SKILLS:
+    ┌─────────────────────────────────────────────────────────┐
+    │ whale_watch          - On-chain whale detection         │
+    │ rtds_price           - Real-time price feed (stream)    │
+    │ cross_asset_signal   - Regime detection & correlation   │
+    │ unusual_movement     - Price anomaly alerts (stream)    │
+    │ sovereign_signal     - PM divergence detection          │
+    │ spot_anomaly_scan    - Spot market anomalies            │
+    │ perp_anomaly_scan    - Perp market anomalies            │
+    └─────────────────────────────────────────────────────────┘
+    
+    ENDPOINTS:
     - Agent Card:  http://localhost:8000/.well-known/agent.json
     - Health:      http://localhost:8000/health
     - Skills:      http://localhost:8000/skills
     - Tasks:       http://localhost:8000/tasks/send
     - WebSocket:   ws://localhost:8000/ws/tasks/{task_id}
     
-    Demo API Keys:
-    - demo-free-tier
-    - demo-trader-tier
-    - demo-pro-tier
+    DEMO API KEYS:
+    - demo-free-tier    (10 req/min)
+    - demo-trader-tier  (100 req/min)  
+    - demo-pro-tier     (1000 req/min)
     """)
     
     uvicorn.run(app, host="0.0.0.0", port=8000)
