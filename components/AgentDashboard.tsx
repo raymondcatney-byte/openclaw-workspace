@@ -38,6 +38,8 @@ import {
   DollarSign,
   BarChart2,
   Layers,
+  Dna,
+  ExternalLink,
 } from 'lucide-react';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
@@ -196,6 +198,22 @@ export function AgentDashboard({ className, defaultView = 'overview' }: AgentDas
             </button>
           ))}
         </nav>
+
+        {/* Biotech Protocol Link */}
+        <div className="px-3 py-2 border-t border-slate-800">
+          <a
+            href="/biotech"
+            className="w-full flex items-center gap-3 px-3 py-2.5 text-sm transition-colors text-slate-400 hover:text-emerald-400 hover:bg-emerald-500/10 rounded-lg group"
+          >
+            <Dna className="w-4 h-4" />
+            {!sidebarCollapsed && (
+              <>
+                <span className="flex-1 text-left">Biotech Protocol</span>
+                <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+              </>
+            )}
+          </a>
+        </div>
 
         {/* Collapse toggle */}
         <button
